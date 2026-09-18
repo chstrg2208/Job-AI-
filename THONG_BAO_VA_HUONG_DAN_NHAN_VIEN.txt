@@ -1,0 +1,57 @@
+========================================================================================
+📢 THÔNG BÁO NỘI BỘ & HƯỚNG DẪN CÀI ĐẶT TRỢ LÝ QUY TRÌNH "TBR SOP AI ASSISTANT"
+Kính gửi: Toàn thể Đội ngũ Support & Nhân sự mới - The Best Rate Insurance
+Từ: Quản lý Tiger Truong
+========================================================================================
+
+Chào cả team,
+
+Nhằm chuẩn hóa thao tác nghiệp vụ, giảm thiểu tối đa sai sót và hỗ trợ các bạn (đặc biệt là các bạn nhân sự mới) tra cứu nhanh chóng các bước thực hiện công việc hằng ngày, team mình chính thức triển khai công cụ tiện ích nội bộ:
+
+🛡️ TBR SOP AI ASSISTANT (Trợ Lý Vận Hành 35 Bộ Quy Trình Vận Hành Chuẩn)
+
+📌 NHỮNG ĐIỂM CỐT LÕI CỦA TRỢ LÝ AI:
+1. Nạp sẵn trọn bộ 35 Quy Trình Chuẩn của công ty: Payment, Quote & Enroll, Contact & Deal, Hubspot Tickets/Tasks, Đổi gói, Đổi NPN, Thu phí Social Benefit, Xử lý Bill, Xin nghỉ phép...
+2. Zero Hallucination (Không bịa đặt / Không đoán mò): AI chỉ trả lời 100% dựa trên văn bản quy trình đã ban hành.
+3. Luôn dẫn nguồn minh bạch: Sau mỗi câu trả lời, AI luôn trích dẫn rõ Tên file quy trình, Mã văn bản, Bước và Trang cụ thể để các bạn đối chiếu.
+4. Tuân thủ Quy tắc đôn đốc 3 ngày: Không ngâm deal trung gian quá 3 ngày. Bất kỳ trường hợp đặc biệt nào ngoài quy trình, AI sẽ hướng dẫn báo cáo trực tiếp Anh Tiger Truong để xử lý.
+
+----------------------------------------------------------------------------------------
+🚀 HƯỚNG DẪN CÀI ĐẶT LÊN TRÌNH DUYỆT CHROME (CHỈ MẤT 30 GIÂY)
+----------------------------------------------------------------------------------------
+
+* LƯU Ý: Tiện ích đã được tích hợp sẵn Bản quyền AI và 35 Quy trình. Các bạn KHÔNG CẦN đăng ký hay nhập Key gì thêm, cài xong là dùng được ngay 100%!
+
+▶ BƯỚC 1: GIẢI NÉN FILE CÀI ĐẶT
+- Nhận file "TBR-SOP-AI-Assistant.zip" từ Quản lý Tiger Truong.
+- Nhấp chuột phải vào file ZIP -> Chọn "Extract All..." (hoặc "Extract to...").
+- Nên lưu thư mục giải nén ở một nơi cố định trên máy tính (ví dụ: ổ D:\, C:\Users\ hoặc Documents, không xóa thư mục này sau khi cài).
+
+▶ BƯỚC 2: MỞ QUẢN LÝ TIỆN ÍCH TRÊN GOOGLE CHROME
+- Mở trình duyệt Google Chrome trên máy tính.
+- Gõ vào thanh địa chỉ: chrome://extensions rồi nhấn Enter.
+- Ở góc trên cùng bên phải màn hình, gạt công tắc bật: "Chế độ dành cho nhà phát triển" (Developer mode).
+
+▶ BƯỚC 3: NẠP TIỆN ÍCH VÀO CHROME
+- Ở góc trên cùng bên trái màn hình, nhấp vào nút: "Tải tiện ích đã giải nén" (Load unpacked).
+- Chọn đúng thư mục tiện ích vừa giải nén ở Bước 1 -> Nhấn nút "Select Folder".
+
+🎉 HOÀN TẤT CÀI ĐẶT!
+
+----------------------------------------------------------------------------------------
+💡 HƯỚNG DẪN SỬ DỤNG NHANH:
+----------------------------------------------------------------------------------------
+1. Tiện ích sẽ hiển thị một cửa sổ trợ lý đẹp mắt ở góc phải màn hình của mọi trang web bạn mở.
+2. Bấm nút "➖" ở góc trên trợ lý để thu nhỏ thành chiếc nút nổi nhỏ gọn "[ 🛡️ TBR SOP AI ● ➕ ]" để không vướng màn hình khi làm việc. Muốn hỏi chỉ cần click vào nút để mở lại.
+3. Khi gặp vướng mắc trong ca làm việc, hãy gõ câu hỏi vào khung nhập liệu bên dưới (nhấn Enter để gửi).
+   Ví dụ các câu hỏi có thể hỏi thử ngay:
+   - "Ngày thanh toán Company pay hàng tháng là ngày mấy?"
+   - "Quy trình đổi NPN thực hiện như thế nào?"
+   - "Deal ngâm quá 3 ngày chưa thanh toán xử lý ra sao?"
+   - "Quy trình xử lý Bill cho khách gồm những bước nào?"
+4. Bấm nút cây chổi "🧹" ở góc trên để làm mới đoạn chat khi muốn bắt đầu phiên làm việc mới.
+
+Mọi người tiến hành cài đặt ngay hôm nay. Nếu bạn nào gặp khó khăn trong quá trình cài đặt thì nhắn trực tiếp cho Anh Tiger Truong để được hỗ trợ nhé!
+
+Chúc cả team làm việc hiệu quả và chính xác!
+========================================================================================

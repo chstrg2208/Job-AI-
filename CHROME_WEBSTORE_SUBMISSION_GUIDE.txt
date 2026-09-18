@@ -1,0 +1,85 @@
+========================================================================================
+HỒ SƠ NỘP CHROME WEB STORE CHO "TBR SOP AI ASSISTANT"
+Tài liệu hướng dẫn & Nội dung copy-paste nộp duyệt Google Chrome Web Store
+========================================================================================
+
+📌 BƯỚC 1: TRUY CẬP TRANG QUẢN TRỊ LẬP TRÌNH VIÊN CỦA GOOGLE
+1. Mở trình duyệt và truy cập: https://chrome.google.com/webstore/devconsole
+2. Đăng nhập bằng tài khoản Google của bạn (hoặc tài khoản công ty The Best Rate Insurance).
+3. Nếu là lần đầu tiên, Google sẽ yêu cầu đóng khoản phí nhà phát triển 5 USD (thanh toán 1 lần duy nhất bằng thẻ Visa/Mastercard, dùng trọn đời).
+
+----------------------------------------------------------------------------------------
+📌 BƯỚC 2: TẢI GÓI CÀI ĐẶT LÊN
+1. Nhấn vào nút "New Item" (Mục mới) ở góc trên bên phải.
+2. Bấm "Upload" và chọn file:
+   👉 File nén: E:\Job\TBR-SOP-AI-Assistant.zip
+3. Chờ Google quét và tải file lên (khoảng 5-10 giây).
+
+----------------------------------------------------------------------------------------
+📌 BƯỚC 3: ĐIỀN THÔNG TIN CỬA HÀNG (STORE LISTING) - CHỈ CẦN COPY & PASTE:
+----------------------------------------------------------------------------------------
+
+[1] Tên tiện ích (Extension name):
+TBR SOP AI Assistant - Team Tiger Truong
+
+[2] Tóm tắt ngắn gọn (Summary - tối đa 132 ký tự):
+Trợ lý AI hướng dẫn 35 quy trình vận hành nội bộ (SOP) chuẩn hóa, dẫn nguồn minh bạch cho The Best Rate Insurance.
+
+[3] Mô tả chi tiết (Detailed Description):
+TBR SOP AI Assistant là tiện ích mở rộng chuyên trách hướng dẫn và đối chiếu Quy trình Vận hành Chuẩn (SOP) dành riêng cho đội ngũ nhân viên và các chuyên viên hỗ trợ tại The Best Rate Insurance (Team Tiger Truong).
+
+✨ CÁC TÍNH NĂNG NỔI BẬT:
+• Tích hợp sẵn 35 Bộ Quy Trình Vận Hành Chuẩn: Bao quát đầy đủ các nghiệp vụ trọng tâm (Payment, Quote & Enroll, Contact & Deal, Hubspot Tickets/Tasks, Đổi gói, Đổi NPN, Thu phí Social Benefit, Xử lý Bill, Xin nghỉ phép...).
+• Nguyên tắc Zero Hallucination (Không suy đoán): Trợ lý AI chỉ đưa ra câu trả lời dựa trên văn bản quy trình chính thức được ban hành, tuyệt đối không đoán mò hay bịa đặt thông tin.
+• Dẫn nguồn văn bản minh bạch: Mọi câu trả lời đều chỉ rõ Tên văn bản SOP, Mã tài liệu, Bước thực hiện và Số trang cụ thể để nhân viên dễ dàng đối chiếu.
+• Hỗ trợ quy tắc đôn đốc 3 ngày: Nhắc nhở và kiểm soát quy trình xử lý deal trung gian, giải quyết các vướng mắc nghiệp vụ phát sinh theo đúng thẩm quyền.
+• Giao diện hiện đại, trực quan: Thiết kế dạng cửa sổ nổi và nút thu nhỏ linh hoạt, giúp nhân viên tra cứu nhanh ngay trên giao diện làm việc mà không làm gián đoạn thao tác.
+
+[4] Danh mục (Category):
+Productivity (Năng suất) hoặc Workflow & Planning
+
+[5] Ngôn ngữ chính (Language):
+Vietnamese (Tiếng Việt)
+
+----------------------------------------------------------------------------------------
+📌 BƯỚC 4: KHAI BÁO QUYỀN RIÊNG TƯ (PRIVACY PRACTICES)
+----------------------------------------------------------------------------------------
+
+[1] Mục đích duy nhất (Single Purpose):
+Hỗ trợ nhân viên bảo hiểm The Best Rate Insurance tra cứu, nắm bắt và tuân thủ các quy trình làm việc chuẩn (SOP) trực tiếp trên trình duyệt web.
+
+[2] Giải trình quyền (Permission Justifications):
+• storage: Lưu trữ cấu hình giao diện người dùng và bộ nhớ đệm quy trình trên máy cục bộ.
+• activeTab & host permissions (<all_urls>): Cho phép hiển thị bảng điều khiển trợ lý quy trình nổi trên các trang web làm việc của nhân viên (CRM, Hubspot, cổng hãng).
+• generativelanguage.googleapis.com: Kết nối an toàn với máy chủ Google Gemini API để xử lý ngôn ngữ tự nhiên và đối chiếu văn bản quy trình.
+
+[3] Chính sách thu thập dữ liệu (Data Usage):
+• Chọn: Tiện ích KHÔNG bán hay chuyển giao dữ liệu người dùng cho bên thứ ba.
+• Chọn: Tiện ích KHÔNG sử dụng dữ liệu cho mục đích quảng cáo hoặc chấm điểm tín dụng.
+
+[4] Đường link chính sách quyền riêng tư (Privacy Policy URL):
+https://thebestrateins.com/privacy-policy (hoặc trang web nội bộ công ty)
+
+----------------------------------------------------------------------------------------
+⚠️ BƯỚC 5: CHỌN CHẾ ĐỘ HIỂN THỊ (CỰC KỲ QUAN TRỌNG VỀ BẢO MẬT NỘI BỘ!)
+----------------------------------------------------------------------------------------
+
+Ở mục "Distribution" (Phân phối), bạn có 3 lựa chọn:
+
+1. KHUYÊN DÙNG: "Unlisted" (Không công khai)
+   - Tiện ích sẽ không hiển thị trên kết quả tìm kiếm công khai của Chrome Web Store.
+   - Chỉ những nhân viên nhận được link cài đặt trực tiếp từ Anh Tiger Truong mới có thể mở và bấm nút "Thêm vào Chrome" (Add to Chrome).
+   - Đảm bảo tính bảo mật cho quy trình nội bộ của công ty.
+
+2. HOẶC: "Private" (Riêng tư cho tổ chức - nếu công ty dùng Google Workspace @thebestrateins.com)
+   - Chỉ các tài khoản email thuộc tên miền @thebestrateins.com mới nhìn thấy và cài đặt được.
+
+3. KHÔNG NÊN CHỌN: "Public" (Công khai) vì người lạ bên ngoài có thể tải về xem được quy trình nội bộ của team.
+
+----------------------------------------------------------------------------------------
+📌 BƯỚC 6: BẤM NỘP DUYỆT (SUBMIT FOR REVIEW)
+- Sau khi điền xong, bấm nút "Submit for Review".
+- Google sẽ duyệt tiện ích trong vòng 24 - 48 giờ.
+- Khi được duyệt xong, Google sẽ cung cấp 1 đường link Chrome Web Store chính thức (ví dụ: https://chromewebstore.google.com/detail/...).
+- Lúc này, nhân viên của anh chỉ cần bấm vào link đó và nhấn "Thêm vào Chrome" là xong 100%!
+========================================================================================

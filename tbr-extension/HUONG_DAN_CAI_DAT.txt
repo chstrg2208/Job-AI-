@@ -1,0 +1,26 @@
+========================================================================================
+📢 HƯỚNG DẪN CÀI ĐẶT TRỢ LÝ QUY TRÌNH NỘI BỘ "TBR SOP AI ASSISTANT" (30 GIÂY)
+Dành cho: Đội ngũ Support & Nhân sự The Best Rate Insurance (Team Tiger Truong)
+========================================================================================
+
+* LƯU Ý: Tiện ích đã nạp sẵn 35 Bộ Quy Trình Vận Hành Chuẩn và tích hợp sẵn Key Bản Quyền.
+  Các bạn KHÔNG CẦN nhập thêm mã Key nào, cài đặt theo 3 bước sau là dùng được ngay 100%!
+
+▶ BƯỚC 1: GIẢI NÉN FILE ZIP
+- Nhấp chuột phải vào file "TBR-SOP-AI-Assistant.zip" -> Chọn "Extract All..." (hoặc "Extract to...").
+- Lưu thư mục tiện ích ở một vị trí cố định trên máy (ví dụ ổ D:\ hoặc C:\Users\Documents, không xóa thư mục này sau khi cài).
+
+▶ BƯỚC 2: MỞ QUẢN LÝ TIỆN ÍCH TRÊN GOOGLE CHROME
+- Mở trình duyệt Google Chrome trên máy tính.
+- Gõ vào thanh địa chỉ: chrome://extensions rồi nhấn Enter.
+- Ở góc trên cùng bên phải màn hình, gạt công tắc bật: "Chế độ dành cho nhà phát triển" (Developer mode).
+
+▶ BƯỚC 3: CÀI ĐẶT TIỆN ÍCH VÀO CHROME
+- Ở góc trên cùng bên trái màn hình, nhấp vào nút: "Tải tiện ích đã giải nén" (Load unpacked).
+- Chọn đúng thư mục vừa giải nén ở Bước 1 -> Nhấn "Select Folder".
+
+🎉 HOÀN TẤT!
+- Trợ lý AI bảo mật sẽ xuất hiện ở góc phải màn hình của bạn.
+- Bấm nút "➖" để thu nhỏ thành chiếc nút nổi nhỏ gọn "[ 🛡️ TBR SOP AI ● ➕ ]" khi làm việc.
+- Gõ câu hỏi tiếng Việt vào khung nhập và nhấn Enter để được AI hướng dẫn từng bước chuẩn xác kèm trích dẫn văn bản quy trình gốc!
+========================================================================================
