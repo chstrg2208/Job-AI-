@@ -39,17 +39,17 @@ Nhằm chuẩn hóa thao tác nghiệp vụ, giảm thiểu tối đa sai sót v
 🎉 HOÀN TẤT CÀI ĐẶT!
 
 ----------------------------------------------------------------------------------------
-💡 HƯỚNG DẪN SỬ DỤNG NHANH:
+💡 HƯỚNG DẪN SỬ DỤNG NHANH & CÁC TÍNH NĂNG TỐI ƯU MỚI:
 ----------------------------------------------------------------------------------------
 1. Tiện ích sẽ hiển thị một cửa sổ trợ lý đẹp mắt ở góc phải màn hình của mọi trang web bạn mở.
 2. Bấm nút "➖" ở góc trên trợ lý để thu nhỏ thành chiếc nút nổi nhỏ gọn "[ 🛡️ TBR SOP AI ● ➕ ]" để không vướng màn hình khi làm việc. Muốn hỏi chỉ cần click vào nút để mở lại.
-3. Khi gặp vướng mắc trong ca làm việc, hãy gõ câu hỏi vào khung nhập liệu bên dưới (nhấn Enter để gửi).
-   Ví dụ các câu hỏi có thể hỏi thử ngay:
-   - "Ngày thanh toán Company pay hàng tháng là ngày mấy?"
-   - "Quy trình đổi NPN thực hiện như thế nào?"
-   - "Deal ngâm quá 3 ngày chưa thanh toán xử lý ra sao?"
-   - "Quy trình xử lý Bill cho khách gồm những bước nào?"
-4. Bấm nút cây chổi "🧹" ở góc trên để làm mới đoạn chat khi muốn bắt đầu phiên làm việc mới.
+3. ⚡ NÚT BẤM NHANH 1-CHẠM (Quick Chips): Ngay dưới khung chat có sẵn các nút câu hỏi phổ biến nhất (Same NPN same plan, Lịch Company Pay, Đổi gói bảo hiểm, Xử lý Other Party, Giấy tờ Income, Đôn đốc 3 ngày). Các bạn chỉ cần nhấp chuột là có ngay hướng dẫn chuẩn 0 giây!
+4. 📋 BỘ 3 NÚT COPY TIỆN LỢI Ở MỖI CÂU TRẢ LỜI:
+   - "Copy Chi Tiết": Sao chép toàn bộ hướng dẫn nghiệp vụ và điều khoản SOP.
+   - "Copy Ticket Note": Định dạng chuẩn ngắn gọn để dán ngay vào Hubspot CRM Ticket/Deal.
+   - "Copy Gửi Khách": Tin nhắn lịch sự, rõ ràng để gửi tin nhắn cho khách hàng.
+5. 🔑 CÀI ĐẶT API KEY: Nhấp vào biểu tượng bánh răng "⚙️" ở góc trên trợ lý để dán mã Google Gemini API Key do Quản lý cung cấp và bấm "Lưu Key" (chỉ làm 1 lần).
+6. Bấm nút cây chổi "🧹" ở góc trên để làm mới đoạn chat khi muốn bắt đầu phiên làm việc mới.
 
 Mọi người tiến hành cài đặt ngay hôm nay. Nếu bạn nào gặp khó khăn trong quá trình cài đặt thì nhắn trực tiếp cho Anh Tiger Truong để được hỗ trợ nhé!
 

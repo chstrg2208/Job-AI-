@@ -152,31 +152,54 @@
     if (role === 'ai') {
       bubble.innerHTML = formatMarkdown(text);
 
+      const actionGroup = document.createElement('div');
+      actionGroup.className = 'tbr-msg-actions';
+
+      // 1. Copy full instruction
       const copyBtn = document.createElement('button');
       copyBtn.className = 'tbr-copy-btn';
-      copyBtn.innerHTML = `
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-        </svg>
-        <span>Copy Hướng Dẫn</span>
-      `;
+      copyBtn.innerHTML = `📋 <span>Copy Chi Tiết</span>`;
       copyBtn.addEventListener('click', () => {
         navigator.clipboard.writeText(text).then(() => {
-          copyBtn.innerHTML = '<span>✅ Đã Copy!</span>';
-          setTimeout(() => {
-            copyBtn.innerHTML = `
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-              </svg>
-              <span>Copy Hướng Dẫn</span>
-            `;
-          }, 2000);
+          copyBtn.innerHTML = `<span>✅ Đã Copy!</span>`;
+          setTimeout(() => { copyBtn.innerHTML = `📋 <span>Copy Chi Tiết</span>`; }, 2000);
         });
       });
-      bubble.appendChild(document.createElement('br'));
-      bubble.appendChild(copyBtn);
+
+      // 2. Copy Ticket Note (Concise CRM format)
+      const noteBtn = document.createElement('button');
+      noteBtn.className = 'tbr-copy-btn';
+      noteBtn.innerHTML = `📝 <span>Copy Ticket Note</span>`;
+      noteBtn.addEventListener('click', () => {
+        const cleanNote = text
+          .replace(/📖[\s\S]*$/gi, '')
+          .replace(/[\*#_`]/g, '')
+          .trim();
+        const noteText = `[TBR SUPPORT NOTE - SOP]\n${cleanNote.slice(0, 500)}${cleanNote.length > 500 ? '...' : ''}\n(Theo Quy trình nội bộ TBR)`;
+        navigator.clipboard.writeText(noteText).then(() => {
+          noteBtn.innerHTML = `<span>✅ Đã Copy Note!</span>`;
+          setTimeout(() => { noteBtn.innerHTML = `📝 <span>Copy Ticket Note</span>`; }, 2000);
+        });
+      });
+
+      // 3. Copy Client Reply (Short, polite Vietnamese message)
+      const clientBtn = document.createElement('button');
+      clientBtn.className = 'tbr-copy-btn';
+      clientBtn.innerHTML = `💬 <span>Copy Gửi Khách</span>`;
+      clientBtn.addEventListener('click', () => {
+        const lines = text.split('\n').filter(l => l.trim().length > 0 && !l.includes('Nguồn') && !l.includes('📖') && !l.startsWith('#'));
+        const brief = lines.slice(0, 4).join('\n').replace(/[\*#_`]/g, '').trim();
+        const clientText = `Dạ em chào anh/chị ạ,\n${brief}\nNếu anh/chị cần hỗ trợ thêm thông tin gì, cứ nhắn em hỗ trợ ngay nhé ạ!`;
+        navigator.clipboard.writeText(clientText).then(() => {
+          clientBtn.innerHTML = `<span>✅ Đã Copy Gửi Khách!</span>`;
+          setTimeout(() => { clientBtn.innerHTML = `💬 <span>Copy Gửi Khách</span>`; }, 2000);
+        });
+      });
+
+      actionGroup.appendChild(copyBtn);
+      actionGroup.appendChild(noteBtn);
+      actionGroup.appendChild(clientBtn);
+      bubble.appendChild(actionGroup);
     } else {
       bubble.innerText = text;
     }
@@ -290,21 +313,24 @@
         </div>
       </div>
 
-      <!-- Settings Drawer for API Key -->
+      <!-- Settings Drawer for API Key & Performance -->
       <div class="tbr-key-drawer" id="tbr-key-drawer">
         <div class="tbr-drawer-header">
           <span>🔑 Google Gemini API Key:</span>
           <div style="display:flex; gap:4px;">
-            <button class="tbr-kb-btn secondary" id="tbr-toggle-key-visibility" title="Hiện/Ẩn Key" style="padding:2px 7px; font-size:10px;">👁️ Xem Key</button>
+            <button class="tbr-kb-btn secondary" id="tbr-toggle-key-visibility" title="Hiện/Ẩn Key" style="padding:2px 7px; font-size:10px;">👁️ Xem</button>
             <button class="tbr-kb-btn secondary" id="tbr-copy-key-btn" title="Copy Key" style="padding:2px 7px; font-size:10px;">📋 Copy</button>
+            <button class="tbr-kb-btn danger" id="tbr-clear-cache-btn" title="Xóa Bộ Nhớ Đệm SOP (0-Token Cache)" style="padding:2px 7px; font-size:10px;">🧹 Xóa Cache</button>
           </div>
         </div>
         <div class="tbr-input-group">
-          <input type="password" class="tbr-key-input" id="tbr-key-input" placeholder="Dán Gemini API Key (AQ.Ab...)" />
+          <input type="password" class="tbr-key-input" id="tbr-key-input" placeholder="Dán 1 hoặc nhiều API Key (Key1, Key2...)" />
           <button class="tbr-btn-save" id="tbr-save-key-btn">Lưu Key</button>
         </div>
         <div class="tbr-key-hint">
-          <a href="https://aistudio.google.com/app/apikey" target="_blank">👉 Quản lý / Lấy lại API Key tại Google AI Studio</a>
+          <span>💡 <strong>Mẹo 30 người:</strong> Nhập 2-3 key cách nhau dấu phẩy để hệ thống tự chia tải và không bao giờ lo hết quota!</span>
+          <br/>
+          <a href="https://aistudio.google.com/app/apikey" target="_blank">👉 Lấy thêm API Key miễn phí tại Google AI Studio</a>
         </div>
       </div>
 
@@ -318,12 +344,23 @@
         <div class="tbr-kb-actions">
           <button class="tbr-kb-btn primary" id="tbr-save-sop-text-btn">💾 Nạp Thêm Vào AI</button>
           <button class="tbr-kb-btn secondary" id="tbr-view-sop-btn">👁️ Danh Mục 35 Quy Trình</button>
+          <button class="tbr-kb-btn primary" id="tbr-sync-github-btn" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">🔄 Đồng Bộ GitHub</button>
           <button class="tbr-kb-btn danger" id="tbr-reset-sop-btn">🗑️ Reset Về Gốc</button>
         </div>
       </div>
 
       <!-- Chat Feed -->
       <div class="tbr-chat-body" id="tbr-chat-body"></div>
+
+      <!-- Quick Action Chips (Gợi ý 1-chạm câu hỏi thường gặp) -->
+      <div class="tbr-quick-chips" id="tbr-quick-chips">
+        <button class="tbr-chip" data-q="Khi đi lại hồ sơ same NPN same plan giá giảm có cần tạo deal mới không?">⚡ Same NPN same plan</button>
+        <button class="tbr-chip" data-q="Lịch thanh toán Company pay và các trạng thái thanh toán hàng tháng quy định thế nào?">💳 Lịch Company Pay</button>
+        <button class="tbr-chip" data-q="Quy trình đổi gói bảo hiểm và thay đổi hồ sơ Obama quy định những bước nào?">🔄 Đổi gói bảo hiểm</button>
+        <button class="tbr-chip" data-q="Quy trình đổi NPN và xử lý hồ sơ bị Other Party quy định thế nào?">🚫 Xử lý Other Party</button>
+        <button class="tbr-chip" data-q="Hồ sơ thu thập chứng minh thu nhập và giải trình income gồm giấy tờ gì?">📄 Giấy tờ Income</button>
+        <button class="tbr-chip" data-q="Quy tắc đôn đốc 3 ngày và quy định chuyển Quản lý Anh Tiger Truong?">⏳ Quy tắc 3 ngày</button>
+      </div>
 
       <!-- Input Footer -->
       <div class="tbr-chat-footer">
@@ -467,7 +504,7 @@
       keyDrawer.classList.toggle('open');
       kbDrawer.classList.remove('open');
       if (keyDrawer.classList.contains('open') && window.TBRGemini) {
-        const saved = await window.TBRGemini.getApiKey();
+        const saved = await window.TBRGemini.getRawApiKeys();
         if (saved) keyInput.value = saved;
       }
     });
@@ -481,6 +518,17 @@
       }
     });
 
+    const clearCacheBtn = document.getElementById('tbr-clear-cache-btn');
+    if (clearCacheBtn) {
+      clearCacheBtn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        if (window.TBRGemini) {
+          await window.TBRGemini.clearCache();
+          showToast('🧹 Đã dọn dẹp sạch Bộ nhớ đệm Q&A Cache!');
+        }
+      });
+    }
+
     const toggleKeyBtn = document.getElementById('tbr-toggle-key-visibility');
     if (toggleKeyBtn) {
       toggleKeyBtn.addEventListener('click', (e) => {
@@ -490,7 +538,7 @@
           toggleKeyBtn.innerText = '🔒 Ẩn Key';
         } else {
           keyInput.type = 'password';
-          toggleKeyBtn.innerText = '👁️ Xem Key';
+          toggleKeyBtn.innerText = '👁️ Xem';
         }
       });
     }
@@ -539,6 +587,32 @@
       }
     });
 
+    // Sync SOPs from GitHub Cloud
+    const syncGithubBtn = document.getElementById('tbr-sync-github-btn');
+    if (syncGithubBtn) {
+      syncGithubBtn.addEventListener('click', async () => {
+        syncGithubBtn.disabled = true;
+        syncGithubBtn.innerText = '⏳ Đang đồng bộ...';
+        try {
+          if (window.TBRGemini) {
+            const res = await window.TBRGemini.syncSopsFromGitHub();
+            if (res.success) {
+              showToast(`Đã đồng bộ thành công ${res.count} quy trình từ GitHub!`);
+              await updateKbStats();
+              appendMessage('ai', `🔄 **Đồng bộ đám mây thành công!**\nĐã tải và cập nhật toàn bộ ${res.count} Quy Trình Vận Hành Chuẩn mới nhất từ GitHub về Extension.`);
+            } else {
+              showToast('Chưa kết nối được GitHub Raw, đang dùng 35 quy trình local.');
+            }
+          }
+        } catch (err) {
+          showToast('Lỗi khi kết nối GitHub sync.');
+        } finally {
+          syncGithubBtn.disabled = false;
+          syncGithubBtn.innerText = '🔄 Đồng Bộ GitHub';
+        }
+      });
+    }
+
     // View current SOPs
     document.getElementById('tbr-view-sop-btn').addEventListener('click', async () => {
       const sops = window.TBR_SOPS_DATABASE || [];
@@ -551,6 +625,18 @@
       }
       listText += `\n📖 Nguồn trích dẫn: Thư viện 35 File PDF Quy Trình Nội Bộ - The Best Rate Insurance`;
       appendMessage('ai', listText);
+    });
+
+    // Quick Action Chips Event Delegation
+    const chips = barElement.querySelectorAll('.tbr-chip');
+    chips.forEach(chip => {
+      chip.addEventListener('click', (e) => {
+        e.preventDefault();
+        const q = chip.getAttribute('data-q');
+        if (q) {
+          handleUserSend(q);
+        }
+      });
     });
 
     // Reset SOPs to default

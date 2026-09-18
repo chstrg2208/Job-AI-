@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TBR SOP AI Assistant - Team Tiger Truong",
-  "version": "3.6.0",
+  "version": "3.7.0",
   "description": "Trợ lý AI hướng dẫn 35 quy trình vận hành nội bộ (SOP) chuẩn hóa, dẫn nguồn minh bạch cho The Best Rate Insurance.",
   "permissions": [
     "storage",
