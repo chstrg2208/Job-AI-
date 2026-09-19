@@ -1,4 +1,4 @@
-﻿# TBR SOP AI Assistant - Team Tiger Truong (v3.7.0 Tối Ưu Hóa Cao Cấp)
+# TBR SOP AI Assistant - Team Tiger Truong (v3.7.0 Tối Ưu Hóa Cao Cấp)
 
 Tiện ích mở rộng Google Chrome (Manifest V3) tích hợp trí tuệ nhân tạo (Google Gemini AI) hỗ trợ toàn diện đội ngũ Support và Quản lý tại **The Best Rate Insurance (TBR Workspace - `app.thebestrateins.com`)**.
 
@@ -53,5 +53,6 @@ Tiện ích mở rộng Google Chrome (Manifest V3) tích hợp trí tuệ nhân
 2. Mở Google Chrome, truy cập: `chrome://extensions/`.
 3. Bật công tắc **Developer mode** (Chế độ dành cho nhà phát triển) ở góc trên bên phải.
 4. Bấm nút **Load unpacked** (Tải tiện ích đã giải nén) và chọn thư mục `tbr-extension`.
-5. Bấm vào biểu tượng tiện ích góc trên bên phải Chrome ➔ Nhập Gemini API Key và bấm **Lưu Key** (có thể dán 2-3 key cách nhau dấu phẩy).
-6. Mở trang TBR Workspace (`app.thebestrateins.com`), trợ lý sẽ tự động xuất hiện phục vụ công việc!
+5. Bấm vào biểu tượng mảnh ghép (Extensions) ở góc trên bên phải Chrome ➔ Ghim (Pin 📌) icon "TBR SOP AI Assistant" ra ngoài thanh công cụ.
+6. Bấm vào biểu tượng Extension bất kỳ lúc nào để mở cửa sổ hỏi đáp thông minh (hoàn toàn gọn gàng trong popup, không bao giờ bay hay che khuất màn hình Hubspot/CRM)!
+7. Nhập Gemini API Key ở biểu tượng ⚙️ và bấm **Lưu Key** (chỉ cần làm 1 lần).

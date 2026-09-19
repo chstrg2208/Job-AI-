@@ -81,6 +81,18 @@
   border: none !important;
 }
 
+.tbr-in-popup #tbr-drag-handle {
+  cursor: default !important;
+}
+
+.tbr-in-popup .tbr-toast {
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  width: auto;
+  justify-content: center;
+}
+
 /* Collapsed Mini Pill Floating Mode (Dynamic Island Style) */
 #tbr-urgent-bar.collapsed {
   width: auto;

@@ -1,16 +1,14 @@
 {
   "manifest_version": 3,
   "name": "TBR SOP AI Assistant - Team Tiger Truong",
-  "version": "3.7.0",
+  "version": "3.8.0",
   "description": "Trợ lý AI hướng dẫn 35 quy trình vận hành nội bộ (SOP) chuẩn hóa, dẫn nguồn minh bạch cho The Best Rate Insurance.",
   "permissions": [
-    "storage",
-    "activeTab",
-    "scripting"
+    "storage"
   ],
   "host_permissions": [
-    "<all_urls>",
-    "https://generativelanguage.googleapis.com/*"
+    "https://generativelanguage.googleapis.com/*",
+    "https://raw.githubusercontent.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -20,51 +18,6 @@
       "128": "icons/icon128.png"
     }
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "https://*.thebestrateins.com/*",
-        "https://app.thebestrateins.com/*"
-      ],
-      "js": [
-        "injected.js"
-      ],
-      "world": "MAIN",
-      "run_at": "document_start",
-      "all_frames": true
-    },
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "exclude_matches": [
-        "https://chrome.google.com/*",
-        "https://chromewebstore.google.com/*"
-      ],
-      "js": [
-        "sound.js",
-        "sops_data.js",
-        "gemini.js",
-        "content.js"
-      ],
-      "css": [
-        "content.css"
-      ],
-      "run_at": "document_idle",
-      "all_frames": false
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "injected.js"
-      ],
-      "matches": [
-        "https://*.thebestrateins.com/*",
-        "https://app.thebestrateins.com/*"
-      ]
-    }
-  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

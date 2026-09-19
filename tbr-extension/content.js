@@ -8,8 +8,8 @@
 (function () {
   const isPopup = window.location.protocol === 'chrome-extension:';
 
-  // Prevent injection inside iframes (e.g. ad frames, widgets)
-  if (window.top !== window && !isPopup) {
+  // CHỈ MỞ TRONG EXTENSION POPUP - TUYỆT ĐỐI KHÔNG BAY VÀO CÁC TRANG WEB KHÁC
+  if (!isPopup) {
     return;
   }
 
