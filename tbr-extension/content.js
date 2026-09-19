@@ -316,21 +316,22 @@
       <!-- Settings Drawer for API Key & Performance -->
       <div class="tbr-key-drawer" id="tbr-key-drawer">
         <div class="tbr-drawer-header">
-          <span>🔑 Google Gemini API Key:</span>
+          <span>🔑 Quản Lý API Key (Multi-Key):</span>
           <div style="display:flex; gap:4px;">
-            <button class="tbr-kb-btn secondary" id="tbr-toggle-key-visibility" title="Hiện/Ẩn Key" style="padding:2px 7px; font-size:10px;">👁️ Xem</button>
+            <button class="tbr-kb-btn secondary" id="tbr-toggle-key-visibility" title="Hiện/Ẩn Key" style="padding:2px 7px; font-size:10px;">👁️ Xem / Ẩn</button>
             <button class="tbr-kb-btn secondary" id="tbr-copy-key-btn" title="Copy Key" style="padding:2px 7px; font-size:10px;">📋 Copy</button>
             <button class="tbr-kb-btn danger" id="tbr-clear-cache-btn" title="Xóa Bộ Nhớ Đệm SOP (0-Token Cache)" style="padding:2px 7px; font-size:10px;">🧹 Xóa Cache</button>
           </div>
         </div>
-        <div class="tbr-input-group">
-          <input type="password" class="tbr-key-input" id="tbr-key-input" placeholder="Dán 1 hoặc nhiều API Key (Key1, Key2...)" />
-          <button class="tbr-btn-save" id="tbr-save-key-btn">Lưu Key</button>
+        <div class="tbr-input-group" style="flex-direction:column; gap:6px;">
+          <textarea class="tbr-key-input masked" id="tbr-key-input" rows="3" placeholder="Dán các API Key tại đây (mỗi key 1 dòng hoặc cách nhau dấu phẩy)..." style="resize:none; font-family:monospace; font-size:11px;"></textarea>
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span id="tbr-key-count-badge" style="font-size:10.5px; color:#10b981; font-weight:600;">⚡ Đang nạp key...</span>
+            <button class="tbr-btn-save" id="tbr-save-key-btn" style="padding:6px 14px;">💾 Lưu Cấu Hình Key</button>
+          </div>
         </div>
         <div class="tbr-key-hint">
-          <span>💡 <strong>Mẹo 30 người:</strong> Nhập 2-3 key cách nhau dấu phẩy để hệ thống tự chia tải và không bao giờ lo hết quota!</span>
-          <br/>
-          <a href="https://aistudio.google.com/app/apikey" target="_blank">👉 Lấy thêm API Key miễn phí tại Google AI Studio</a>
+          <span>💡 <strong>Chia tải thông minh:</strong> Nhập 2–3 key (mỗi dòng 1 key hoặc cách nhau dấu phẩy) để hệ thống tự chia tải 30 người không lo quota!</span>
         </div>
       </div>
 
@@ -499,21 +500,50 @@
     const keyInput = document.getElementById('tbr-key-input');
     const kbDrawer = document.getElementById('tbr-kb-drawer');
 
+    const keyCountBadge = document.getElementById('tbr-key-count-badge');
+
+    function updateKeyBadge(val) {
+      if (!keyCountBadge || !window.TBRGemini) return;
+      const count = window.TBRGemini.parseKeyList(val).length;
+      if (count === 0) {
+        keyCountBadge.style.color = '#ef4444';
+        keyCountBadge.innerText = '⚠️ Chưa có Key nào';
+      } else if (count === 1) {
+        keyCountBadge.style.color = '#3b82f6';
+        keyCountBadge.innerText = '⚡ 1 Key đang hoạt động';
+      } else {
+        keyCountBadge.style.color = '#10b981';
+        keyCountBadge.innerText = `🚀 ${count} Key hoạt động (Chia tải 100%)`;
+      }
+    }
+
     gearBtn.addEventListener('click', async (e) => {
       e.stopPropagation();
       keyDrawer.classList.toggle('open');
       kbDrawer.classList.remove('open');
       if (keyDrawer.classList.contains('open') && window.TBRGemini) {
         const saved = await window.TBRGemini.getRawApiKeys();
-        if (saved) keyInput.value = saved;
+        if (saved) {
+          keyInput.value = saved;
+          updateKeyBadge(saved);
+        } else {
+          updateKeyBadge('');
+        }
       }
     });
+
+    if (keyInput) {
+      keyInput.addEventListener('input', () => {
+        updateKeyBadge(keyInput.value);
+      });
+    }
 
     document.getElementById('tbr-save-key-btn').addEventListener('click', async () => {
       const val = keyInput.value.trim();
       if (val && window.TBRGemini) {
         await window.TBRGemini.setApiKey(val);
-        showToast('🔑 Đã lưu Google Gemini API Key!');
+        const count = window.TBRGemini.parseKeyList(val).length;
+        showToast(`🔑 Đã lưu thành công ${count} Google Gemini API Key!`);
         keyDrawer.classList.remove('open');
       }
     });
@@ -533,13 +563,9 @@
     if (toggleKeyBtn) {
       toggleKeyBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        if (keyInput.type === 'password') {
-          keyInput.type = 'text';
-          toggleKeyBtn.innerText = '🔒 Ẩn Key';
-        } else {
-          keyInput.type = 'password';
-          toggleKeyBtn.innerText = '👁️ Xem';
-        }
+        keyInput.classList.toggle('masked');
+        const isMasked = keyInput.classList.contains('masked');
+        toggleKeyBtn.innerText = isMasked ? '👁️ Xem' : '🔒 Ẩn';
       });
     }
 
