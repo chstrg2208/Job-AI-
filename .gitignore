@@ -1,4 +1,4 @@
-﻿# OS generated files
+# OS generated files
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
@@ -19,3 +19,13 @@ $RECYCLE.BIN/
 *.njsproj
 *.sln
 *.sw?
+
+# Dependencies & build
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+
+tbr-plan-finder-deploy/

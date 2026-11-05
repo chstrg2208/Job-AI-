@@ -1,0 +1,15 @@
+﻿BIÊN BẢN HỌP BAN QUẢN LÝ - THE BEST RATE INSURANCE (TBR),,,,,
+Thời gian:,30/10/2026,Chủ trì:,Tiger Truong (Support Manager),,
+Thành phần tham dự:,"Tâm Phan, Wendy Võ, Phong Nguyễn, Lan Nguyen, Thủy Phan, HR Ruby, Support Team",,,,
+,,,,,
+PHẦN 1: CHUẨN HÓA PHÂN ĐỊNH TRÁCH NHIỆM AGENT VS SUPPORT & CHIA HOA HỒNG,,,,,
+Nhóm Khách Hàng,Đối Tượng Áp Dụng,Ranh Giới Trách Nhiệm,Tỷ Lệ Hoa Hồng,Trạng Thái CRM (SSS),Mục Tiêu & Lưu Ý
+Nhóm 1: Khách Cũ (Renew),Tất cả Agent (Agent cũ & Agent mới),Support hỗ trợ toàn diện phần Báo giá (Quote) & Ghi danh (Enroll) khi có yêu cầu. Khuyến khích Agent giỏi tự quote.,70% Agent - 30% Support,NONE (Split 0.7),"Dữ liệu có sẵn, quy trình đơn giản, ít rủi ro, bảo vệ quan hệ với Agent."
+Nhóm 2: Khách Mới của Agent MỚI,Agent mới gia nhập công ty,"Support hỗ trợ TOÀN DIỆN A ĐẾN Z (hướng dẫn giấy tờ, chạy quote, lấy consent, theo dõi di trú, enroll).",70% Agent - 30% Support,NONE (Split 0.7),"Bảo toàn hoa hồng cho Agent mới để khích lệ, đào tạo thực chiến và giữ chân khách."
+Nhóm 3: Khách Mới của SENIOR AGENT,Agent cũ vào từ 6 tháng đến 1 năm trở lên,"Mặc định Senior Agent PHẢI TỰ LÀM TỪ A ĐẾN Z (tự quote, tự lấy consent, tự nộp đơn).",70% (Tự làm) HOẶC 50-50 (Nhờ Support),Tự làm: NONE | Nhờ: PARTIAL (Split 0.5),"Nếu đùn đẩy cho Support làm thay, Support tạm châm chước nhưng BẮT BUỘC CHIA 50-50 để công bằng cho công sức backend."
+,,,,,
+PHẦN 2: CHÍNH SÁCH KHAI TỬ BLUEHOST & CHUẨN HÓA EMAIL AGENT,,,,,
+Hạng Mục,Thực Trạng Trước Đây,Rủi Ro / Nút Thắt,Quy Chuẩn Mới 2027,Lộ Trình Triển Khai,
+Email Khách Hàng ACA (Bluehost),"Dùng Bluehost tạo unlimited email domain @ushins.com, @tbri.co cho khách.","CMS siết chặt bảo mật danh tính: Hàng ngàn khách chung 1 domain công ty sẽ bị CMS gắn cờ đỏ, khóa app và THU HỒI NPN ĐẠI LÝ vĩnh viễn.",KHAI TỬ tạo mới trên Bluehost. Bắt buộc dùng Email chính chủ của khách hoặc tạo Gmail riêng cho khách. Nhập Email + Pass vào CRM.,Chỉ giữ Bluehost duy trì (maintain) các khách cũ chưa kịp chuyển đổi.,
+Email Công Vụ Agent (@tbr-agent.com),Agent dùng Google Workspace (@thebestrateins.com) tốn $12/user/tháng.,"Chi phí nặng nề ($600/tháng x 50 agent = $7,200/năm). Agent hỏi vào Bluehost bị Support cấm gây hiểu lầm.",Chuyển toàn bộ sang domain @tbr-agent.com (cú pháp: ten.ho.bang@tbr-agent.com). Cấp Webmail riêng để Agent tự check mail.,Đổi ngay nhóm Inactive và New Agent. Agent Active giữ nguyên hết mùa OEP.,
+Nút thắt RingCentral & Hợp Đồng Hãng,Chị Ruby/HR sợ đổi email mất tin nhắn cũ và mất nhóm RingCentral; Chị Lan phát hiện Contract hãng đang dính email cũ.,Đổi email đột ngột trong mùa OEP sẽ làm gián đoạn liên lạc với các Hãng bảo hiểm (Carriers).,RingCentral quản lý theo Account ID (hỗ trợ migrate tin nhắn 100%). Giữ nguyên email cũ cho Agent Active trong suốt mùa OEP/AEP.,Sau mùa OEP (tháng 2/2027) sẽ triển khai 3 kịch bản chuyển đổi hợp đồng hãng đồng loạt.,
