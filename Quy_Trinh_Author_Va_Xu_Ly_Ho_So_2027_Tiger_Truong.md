@@ -60,3 +60,16 @@
   2. Ngay tại mục **`Email Address` (hoặc `Username`)** → bấm **`Edit`**.
   3. Đổi cái email đang nằm trong đó thành một địa chỉ email phụ/khác bất kỳ rồi bấm **Save**.
   4. **Kết quả:** Cái **Email gốc của khách lập tức được Free (nhả ra) hoàn toàn**, Support lấy lại đúng cái email gốc đó của khách để đi tạo lại ACA mới bình thường!
+
+---
+
+## 🛂 V. CHIẾN LƯỢC ĐẶC BIỆT XỬ LÝ HỒ SƠ WORK PERMIT MÙA 2027 (CHỈ ĐẠO 05/11/2026)
+
+* **1. Cách chọn diện di trú khi Enroll:**
+  * Đối với khách hàng có **Work Permit (EAD)**: Khi đi hồ sơ ghi danh trên HealthSherpa / ACA, tạm thời **chọn mục Khách có Thẻ Xanh (Permanent Resident)** để nộp đơn.
+  * **Mục đích:** Đảm bảo hồ sơ vẫn nhận được đầy đủ mức trợ cấp (Subsidy / APTC) như năm 2026.
+* **2. Xử lý yêu cầu Verify (DMI) sau mùa:**
+  * Hồ sơ sẽ phát sinh yêu cầu xác minh thẻ xanh $ightarrow$ Sau mùa ghi danh, Support sẽ tiến hành **xin gia hạn nộp hồ sơ (Extend 90 ngày)** hoặc hỗ trợ đổi plan cho khách.
+* **3. Quy tắc Timeline Tháng 12 (Bảo toàn Bonus):**
+  * ⚠️ **TUYỆT ĐỐI ĐỢI ĐẾN THÁNG 12 MỚI BẮT ĐẦU ENROLL HỒ SƠ WORK PERMIT (KHÔNG ENROLL THÁNG 11).**
+  * **Mục đích chiến lược:** Giúp hợp đồng Active đủ **3 tháng đầu năm (T1, T2, T3/2027)**. Nếu sau 3 tháng có phải cancel plan thì **Công ty và Agent vẫn giữ trọn tiền Bonus mùa của hãng**!

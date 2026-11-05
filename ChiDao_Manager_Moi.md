@@ -1339,3 +1339,25 @@
 >   `PCP: [Tên BS gia đình], Spec: [Tên các BS chuyên khoa 1, 2, 3...]`
 >   *(Ví dụ: `PCP: Huy Le, Spec: Dr A, Dr B`)*.
 
+
+---
+
+### 6️⃣2️⃣ CHIẾN LƯỢC XỬ LÝ HỒ SƠ WORK PERMIT MÙA 2027: CHỌN DIỆN THẺ XANH & HOÃN ENROLL ĐẾN THÁNG 12 ĐỂ BẢO TOÀN BONUS (CHỈ ĐẠO BAN QUẢN LÝ - 05/11/2026):
+> 📌 **Thông báo chiến lược từ Ban Quản Lý gửi toàn Team Support & Agent:**
+> * "Team: Các khách có work permit khi làm enroll cứ chọn mục khách có thẻ xanh để ghi danh như bình thường. Hồ sơ vẫn có hỗ trợ như năm 2026 nhưng sẽ có yêu cầu verify tình trạng thẻ xanh. Mình sẽ xem xét extend hoặc đổi plan cho khách sau mùa. Hiện nay tình hình chính trị Mỹ có thay đổi nên hy vọng sẽ có những chỉnh sửa tốt hơn cho vấn đề này. Các hồ sơ work permit sẽ đợi đến tháng 12 mới ghi danh để thời gian nộp hồ sơ đủ 3 tháng đầu năm, nếu phải cancel plan thì mình cũng có được Bonus cho mùa."
+>
+> 💡 **3 QUY TẮC CỐT TỬ CẦN THỰC THI NGAY:**
+> 1. **Khai diện Di trú khi Enroll (Tạm chọn Thẻ Xanh):**
+>    - Đối với khách hàng có **Work Permit (EAD)**: Khi nộp đơn ghi danh (Enroll) trên sàn (HealthSherpa / Healthcare.gov), **chọn mục Khách có Thẻ Xanh (Permanent Resident / Green Card)** để ghi danh bình thường.
+>    - **Mục đích:** Giúp hồ sơ vẫn được xét duyệt mức trợ cấp (Subsidy / APTC) tối đa như năm 2026.
+> 2. **Kế hoạch xử lý Hậu kiểm (Post-Enrollment Verification / DMI):**
+>    - Khi Marketplace yêu cầu bổ sung giấy tờ xác minh (Verify tình trạng Thẻ xanh), Support sẽ theo dõi hạn chót (Deadline).
+>    - **Sau mùa ghi danh:** Team sẽ chủ động **xin gia hạn thời gian nộp giấy tờ (Extend thêm 90 ngày)** hoặc **đổi plan khác** phù hợp cho khách.
+>    - Kỳ vọng: Với bối cảnh chính trị Mỹ đang có nhiều thay đổi mới, các chính sách quản lý di trú/ACA có thể sẽ có các hướng dẫn nới lỏng hoặc điều chỉnh tốt hơn cho người có Work Permit.
+> 3. **Timeline Sống Còn (Quy tắc Tháng 12 để bảo toàn Bonus):**
+>    - ⏰ **TUYỆT ĐỐI KHÔNG ENROLL HỒ SƠ WORK PERMIT TRONG THÁNG 11!**
+>    - **Tất cả các hồ sơ có Work Permit đều ĐỢI ĐẾN THÁNG 12 MỚI TIẾN HÀNH ENROLL**.
+>    - **Ý nghĩa sống còn về tài chính/hoa hồng:**
+>      - Nộp trong tháng 12 $ightarrow$ Plan có hiệu lực từ **01/01/2027**.
+>      - Thời gian giải trình DMI tối thiểu 90 ngày $ightarrow$ Bảo hiểm sẽ duy trì **đủ trọn vẹn 3 tháng đầu năm (Tháng 1, 2, 3/2027)**.
+>      - Dù sau đó nếu không bổ sung được giấy tờ và buộc phải Cancel plan, thì do đã Active đủ 3 tháng đầu năm $ightarrow$ **CÔNG TY VÀ AGENT VẪN ĐƯỢC GIỮ TRỌN TIỀN BONUS MÙA (AEP/OE BONUS)**, tránh bị hãng phạt hoặc thu hồi (clawback) hoa hồng.
