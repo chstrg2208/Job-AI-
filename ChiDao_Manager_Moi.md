@@ -1448,3 +1448,30 @@
 > 4. **Các bước tiếp theo của khách hàng:**
 >    - Sau khi Medicare duyệt xong, hãng sẽ tự động gửi **Welcome Letter** (Thư chào mừng) và **Thẻ bảo hiểm chính thức (Member ID Card)** về tận nhà trước ngày 01/01/2027.
 >    - **Hướng dẫn Agent dặn khách:** Cứ yên tâm cất thư này làm bằng chứng đã nộp đơn, không cần gọi lên hãng hay làm thêm bất kỳ thao tác nào, chỉ cần đợi thẻ ID cứng gửi về.
+
+
+---
+
+### 6️⃣7️⃣ QUY CHUẨN XỬ LÝ LỖI "MATCHING RULES INELIGIBLE" TRÊN PORTAL UHC JARVIS (MEDICARE D-SNP) (06/11/2026):
+> 📌 **Tình huống thực chiến:** Đơn nộp Medicare Advantage D-SNP (như `UHC Dual Complete FL-Y5 HMO-POS D-SNP`) hiển thị trạng thái:
+> * **Status:** `Action required` (Dấu chấm cam)
+> * **Reason:** `MATCHING RULES INELIGIBLE`
+>
+> 💡 **BẢN CHẤT LỖI:**
+> - Gói **D-SNP (Dual Eligible Special Needs Plan)** bắt buộc khách hàng phải có **cả Medicare và Medicaid** hợp lệ tại tiểu bang đó.
+> - Khi nộp đơn, hệ thống UHC tự động đối soát (Matching Rules) với dữ liệu Sở Medicaid của bang (Florida AHCA / ACCESS Florida).
+> - Lỗi `MATCHING RULES INELIGIBLE` xảy ra khi hệ thống UHC **không match được điều kiện Medicaid của khách** do 1 trong 4 nguyên nhân:
+>   1. **Khách KHÔNG CÓ Medicaid** hoặc Medicaid đã bị hết hạn/term/chưa renew.
+>   2. **Sai cấp độ Medicaid (Medicaid Level Mismatch):** Khách có Partial Dual (SLMB/QI) nhưng gói FL-Y5 yêu cầu Full Dual (QMB+/FBDE), hoặc ngược lại.
+>   3. **Sai lệch thông tin định danh Medicaid:** Số thẻ Medicaid ID bị gõ sai/thiếu số, hoặc Tên/Ngày sinh trên Medicaid không khớp từng chữ với Medicare.
+>   4. **Lệch khu vực địa lý (County/Service Area):** Địa chỉ thường trú của khách không nằm trong vùng phục vụ của Plan code đó.
+>
+> 🛠️ **QUY TRÌNH 4 BƯỚC XỬ LÝ NHANH CHO SUPPORT & AGENT:**
+> 1. **Bước 1 (Check Thẻ Medicaid):** Yêu cầu Agent xin ngay ảnh chụp 2 mặt **Thẻ Medicaid Florida** của khách để kiểm tra: số Medicaid ID, họ tên, ngày sinh và tình trạng Active.
+> 2. **Bước 2 (Kiểm tra Cấp độ Medicaid):** Xác định khách là Full Dual hay Partial Dual xem có match đúng yêu cầu của gói `H1045-073-000 (FL-Y5)` hay không.
+> 3. **Bước 3 (Liên hệ UHC Producer Help Desk - PHD):**
+>    - Gọi UHC PHD qua hotline: **`1-888-381-8581`**.
+>    - Đọc MBI và Plan Code để hỏi rõ lý do UHC không match được là do thiếu số Medicaid hay sai cấp độ.
+>    - Nếu sai số hoặc cần update: Sử dụng link mẫu đơn **`Missing/Incomplete Application Update Request Form`** (có sẵn ngay trên portal dưới mục *Important Documents*) để tải lên đính kèm.
+> 4. **Bước 4 (Phương Án Thay Thế - Multi-Option):**
+>    - Nếu khách **thực sự không có Medicaid**: Chuyển ngay sang gói **Medicare Advantage thông thường (Non-SNP)** hoặc C-SNP (nếu có bệnh mãn tính) để kịp hiệu lực 01/01/2027, tránh bị UHC Denied.
