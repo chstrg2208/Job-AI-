@@ -1379,3 +1379,34 @@
 > 3. **Cơ chế Phân Luồng Nhóm Khách CÓ ĐÓNG PHÍ (Non-$0 Plan / Có Premium):**
 >    - Tuyệt đối **không tập trung dồn vào một hãng duy nhất**.
 >    - **Linh động so sánh và báo giá hãng phù hợp nhất** dựa trên: khả năng chi trả của khách, mạng lưới bệnh viện/bác sĩ và quyền lợi thuốc men tối ưu.
+
+
+---
+
+### 6️⃣4️⃣ CHỈ ĐẠO CỦA CEO PHÚC TRỊNH & BAN QUẢN LÝ VỀ HỒ SƠ CHƯA/KHÔNG CÓ GIẤY TỜ DI TRÚ (APPLY NO SUB VS SUB, THỜI HẠN 90 NGÀY VERIFY DMI & RỦI RO TRUY THU) (06/11/2026):
+> 📌 **Trích dẫn chỉ đạo từ CEO Phúc Trịnh & Chị Tâm Phan trong Group Manager:**
+> * **CEO Phúc Trịnh (@Team):** *"Ho so co verify upload rat quan trong - neu khong co giay to la phai theo doi de coi su thay sau do ma het han - can di lai ho so - tranh bi mat Sub , khong bao khach - Agent cancel de tranh bi ghi no."*
+> * **CEO Phúc Trịnh (@Team):** *"no more extend, ho so nao den thoi han upload thi upload, chua co giay to tao task bao agent + chi, minh se xem xet ho so va quyet dinh term..."*
+> * **Chị Tâm Phan giải thích chỉ đạo của Anh Phúc (06/11/2026):**
+>   - *"HE NOI CHO APPLY - NHUNG KHONG NOI CO SUB HAY KHONG"*
+>   - *"theo he noi van apply , roi de cho 3 thang no verify , luc do cancel neu khong co giay to chung chung hoac tra full sub , con khi apply thi khong thay noi co nhan sub khong"*
+>   - *"nhung de an toan - khong nen nhan sub"*
+
+💡 **BẢN CHẤT NGHIỆP VỤ & QUY TẮC VẬN HÀNH:**
+1. **Cơ chế kỹ thuật trên sàn Marketplace (ACA):**
+   - Về mặt thao tác nộp đơn, sàn Marketplace **cho phép nộp (vẫn cho apply)** và cấp bảo hiểm có hiệu lực ngay nếu pass xét duyệt ban đầu.
+   - Sàn cho thời hạn **90 ngày (03 tháng)** để đương đơn upload giấy tờ chứng minh tình trạng di trú (DMI - Data Matching Issue).
+   - **Sau 90 ngày nếu KHÔNG CÓ GIẤY TỜ HỢP LỆ:**
+     - Sàn sẽ **Term (hủy hợp đồng)** hoặc **Cắt toàn bộ trợ cấp (mất Sub)**, đẩy gói về giá Full Premium.
+     - Nếu đã nhận tiền trợ cấp (APTC) trong khi không đủ điều kiện hợp pháp, khách sẽ bị IRS **truy thu toàn bộ tiền Subsidy ("trả full sub" / ghi nợ thuế)** khi khai thuế năm, đồng thời đối mặt với rủi ro viện phí cực lớn.
+2. **Quy định "No Sub" vs "Sub":**
+   - Khi Agent/khách muốn nộp bảo hiểm bằng mọi giá dù chưa/không có giấy tờ: **Chỉ được đi diện KHÔNG NHẬN TRỢ CẤP (NO SUB / Full Premium)**. Đi No Sub thì khách tự trả 100% chi phí, không dính líu tiền hỗ trợ liên bang nên không bị IRS truy thu hay phạt lạm dụng trợ cấp.
+   - **Để an toàn tuyệt đối:** Nếu hồ sơ không có cơ sở chắc chắn bổ sung được giấy tờ di trú hợp pháp trong 90 ngày thì **TUYỆT ĐỐI KHÔNG CHO NHẬN SUB**!
+3. **Phân biệt rạch ròi 2 nhóm đối tượng:**
+   - **Nhóm 1 (Thực sự không có giấy tờ di trú / Không lawfully present):**
+     - Không được nộp đơn nhận Sub trên ACA.
+     - Hướng xử lý: Mua bảo hiểm tư nhân không yêu cầu di trú như **Uhone Health Protector Guard (UHC)** hoặc **GWSW (Get Well Stay Well)**; hoặc mua ACA No Sub nếu khách đồng ý tự trả full 100% premium hàng tháng.
+   - **Nhóm 2 (Có tình trạng di trú hợp pháp nhưng đang chờ SSN hoặc trễ upload DMI - ví dụ Visa L-1A, L-2, E-2, H-1B, F-1 OPT, Pending Asylum Form I-797):**
+     - Đây là đối tượng **HỢP PHÁP (Lawfully Present) 100%**!
+     - Các case này bị Term (như case Du Huu Nguyen & Huong Thao Le bị term 30/11) là do **quá hạn 90 ngày chưa upload bằng chứng**.
+     - **Cách giải quyết:** Chỉ cần hướng dẫn khách tải **I-94 điện tử** từ `i94.cbp.dhs.gov` hoặc chụp Visa / Form I-797 để upload giải trình là có thể khôi phục hoặc enroll lại cho năm 2027 có Subsidy bình thường.
