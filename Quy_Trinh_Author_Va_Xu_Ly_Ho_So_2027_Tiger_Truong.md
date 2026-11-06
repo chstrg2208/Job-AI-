@@ -73,3 +73,15 @@
 * **3. Quy tắc Timeline Tháng 12 (Bảo toàn Bonus):**
   * ⚠️ **TUYỆT ĐỐI ĐỢI ĐẾN THÁNG 12 MỚI BẮT ĐẦU ENROLL HỒ SƠ WORK PERMIT (KHÔNG ENROLL THÁNG 11).**
   * **Mục đích chiến lược:** Giúp hợp đồng Active đủ **3 tháng đầu năm (T1, T2, T3/2027)**. Nếu sau 3 tháng có phải cancel plan thì **Công ty và Agent vẫn giữ trọn tiền Bonus mùa của hãng**!
+
+---
+
+## 🧭 VI. CHIẾN LƯỢC ĐIỀU PHỐI HÃNG MÙA RENEW 2027 (HARBOR $0, AMBETTER, OSCAR & BÁO GIÁ LINH HOẠT)
+
+* **1. Nhóm Khách Hàng Plan $0 (Ưu tiên số 1):**
+  * **Khách không yêu cầu bác sĩ cụ thể:** 👉 **Đưa về Harbor $0**.
+  * **Khách cần giữ bác sĩ gia đình/PCP:**
+    * Check network Harbor trước.
+    * Nếu Harbor không nhận $ightarrow$ Chuyển sang **Ambetter**, **Oscar** hoặc hãng nào có bác sĩ in-network.
+* **2. Nhóm Khách Hàng Có Đóng Phí (Non-$0):**
+  * Báo giá linh hoạt theo đúng nhu cầu và ngân sách của khách, không cố định vào một hãng nào.

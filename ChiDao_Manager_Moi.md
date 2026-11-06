@@ -1361,3 +1361,21 @@
 >      - Nộp trong tháng 12 $ightarrow$ Plan có hiệu lực từ **01/01/2027**.
 >      - Thời gian giải trình DMI tối thiểu 90 ngày $ightarrow$ Bảo hiểm sẽ duy trì **đủ trọn vẹn 3 tháng đầu năm (Tháng 1, 2, 3/2027)**.
 >      - Dù sau đó nếu không bổ sung được giấy tờ và buộc phải Cancel plan, thì do đã Active đủ 3 tháng đầu năm $ightarrow$ **CÔNG TY VÀ AGENT VẪN ĐƯỢC GIỮ TRỌN TIỀN BONUS MÙA (AEP/OE BONUS)**, tránh bị hãng phạt hoặc thu hồi (clawback) hoa hồng.
+
+---
+
+### 6️⃣3️⃣ CHIẾN LƯỢC ĐIỀU PHỐI HÃNG MÙA RENEW OBAMACARE 2027: ƯU TIÊN HARBOR $0, XÉT AMBETTER/OSCAR THEO BÁC SĨ & BÁO GIÁ LINH HOẠT (CHỈ ĐẠO BAN QUẢN LÝ - 06/11/2026):
+> 📌 **Chỉ đạo chiến lược từ Ban Quản Lý (Tiger Truong) về điều phối hãng mùa Renew 2027:**
+> * "Khi renew mình chú trọng giữ nguyên plan $0 cho khách, khách nào không yêu cầu bác sĩ thì đưa về Harbor $0, khách nào yêu cầu giữ nguyên bác sĩ mà Harbor không có thì xét đến Ambetter và Oscar hay các hãng khác. Đối với các chương trình không phải $0 thì linh động báo giá theo hãng phù hợp không tập trung vào một hãng nào."
+>
+> 💡 **3 NGUYÊN TẮC VÀNG VẬN HÀNH RENEW 2027:**
+> 1. **Mục tiêu Tối Thượng:** Tập trung tối đa vào việc **giữ nguyên Plan $0** cho toàn bộ khách hàng đủ điều kiện subsidy.
+> 2. **Cơ chế Phân Luồng Nhóm Khách Plan $0:**
+>    - **Nhánh A (Khách KHÔNG yêu cầu bác sĩ cụ thể / chỉ cần bảo hiểm $0):**
+>      👉 **ƯU TIÊN ĐƯA THẲNG VỀ HARBOR $0** (Hãng chủ lực hàng đầu cho phân khúc $0).
+>    - **Nhánh B (Khách YÊU CẦU giữ nguyên bác sĩ quen / PCP):**
+>      - Kiểm tra bác sĩ trong mạng lưới của Harbor.
+>      - Nếu Harbor **KHÔNG CÓ** bác sĩ của khách $ightarrow$ **Xét chuyển sang AMBETTER, OSCAR hoặc CÁC HÃNG KHÁC** có bác sĩ đó trong network.
+> 3. **Cơ chế Phân Luồng Nhóm Khách CÓ ĐÓNG PHÍ (Non-$0 Plan / Có Premium):**
+>    - Tuyệt đối **không tập trung dồn vào một hãng duy nhất**.
+>    - **Linh động so sánh và báo giá hãng phù hợp nhất** dựa trên: khả năng chi trả của khách, mạng lưới bệnh viện/bác sĩ và quyền lợi thuốc men tối ưu.
