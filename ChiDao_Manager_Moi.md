@@ -1431,3 +1431,20 @@
 > 2. **Hướng 2 (Diện Tự Trả No Sub / Off-Exchange):** Nộp đơn không xin hỗ trợ tài chính APTC để khách có bảo hiểm theo mạng lưới ACA ngay lập tức mà không bị ràng buộc điều kiện trợ cấp và không bị IRS truy thu.
 > 3. **Hướng 3 (Chiến lược Đón đầu 3 tháng đầu năm):** Nộp nhận Sub trong 90 ngày đầu năm (T1, T2, T3) để hưởng giá rẻ, đồng thời push khách bổ sung giấy tờ; nếu sau 3 tháng không kịp thì chuyển sang No Sub từ tháng thứ 4 (nêu rõ rủi ro kèm theo để khách tự quyết định).
 > 4. **Hướng 4 (Giải pháp Sản phẩm Thay thế ngoài sàn):** Tư vấn bảo hiểm tư nhân không xét di trú như **UnitedHealthOne (Uhone) Health Protector Guard**, **GWSW (Get Well Stay Well)**, **Short-Term Medical**,...
+
+
+---
+
+### 6️⃣6️⃣ GIẢI THÍCH MẪU THƯ CMS TIÊU CHUẨN: THƯ ACKNOWLEDGMENT (MEDICARE REVIEWING ENROLLMENT REQUEST) CỦA HÃNG BẢO HIỂM UHC/MEDICARE (06/11/2026):
+> 📌 **Tình huống thực chiến:** Khách hàng nhận được thư từ hãng (như UnitedHealthcare - Form `MRAMR45794EN`) có nội dung *"Medicare is currently reviewing your enrollment request"*, kèm thông tin hủy trước ngày 31/12 $\rightarrow$ Agent hoang mang hỏi Support: *"Application có gì thay đổi hay bị lỗi không? Thư này là thư gì?"*.
+>
+> 💡 **BẢN CHẤT NGHIỆP VỤ & QUY CHUẨN TRẢ LỜI AGENT:**
+> 1. **Tên chính xác của thư:** Đây là **Thư Xác Nhận Tiếp Nhận Đơn (Acknowledgment Letter / Notice of Receipt)** theo quy định bắt buộc của CMS (Centers for Medicare & Medicaid Services).
+> 2. **Tình trạng Application:** **HOÀN TOÀN BÌNH THƯỜNG, ĐÚNG TIẾN ĐỘ VÀ KHÔNG BỊ THAY ĐỔI/LỖI GÌ CẢ**.
+> 3. **Ý nghĩa nội dung thư:**
+>    - Hãng bảo hiểm (UHC) xác nhận đã nhận đơn ghi danh từ Agent cho gói (ví dụ: `UHC Dual Complete FL-Y5 HMO-POS D-SNP`).
+>    - Hãng đã đẩy hồ sơ lên hệ thống CMS để đối soát điều kiện hợp lệ của Medicare Part A, Part B và Medicaid.
+>    - Thông báo quyền lợi hủy đơn: Nếu khách đổi ý không muốn tham gia thì có quyền gọi hủy trước ngày 31/12/2026 (hạn chót mùa AEP).
+> 4. **Các bước tiếp theo của khách hàng:**
+>    - Sau khi Medicare duyệt xong, hãng sẽ tự động gửi **Welcome Letter** (Thư chào mừng) và **Thẻ bảo hiểm chính thức (Member ID Card)** về tận nhà trước ngày 01/01/2027.
+>    - **Hướng dẫn Agent dặn khách:** Cứ yên tâm cất thư này làm bằng chứng đã nộp đơn, không cần gọi lên hãng hay làm thêm bất kỳ thao tác nào, chỉ cần đợi thẻ ID cứng gửi về.
