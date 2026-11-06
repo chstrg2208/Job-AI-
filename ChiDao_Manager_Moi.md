@@ -1418,3 +1418,16 @@
    - **Năm 2027 (Kế Hoạch 2 Phương Án):**
      + *Phương án A (Nhận Sub 3 tháng đầu):* Đăng ký có Subsidy từ 01/01/2027, tận dụng 90 ngày verify để bổ sung giấy tờ hợp lệ (I-94, Visa). Nếu sau 3 tháng không upload được thì chuyển sang No Sub từ tháng 4/2027. *(Cần cảnh báo khách rủi ro IRS truy thu số tiền trợ cấp 3 tháng đầu nếu hoàn toàn không có tình trạng di trú hợp pháp)*.
      + *Phương án B (An toàn tuyệt đối - Được Chị Tâm & Ban Quản Lý khuyến nghị):* Khách thực sự không có giấy tờ di trú thì **đi NO SUB ngay từ đầu năm 2027** hoặc chuyển sang mua bảo hiểm tư nhân (Uhone / GWSW).
+
+
+---
+
+### 6️⃣5️⃣ NGUYÊN TẮC TƯ VẤN ĐA HƯỚNG (MULTI-OPTION MATRIX) CHO MANAGER & SUPPORT: TUYỆT ĐỐI KHÔNG TRẢ LỜI CỤT "KHÔNG ĐƯỢC" KHI AGENT HỎI CASE KHÓ (CHỈ ĐẠO TIGER TRUONG - 06/11/2026):
+> 📌 **Chỉ đạo cốt lõi từ Ban Quản Lý (Tiger Truong):**
+> *"Lần sau khi gửi câu hỏi của agent, AI phải luôn luôn đưa ra NHIỀU HƯỚNG ĐI (Multi-option Solution Matrix) chứ không phải cứ thấy không có sub hay thiếu giấy tờ là bảo không apply được."*
+>
+> 💡 **4 TRỤ CỘT ĐA HƯỚNG BẮT BUỘC KHI XỬ LÝ MỌI CASE VƯỚNG MẮC:**
+> 1. **Hướng 1 (Chính sách Tối ưu có Sub):** Tìm giải pháp tháo gỡ giấy tờ hợp pháp (tải I-94 điện tử, Form I-797, thẻ xanh tạm, xin gia hạn DMI 90 ngày) để khách vẫn hưởng trọn trợ cấp tối đa.
+> 2. **Hướng 2 (Diện Tự Trả No Sub / Off-Exchange):** Nộp đơn không xin hỗ trợ tài chính APTC để khách có bảo hiểm theo mạng lưới ACA ngay lập tức mà không bị ràng buộc điều kiện trợ cấp và không bị IRS truy thu.
+> 3. **Hướng 3 (Chiến lược Đón đầu 3 tháng đầu năm):** Nộp nhận Sub trong 90 ngày đầu năm (T1, T2, T3) để hưởng giá rẻ, đồng thời push khách bổ sung giấy tờ; nếu sau 3 tháng không kịp thì chuyển sang No Sub từ tháng thứ 4 (nêu rõ rủi ro kèm theo để khách tự quyết định).
+> 4. **Hướng 4 (Giải pháp Sản phẩm Thay thế ngoài sàn):** Tư vấn bảo hiểm tư nhân không xét di trú như **UnitedHealthOne (Uhone) Health Protector Guard**, **GWSW (Get Well Stay Well)**, **Short-Term Medical**,...
