@@ -1410,3 +1410,11 @@
      - Đây là đối tượng **HỢP PHÁP (Lawfully Present) 100%**!
      - Các case này bị Term (như case Du Huu Nguyen & Huong Thao Le bị term 30/11) là do **quá hạn 90 ngày chưa upload bằng chứng**.
      - **Cách giải quyết:** Chỉ cần hướng dẫn khách tải **I-94 điện tử** từ `i94.cbp.dhs.gov` hoặc chụp Visa / Form I-797 để upload giải trình là có thể khôi phục hoặc enroll lại cho năm 2027 có Subsidy bình thường.
+
+4. **Quy Trình Xử Lý Thực Chiến Đã Confirm Cùng Chị Tâm Phan (Case Quá Hạn Bị Term 11/30):**
+   - **Tháng 12/2026 (Dec 2026):**
+     + Khách đã bị sàn Term hiệu lực ngày 30/11/2026 do quá hạn upload giấy tờ.
+     + Muốn có bảo hiểm cho Tháng 12/2026: **Chỉ được đi diện NO SUB (Khách tự thanh toán 100% full premium)**.
+   - **Năm 2027 (Kế Hoạch 2 Phương Án):**
+     + *Phương án A (Nhận Sub 3 tháng đầu):* Đăng ký có Subsidy từ 01/01/2027, tận dụng 90 ngày verify để bổ sung giấy tờ hợp lệ (I-94, Visa). Nếu sau 3 tháng không upload được thì chuyển sang No Sub từ tháng 4/2027. *(Cần cảnh báo khách rủi ro IRS truy thu số tiền trợ cấp 3 tháng đầu nếu hoàn toàn không có tình trạng di trú hợp pháp)*.
+     + *Phương án B (An toàn tuyệt đối - Được Chị Tâm & Ban Quản Lý khuyến nghị):* Khách thực sự không có giấy tờ di trú thì **đi NO SUB ngay từ đầu năm 2027** hoặc chuyển sang mua bảo hiểm tư nhân (Uhone / GWSW).
