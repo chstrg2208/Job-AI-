@@ -1,5 +1,5 @@
 # 🛡️ KHO TRI THỨC ĐỘNG: CẬP NHẬT TỪ 2 GROUP MANAGER, TIN NHẮN RIÊNG & NGHIỆP VỤ
-*Cập nhật tự động lúc: 2026-11-05 08:30:00*
+*Cập nhật tự động lúc: 2026-11-08 08:30:00*
 
 ---
 ## ⚡ CÁC CHỈ ĐẠO ĐẶC BIỆT MỚI NHẤT ĐÃ ĐƯỢC XÁC NHẬN:
@@ -1475,3 +1475,22 @@
 >    - Nếu sai số hoặc cần update: Sử dụng link mẫu đơn **`Missing/Incomplete Application Update Request Form`** (có sẵn ngay trên portal dưới mục *Important Documents*) để tải lên đính kèm.
 > 4. **Bước 4 (Phương Án Thay Thế - Multi-Option):**
 >    - Nếu khách **thực sự không có Medicaid**: Chuyển ngay sang gói **Medicare Advantage thông thường (Non-SNP)** hoặc C-SNP (nếu có bệnh mãn tính) để kịp hiệu lực 01/01/2027, tránh bị UHC Denied.
+
+
+---
+
+### 6️⃣8️⃣ QUY TRÌNH RÀ SOÁT DEALS CHƯA CÓ AUT THEO TỪNG AGENT & TÍNH NĂNG MIGRATE AUT TỰ ĐỘNG TỪ HEALTHSHERPA VỀ CRM (CHỈ ĐẠO PHONG NGUYỄN & IT OANH ĐINH - 08/11/2026):
+> 📌 **Chỉ đạo trực tiếp từ Anh Phong Nguyễn & Team IT (Manager Team - 08/11/2026):**
+> 1. **Rà soát danh sách Deals chưa có AUT theo từng Team Support:**
+>    - Team IT và Ban Quản Lý đã xuất bảng thống kê toàn bộ Deals chưa có AUT phân loại chi tiết theo từng Agent của từng Team Support.
+>    - **Trách nhiệm của Manager:** Các Manager có trách nhiệm kiểm tra lại với Support trong team mình về danh sách của từng Agent phụ trách, sau đó **làm việc trực tiếp với Agent để yêu cầu họ đôn đốc và hỗ trợ về Authorization (AUT)**.
+>    - **Thông báo đa kênh từ Công ty:** Sau khi Manager xác nhận (confirm) danh sách là chính xác, Công ty sẽ đồng thời gửi danh sách này đến từng Agent qua **Email** và **Tin nhắn (Message)** để đảm bảo Agent nắm rõ tình hình và đẩy mạnh xin AUT kịp thời để tiến hành Enroll.
+> 2. **Tính năng mới của Team IT - Tự động đồng bộ (Migrate) dữ liệu AUT từ HealthSherpa về CRM/TBR WorkSpace:**
+>    - Team IT (Oanh Đinh) đã hoàn tất cơ chế migrate dữ liệu Authorization từ HealthSherpa cập nhật thẳng lên CRM.
+>    - **2 Trường dữ liệu được match trên từng Contact:**
+>      + **`Authorization status`** (Trạng thái AUT: Yes / No / Pending).
+>      + **`Agent Portal`** (Tên Portal của Agent tương ứng).
+>    - **Tần suất cập nhật:** IT có thể chạy update daily (hàng ngày) hoặc 2 ngày/lần. Các Manager chủ động liên hệ với IT để nhận dữ liệu update mới nhất theo từng ngày.
+> 3. **Quy tắc thực chiến xử lý NPN & Hãng (Kinh nghiệm thực chiến Tiger Trương 08/11/2026):**
+>    - **UHC không có contract under AQP:** Deal trước đây đi NPN AQP nhưng AQP hiện không có contract với UHC $\rightarrow$ Bắt buộc chuyển sang NPN Anh Lan (ALP `#19876750`) để enroll cho khách (áp dụng cho deal tháng 12/2026).
+>    - **Arkansas (AR) năm 2026:** Hãng BCBS tại Arkansas không có hợp đồng với công ty (năm 2026 bang AR chỉ có hãng Ambetter có contract) $\rightarrow$ Quote lại khách sang Ambetter; nếu khách nhất quyết giữ BCBS thì xác định $0 commission (Non-commission).

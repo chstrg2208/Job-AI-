@@ -69,7 +69,7 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
 1. **MOLINA ACA:** **$0 Commission cho thành viên mới (New Member)** tại 5 tiểu bang: **FL, IL, MI, SC, TX** (chỉ có tái tục renew mới có tiền). Tuyệt đối không chọn Molina cho khách mới ở 5 bang này.
 2. **OSCAR ACA:** **Chỉ trả tối đa 5 người/hồ sơ (Cap 5 members/policy)**. Từ người thứ 6 trở đi không có hoa hồng.
 3. **ANTHEM ACA:** Bị khống chế giới hạn thành viên: **CT & OH** (tối đa 2 người); **ME** (tối đa 3 người); **CO & GA** (tối đa 5 người); **NY** (TBI Non-commission).
-4. **CÁC HÃNG NON-COMMISSION ($0):** Ambetter New Mexico (NM); Select Health (CO, ID) đến 05/2026; Kaiser Hawaii (HI); Anthem New York (NY).
+4. **CÁC HÃNG NON-COMMISSION ($0):** Ambetter New Mexico (NM); Select Health (CO, ID) đến 05/2026; Kaiser Hawaii (HI); Anthem New York (NY); BCBS Arkansas (AR) năm 2026 (công ty không có contract với BCBS tại AR, chỉ có hãng Ambetter có contract).
 5. **MEDICARE PART C (O65):**
    * Mức chuẩn (TX, FL, GA, IL, NC, TN...): **$28.91/tháng** $\approx$ **$347/năm**.
    * Mức cao (CA & NJ): **$36.00/tháng** $\approx$ **$432/năm**.
@@ -690,3 +690,24 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
 > 2. **Hướng 2 (Đi ACA No Sub):** Nộp đơn không xin trợ cấp chính phủ để có mạng lưới bác sĩ/bệnh viện ACA lớn ngay mà không lo IRS truy thu.
 > 3. **Hướng 3 (Chiến lược 3 tháng đầu):** Đi có Sub 3 tháng đầu trong thời hạn verify, sau đó nếu kẹt mới chuyển No Sub (có cảnh báo rủi ro).
 > 4. **Hướng 4 (Sản phẩm thay thế):** Chuyển sang các gói tư nhân không xét di trú (Uhone Health Protector Guard, GWSW, Short-Term).
+
+
+---
+
+## 🚀 XVI. QUY TRÌNH RÀ SOÁT DEALS CHƯA CÓ AUT & ĐỒNG BỘ DỮ LIỆU HEALTHSHERPA VỀ CRM (CHỈ ĐẠO PHONG NGUYỄN & BAN QUẢN LÝ 08/11/2026)
+
+### 1. Phân luồng rà soát Deals chưa có AUT theo Agent:
+* **Thống kê theo Team Support:** Ban Quản Lý và IT đã xuất danh sách toàn bộ deals chưa có AUT phân loại chi tiết theo từng Agent của từng Team Support.
+* **Quy trình phối hợp:**
+  1. **Manager đối soát:** Manager kiểm tra lại với Support trong team mình về danh sách của từng Agent phụ trách.
+  2. **Làm việc trực tiếp với Agent:** Manager và Support liên hệ trực tiếp với Agent để yêu cầu Agent đôn đốc, hỗ trợ khách lấy Authorization (AUT).
+  3. **Thông báo chính thức từ Công ty:** Sau khi Manager confirm danh sách chính xác, Công ty sẽ gửi danh sách này đến từng Agent qua **Email** và **Tin nhắn (Message)** để đảm bảo Agent nhận thức rõ tình hình và đẩy mạnh AUT kịp tiến hành Enroll.
+
+### 2. Tính năng Migrate AUT tự động từ HealthSherpa về CRM (Team IT - Oanh Đinh):
+* Team IT đã kích hoạt tính năng tự động migrate dữ liệu từ HealthSherpa về TBR WorkSpace / CRM:
+  - Cập nhật tự động 2 trường trên từng Contact: **`Authorization status`** (Yes/No/Pending) và **`Agent Portal`** (Tên Portal match giữa HSP và CRM).
+  - Tần suất: Hàng ngày (Daily) hoặc 2 ngày/lần theo yêu cầu. Manager chủ động liên hệ với IT để nhận dữ liệu cập nhật theo từng ngày.
+
+### 3. Cập nhật Hợp đồng (Contract Active) & Điều phối NPN (Kinh nghiệm thực chiến 08/11/2026):
+* **Hãng UHC & NPN AQP:** NPN AQP hiện không có contract active với UHC $\rightarrow$ Chuyển toàn bộ hồ sơ UHC sang **NPN Anh Lan (ALP `#19876750`)** để enroll (ghi nhận hiệu lực tháng 12/2026).
+* **Arkansas (AR) ACA 2026:** Hãng **BCBS tại AR KHÔNG CÓ hợp đồng** với công ty (chỉ có hãng **Ambetter** là có hợp đồng). Support phải tư vấn Agent quote khách sang **Ambetter**; nếu vẫn giữ BCBS sẽ rơi vào diện **$0 Commission (Non-commission)**.
