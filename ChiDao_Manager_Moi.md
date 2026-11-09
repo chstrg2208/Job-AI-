@@ -1494,3 +1494,21 @@
 > 3. **Quy tắc thực chiến xử lý NPN & Hãng (Kinh nghiệm thực chiến Tiger Trương 08/11/2026):**
 >    - **UHC không có contract under AQP:** Deal trước đây đi NPN AQP nhưng AQP hiện không có contract với UHC $\rightarrow$ Bắt buộc chuyển sang NPN Anh Lan (ALP `#19876750`) để enroll cho khách (áp dụng cho deal tháng 12/2026).
 >    - **Arkansas (AR) năm 2026:** Hãng BCBS tại Arkansas không có hợp đồng với công ty (năm 2026 bang AR chỉ có hãng Ambetter có contract) $\rightarrow$ Quote lại khách sang Ambetter; nếu khách nhất quyết giữ BCBS thì xác định $0 commission (Non-commission).
+
+---
+
+### 6️⃣9️⃣ CẬP NHẬT MỚI TỪ HEALTHSHERPA & CMS VỀ AUTHORIZATION LINK (KATH VÕ & MANAGER TEAM - 09/11/2026):
+> 📌 **Chỉ đạo quan trọng từ CMS & HealthSherpa áp dụng ngay lập tức trên toàn bộ sàn EDE:**
+> 1. **Link hết hạn sau 15 phút (15-Minute Expiration):**
+>    - Link Pre-Authorization gửi cho khách qua SMS/Email chỉ có hiệu lực đúng **15 phút**.
+> 2. **BỎ HOÀN TOÀN NÚT "Get New Link" (Khách không thể tự lấy lại link mới):**
+>    - **Trước đây:** Link hết hạn thì khách bấm vào sẽ có nút *"Request/Get new link"* để nhận lại link mới.
+>    - **BÂY GIỜ:** CMS bắt buộc gỡ bỏ nút này. Khách mở link hết hạn chỉ thấy thông báo: *"Authorization link expired. Ask your agent for a new link"* kèm các nút `Call agent`, `Text agent`, `Email agent`.
+>    - 👉 **Ý nghĩa:** Khách **KHÔNG THỂ tự sinh link mới** được nữa. Bắt buộc Agent/Support phải vào HealthSherpa gửi lại request thủ công.
+> 3. **Giới hạn số lần gửi từ CMS (Tối đa 3 lần / khách / ngày):**
+>    - CMS chỉ cho phép gửi **tối đa 3 authorization requests cho 1 khách hàng trong vòng 1 ngày** (*up to 3 requests per client per day*).
+>    - Nếu gửi 3 lần mà khách đều để hết hạn 15 phút thì ngày hôm đó bị "khóa", không thể gửi thêm được nữa cho khách đó.
+> 4. **Quy chuẩn tác chiến cho Support & Agent:**
+>    - **Chấm dứt việc gửi link hàng loạt (Bulk Send) khi chưa báo trước:** Gửi bừa bãi sẽ làm link bị hết hạn, khách bị nghẽn và phải làm lại từng case rất mất thời gian.
+>    - **Nguyên tắc "Khách sẵn sàng mới bắn link":** Support/Agent phải gọi hoặc nhắn tin hẹn trước: *"Em gửi link qua tin nhắn, link có hạn 15 phút, anh/chị mở điện thoại bấm Approve ngay giúp em nhé"*. Khi khách xác nhận đang cầm máy sẵn sàng mới bấm gửi.
+
