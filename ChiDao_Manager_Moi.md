@@ -1576,32 +1576,36 @@
 
 ---
 
-### 71. BÁO CÁO THỰC TẾ TIẾN ĐỘ ĐỐI SOÁT AUT TỪ 4 SUPPORT (TEAM TIGER TRƯƠNG - 10/11/2026)
-*(Cập nhật trực tiếp từ trao đổi nội bộ Team Support Tiger Trương & Hệ thống Google Sheet / Google Doc)*
+### 71. BÁO CÁO THỰC TẾ TIẾN ĐỘ ĐỐI SOÁT AUT TỪ 4 SUPPORT (TEAM TIGER TRUONG - 10/11/2026)
+*(Cập nhật đầy đủ 4/4 Support từ trao đổi nội bộ Team Tiger Truong & Google Sheet)*
 
-#### 1. BẢNG TIẾN ĐỘ BÁO CÁO THEO TỪNG NHÂN SỰ SUPPORT & AGENT:
-* 🟢 **Anya Nguyễn (Agent Khánh Nguyễn - 136 hồ sơ):**
+#### 1. BẢNG TIẾN ĐỘ BÁO CÁO THEO TỪNG NHÂN SỰ SUPPORT & AGENT (KHÔNG DẤU TÊN):
+* 🟢 **Anya Nguyen (Agent Khanh Nguyen - 136 hồ sơ):**
   - **Tình trạng:** Đã báo cáo.
-  - **Phản hồi:** Agent Khánh Nguyễn cho phép Support gọi, nhưng Support gọi khách không bắt máy hoặc bắt máy thì hẹn lại.
+  - **Phản hồi:** Agent Khanh Nguyen cho phép Support gọi, nhưng Support gọi khách không bắt máy hoặc bắt máy thì hẹn lại.
   - **Trở ngại thực tế:** Cổng portal / HealthSherpa kẹt liên tục; khi kết nối được với khách thì cổng kẹt không load được khiến khách bận việc đi luôn, hẹn bữa sau nữa rất khó liên lạc lại.
   - **Hướng xử lý:** Tách riêng các hồ sơ có sẵn tài khoản ACA để Support trực tiếp đăng nhập Healthcare.gov chốt đơn; số không bắt máy chuyển IT báo Ban Giám Đốc làm việc với Agent tối nay.
-* 🟢 **Ivy Lê (Agent Trí Châu, Tân Hạo Hứa, Jay Ly):**
-  - **Agent Trí Châu:** Sẽ **TỰ GỌI lấy Authorize** cùng lúc với khi gọi khách cho mùa renew 2027 (Agent muốn tự kết hợp tư vấn plan mới 2027). Xếp vào Nhóm 2 (Trách nhiệm của Agent).
-  - **Agent Tân Hạo Hứa (9 hồ sơ):** Sẽ hẹn thời gian cụ thể với khách để gửi link và tự gọi khách Authorize để tránh link 15 phút expire. Nếu khách làm ngoài giờ hành chính, Agent sẽ gửi request cho Admin/Support hỗ trợ ngoài giờ.
-  - **Agent Jay Ly (102 hồ sơ):** Đang rà soát danh sách có tài khoản ACA để ưu tiên vào thẳng Healthcare.gov xử lý trước.
-* 🟢 **Sean Ngô (Agent Quyền Lê - 98 hồ sơ & Trí Trần - 62 hồ sơ):**
+* 🟢 **Ivy Le (Agent Tri Chau, Tan Hao Hua):**
+  - **Agent Tri Chau (Jay Ly - 102 hồ sơ):** Sẽ **TỰ GỌI lấy Authorize** cùng lúc với khi gọi khách cho mùa renew 2027 (Agent muốn tự kết hợp tư vấn plan mới 2027). Xếp vào Nhóm 2 (Trách nhiệm của Agent). *(Lưu ý: Tên Agent Jay Ly trên hệ thống chính là Tri Chau)*.
+  - **Agent Tan Hao Hua (9 hồ sơ):** Sẽ hẹn thời gian cụ thể với khách để gửi link và tự gọi khách Authorize để tránh link 15 phút expire. Nếu khách làm ngoài giờ hành chính, Agent sẽ gửi request cho Admin/Support hỗ trợ ngoài giờ.
+* 🟢 **Sean Ngo (Agent Quyen Le - 98 hồ sơ & Tri Tran - 62 hồ sơ):**
   - **Tình trạng:** Đã báo cáo.
-  - **Phản hồi:** Cả Agent Quyền Lê và Trí Trần đều sẽ **TỰ GỌI lấy Authorize** cùng lúc với khi gọi khách cho mùa renew 2027; đồng thời sẽ hẹn trước thời gian với khách rồi mới gửi link để đảm bảo khách bấm kịp trong 15 phút.
+  - **Phản hồi:** Cả Agent Quyen Le và Tri Tran đều sẽ **TỰ GỌI lấy Authorize** cùng lúc với khi gọi khách cho mùa renew 2027; đồng thời sẽ hẹn trước thời gian với khách rồi mới gửi link để đảm bảo khách bấm kịp trong 15 phút.
   - **Hướng xử lý:** Xếp vào Nhóm 2 (Trách nhiệm của Agent). Nếu khách làm ngoài giờ hành chính, Agent sẽ gửi request Admin/Support hỗ trợ.
-* 🔴 **Sarah Thái (148 hồ sơ - Chiếm 26.70% toàn team):**
-  - **Các Agent phụ trách:** Khánh Nguyễn (138), Long Nguyễn (4), Loan T Bùi (3), Quyền Nguyễn (2), Hậu Phạm (1).
-  - **Tình trạng:** 🚨 **CHƯA BÁO CÁO (ĐANG CHỜ BÁO CÁO)**.
-  - **Hành động khẩn cấp:** Manager Tiger Trương trực tiếp gọi điện đôn đốc Sarah Thái nộp gấp trong chiều nay để kịp đối soát và nộp danh sách về cho IT trước hạn chót!
+* 🟢 **Sarah Thai (148 hồ sơ - 6 Agent phụ trách):**
+  - **Agent Khanh Nguyen (138 hồ sơ):** Cho support gọi nhưng cổng kẹt; có khách làm đi làm lại mấy lần không được; có khách không liên hệ được; có khách liên hệ được nhưng bận hẹn bữa sau nhưng bữa sau gọi thì không nghe máy.
+  - **Agent Quyen Thuy Do Nguyen (2 hồ sơ):** Đã gửi link author cho khách còn 1 case; agent đã tới tận nhà khách và cố gắng hỗ trợ nhiều lần nhưng chưa được do gặp khó khăn kỹ thuật/xác minh.
+  - **Agent Long Hoang Nguyen (4 hồ sơ):** Còn 3 case đã gửi link cho khách chưa author được (chờ khách bấm duyệt).
+  - **Agent Loan T Bui (3 hồ sơ):** Còn 1 case đã gửi link nhưng chưa author được.
+  - **Agent Hau Pham (1 hồ sơ):** 🏆 **Done author 2027!** (Đã hoàn tất 100%).
+  - **Agent Lan Nguyen (0 hồ sơ):** Chưa có deal nào trên hệ thống.
 
-#### 2. ĐỒNG BỘ DỮ LIỆU & CẢNH BÁO TRỰC QUAN:
+#### 2. ĐỒNG BỘ DỮ LIỆU GOOGLE WORKSPACE:
 * **Google Sheet:** Đã cập nhật Tab `TỔNG HỢP TEAM TIGER` trên Spreadsheet:
   `https://docs.google.com/spreadsheets/d/13gj2UM9ysZPvkBoIc2DYwXuZkQ0bcg75PqGRqspZRiw/edit#gid=0`
-  - Đặt Banner cảnh báo nổi bật màu đỏ ngay Dòng 3 (mở file thấy ngay).
-  - Bổ sung Cột F (Tình trạng báo cáo) & Cột G (Ghi chú phản hồi) vào Bảng Support (Dòng 17-21).
-  - Thêm Khối thông báo khẩn & Bảng chi tiết toàn bộ từng Agent từ Dòng 24 đến Dòng 40.
-* **Google Doc Biên bản họp:** Giữ nguyên vẹn toàn bộ 6 mục biên bản họp khẩn chuẩn, không sửa đổi.
+  - Đổi Banner Dòng 3 sang màu xanh: `✅ CẬP NHẬT TIẾN ĐỘ BÁO CÁO: 4/4 SUPPORT ĐÃ BÁO CÁO ĐẦY ĐỦ`.
+  - Cập nhật Tên Agent trong Bảng 1: Đổi `Jay Ly` $\rightarrow$ `Tri Chau (Jay Ly)`.
+  - Đổi tên Tab Sheet `Jay Ly (102)` $\rightarrow$ `Tri Chau (102)`.
+  - Toàn bộ tên Support và Agent đều chuẩn hóa không dấu: Sean Ngo, Sarah Thai, Anya Nguyen, Ivy Le, Tiger Truong, Khanh Nguyen, Tri Chau, Tan Hao Hua, Quyen Le, Tri Tran, Long Hoang Nguyen, Loan T Bui, Quyen Thuy Do Nguyen, Hau Pham, Lan Nguyen.
+  - Bảng chi tiết (Dòng 27-41): Thể hiện đầy đủ 11 dòng báo cáo của từng Agent từ 4 Support.
+* **Google Doc Biên bản họp:** Giữ nguyên vẹn 100% bản ghi cuộc họp gốc của Ban Giám Đốc, không chỉnh sửa nội dung.
