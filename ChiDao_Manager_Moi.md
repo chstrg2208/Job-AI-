@@ -1614,4 +1614,5 @@
   - Đổi tên Tab Sheet `Jay Ly (102)` $\rightarrow$ `Tri Chau (102)`.
   - Toàn bộ tên Support và Agent đều chuẩn hóa không dấu: Sean Ngo, Sarah Thai, Anya Nguyen, Ivy Le, Tiger Truong, Khanh Nguyen, Tri Chau, Tan Hao Hua, Quyen Le, Tri Tran, Long Hoang Nguyen, Loan T Bui, Quyen Thuy Do Nguyen, Hau Pham, Lan Nguyen.
   - Bảng chi tiết (Dòng 28-42): Thể hiện đầy đủ 11 dòng báo cáo tiếng Việt có dấu, phân loại chuẩn `Nhóm 1 (Agent cho gọi)` và `Nhóm 2 (Agent tự gọi)`.
+  - **Khôi phục 100% Ghi chú Cột N (Anya & Sarah):** Đã trích xuất lịch sử phiên bản từ Google Drive và nạp lại chính xác toàn bộ 16 ghi chú của Anya Nguyen và 3 ghi chú của Sarah Thai vào đúng mã hồ sơ CT... của từng tab, sửa vị trí lệch ô.
 * **Google Doc Biên bản họp:** Giữ nguyên vẹn 100% bản ghi cuộc họp gốc của Ban Giám Đốc, không chỉnh sửa nội dung.
