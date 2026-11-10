@@ -1605,9 +1605,13 @@
 #### 2. ĐỒNG BỘ DỮ LIỆU GOOGLE WORKSPACE:
 * **Google Sheet:** Đã cập nhật Tab `TỔNG HỢP TEAM TIGER` trên Spreadsheet:
   `https://docs.google.com/spreadsheets/d/13gj2UM9ysZPvkBoIc2DYwXuZkQ0bcg75PqGRqspZRiw/edit#gid=0`
-  - Đổi Banner Dòng 3 sang màu xanh: `✅ CẬP NHẬT TIẾN ĐỘ BÁO CÁO: 4/4 SUPPORT ĐÃ BÁO CÁO ĐẦY ĐỦ`.
+  - **Tách riêng 2 Tab Khanh Nguyen:** Đã lọc và phân bổ dữ liệu chính xác thành 2 tab độc lập:
+    * `Khanh Nguyen (136) (Anya)`: Chỉ chứa đúng 136 deals của Anya Nguyen.
+    * `Khanh Nguyen (138) (Sarah)`: Chỉ chứa đúng 138 deals của Sarah Thai.
+  - **Cập nhật Bảng 1 (Tổng hợp Deals):** Tách thành 2 dòng riêng biệt `Khanh Nguyen (Anya)` (136 hồ sơ) và `Khanh Nguyen (Sarah)` (138 hồ sơ), thống kê chuẩn xác từng trạng thái AUT.
+  - Đặt Banner Dòng 3 sang màu xanh: `✅ CẬP NHẬT TIẾN ĐỘ BÁO CÁO: 4/4 SUPPORT ĐÃ BÁO CÁO ĐẦY ĐỦ`.
   - Cập nhật Tên Agent trong Bảng 1: Đổi `Jay Ly` $\rightarrow$ `Tri Chau (Jay Ly)`.
   - Đổi tên Tab Sheet `Jay Ly (102)` $\rightarrow$ `Tri Chau (102)`.
   - Toàn bộ tên Support và Agent đều chuẩn hóa không dấu: Sean Ngo, Sarah Thai, Anya Nguyen, Ivy Le, Tiger Truong, Khanh Nguyen, Tri Chau, Tan Hao Hua, Quyen Le, Tri Tran, Long Hoang Nguyen, Loan T Bui, Quyen Thuy Do Nguyen, Hau Pham, Lan Nguyen.
-  - Bảng chi tiết (Dòng 27-41): Thể hiện đầy đủ 11 dòng báo cáo của từng Agent từ 4 Support.
+  - Bảng chi tiết (Dòng 28-42): Thể hiện đầy đủ 11 dòng báo cáo tiếng Việt có dấu, phân loại chuẩn `Nhóm 1 (Agent cho gọi)` và `Nhóm 2 (Agent tự gọi)`.
 * **Google Doc Biên bản họp:** Giữ nguyên vẹn 100% bản ghi cuộc họp gốc của Ban Giám Đốc, không chỉnh sửa nội dung.

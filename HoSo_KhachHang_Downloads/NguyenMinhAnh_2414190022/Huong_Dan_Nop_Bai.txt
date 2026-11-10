@@ -1,0 +1,50 @@
+﻿================================================================================
+HỒ SƠ NỘP ĐỀ TÀI CUỐI KHÓA - MÔN HỌC: NĂNG LỰC SỐ (DIGITAL LITERACY)
+CHUYÊN NGÀNH: THƯƠNG MẠI ĐIỆN TỬ (E-COMMERCE) - KHOA KINH TẾ - QUẢN TRỊ
+================================================================================
+
+THÔNG TIN SINH VIÊN:
+- Họ và tên sinh viên: NGUYỄN MINH ANH
+- Mã số sinh viên (MSSV): 2414190022
+- Lớp chuyên ngành: KK24QWV-QN1-KK24QĐV-QN1
+- Khoa: Kinh Tế - Quản Trị
+- Tên đề tài: ĐỀ TÀI SỐ 04 - CONTENT MARKETING TRÊN TIKTOK SHOP
+  (Ứng dụng thực chiến cho thương hiệu thời trang Gen Z 'MinimalVibe')
+
+DANH MỤC CÁC TỆP TIN TRONG BỘ HỒ SƠ:
+1. NguyenMinhAnh_2414190022_BaoCao.docx
+   - Bản báo cáo toàn văn định dạng Microsoft Word.
+   - Dung lượng: 41 trang A4 (vượt xa chuẩn tối thiểu 15 trang của trường, ~13.750 từ).
+   - Đầy đủ 5 chương, 3 phụ lục, danh mục từ viết tắt, bảng biểu, ảnh chụp màn hình AI và sản phẩm số đính kèm.
+
+2. NguyenMinhAnh_2414190022_BaoCao.pdf
+   - Bản xuất PDF chuẩn in ấn, khóa định dạng không bị nhảy trang, sẵn sàng in nộp trực tiếp cho Giảng viên.
+
+3. NguyenMinhAnh_2414190022_ThuyetTrinh.pptx
+   - Bộ Slide thuyết trình Microsoft PowerPoint gồm 15 trang chuẩn 16:9.
+   - Thiết kế hiện đại theo nhận diện thương hiệu TikTok (Đen - Xanh Cyan - Đỏ Hồng Neon).
+
+4. NguyenMinhAnh_2414190022_ThuyetTrinh.pdf
+   - Bản PDF của Slide thuyết trình, tiện lợi trình chiếu hoặc gửi qua điện thoại/máy tính bảng.
+
+5. NguyenMinhAnh_2414190022_KeHoachNoiDung_Artifact.xlsx
+   - Sản phẩm số (Artifact) hoàn chỉnh gồm 4 sheet chuyên sâu:
+     + Sheet 1: Tổng quan chiến lược & Mục tiêu KPI chiến dịch 30 ngày.
+     + Sheet 2: Ma trận Content Calendar 30 ngày (Khung giờ vàng, Trụ cột, Hook, Sản phẩm gắn giỏ, Hashtag, KPI).
+     + Sheet 3: Chi tiết 10 Kịch bản video TikTok Shop hoàn chỉnh chuẩn 3 hồi (Hook 3s, Thân bài, CTA & Giỏ hàng).
+     + Sheet 4: Bảng dự toán ngân sách & Phân tích tài chính chi tiết (Doanh thu 185tr, ROI 336.3%, ROAS 23.1x).
+
+6. NguyenMinhAnh_2414190022_Infographic.html
+   - Sản phẩm thị giác số (Visual Artifact) hiển thị trực quan toàn bộ chiến dịch trên nền tảng web, mở bằng bất kỳ trình duyệt nào.
+
+7. Các ảnh chụp màn hình minh chứng Generative AI (Phụ lục 1):
+   - screenshot_ai_1_chatgpt_insight.png: ChatGPT-4o phân tích Pain-points & Hook 3s
+   - screenshot_ai_2_claude_matrix.png: Claude 3.5 Sonnet xây dựng Ma trận 4 Trụ cột nội dung 30 ngày
+   - screenshot_ai_3_chatgpt_script.png: ChatGPT-4o viết kịch bản video Shoppertainment 40s
+   - screenshot_ai_4_financial_roi.png: Claude 3.5 Sonnet tính toán ngân sách, GMV, ROI 336.3% & ROAS 23.1x
+   - artifact_infographic.png: Sơ đồ phễu Shoppertainment và Infographic chiến lược số MinimalVibe
+
+CÁCH THỨC NỘP BÀI:
+- Dạng 1 (Nộp trực tiếp cho GV): In file 'NguyenMinhAnh_2414190022_BaoCao.pdf' hoặc '.docx' (41 trang) đóng bìa chỉn chu.
+- Dạng 2 (Nộp qua MS Teams): Nộp file nén 'NguyenMinhAnh_2414190022.zip' lên đường link MS Teams do Giảng viên cung cấp.
+================================================================================
