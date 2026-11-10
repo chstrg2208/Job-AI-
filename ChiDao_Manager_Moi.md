@@ -1512,3 +1512,64 @@
 >    - **Chấm dứt việc gửi link hàng loạt (Bulk Send) khi chưa báo trước:** Gửi bừa bãi sẽ làm link bị hết hạn, khách bị nghẽn và phải làm lại từng case rất mất thời gian.
 >    - **Nguyên tắc "Khách sẵn sàng mới bắn link":** Support/Agent phải gọi hoặc nhắn tin hẹn trước: *"Em gửi link qua tin nhắn, link có hạn 15 phút, anh/chị mở điện thoại bấm Approve ngay giúp em nhé"*. Khi khách xác nhận đang cầm máy sẵn sàng mới bấm gửi.
 
+---
+
+### 7️⃣0️⃣ BIÊN BẢN HỌP KHẨN MANAGER TEAM: CHIẾN DỊCH GIẢI CỨU 3,800+ DEALS THIẾU AUT & CHIẾN LƯỢC BỨT PHÁ ENROLL QUA ACA (HOST: ANH PHONG NGUYỄN & CHỊ TÂM PHAN - 10/11/2026):
+> 📌 **Chủ trì cuộc họp:** Anh Phong Nguyễn (Ban Giám Đốc) & Chị Tâm Phan.  
+> 👥 **Thành phần tham dự:** Tiger Trương, Tân Đặng, Linda Nguyễn, Cristy Trịnh, Andy Võ, Casey (Kassie Dương), Quỳnh Ngọc Nguyễn, Oanh Đinh (IT).  
+> ⏱️ **Thời lượng:** 33 phút 41 giây | **Thời gian họp:** Sáng ngày 10/11/2026.
+>
+> ---
+>
+> #### 1. THỰC TRẠNG TỒN ĐỌNG & PHÊ BÌNH TIẾN ĐỘ TỪ ANH PHONG:
+> - **Chậm tiến độ nghiêm trọng:** Kế hoạch rà soát AUT đã phổ biến từ Chủ Nhật (08/11), hạn chót chiều Thứ Hai (09/11) đã bị trôi qua nhưng các team vẫn chưa nộp kết quả đối soát cho IT để chuyển sang Nhân sự làm việc với Agent.
+> - **Số liệu toàn sàn đáng báo động:**
+>   + Toàn công ty có tới **3,800+ deals chưa có Authorization (Not Done AUT)**.
+>   + Trong số gần 2,000 deals **ĐÃ CÓ AUT**, 10 ngày qua toàn sàn mới chỉ Enroll xong **hơn 200 deals** (quá chậm!).
+>   + Còn tới **876 deals** đang nằm kẹt dở dang ở các trạng thái: *Need to Quote, Need to Confirm Quote, Waiting for Document, Ready to Enroll (RTE)* nhưng chưa được submit ghi danh.
+> - **Nguy cơ thất thoát:** Nếu không hành động quyết liệt, Agent có nguy cơ mất 50% lượng khách hàng năm 2027, ảnh hưởng trực tiếp đến thu nhập của Agent và doanh thu công ty.
+>
+> ---
+>
+> #### 2. CHIẾN LƯỢC PHÂN LOẠI 2 NHÓM HỒ SƠ & PHÂN ĐỊNH TRÁCH NHIỆM RÕ RÀNG:
+> Anh Phong và Chị Tâm thống nhất giải pháp tháo gỡ theo nguyên tắc:
+> - 🟢 **NHÓM 1: TRONG TẦM TAY SUPPORT / MANAGER (LÀM ĐƯỢC NGAY BẰNG ACA):**
+>   + **Điều kiện:** Hồ sơ **chưa có AUT trên HealthSherpa**, NHƯNG **đã có tài khoản ACA (Username/Password Healthcare.gov)**, đi dưới **NPN Công ty (Anh Quế / AQP)** hoặc **không đổi NPN của Agent**.
+>   + **Cách xử lý:** **Vào thẳng Healthcare.gov chạy Quote, lấy Consent Form và Submit Enroll luôn!** Tuyệt đối không ngồi đợi link HealthSherpa làm nghẽn tiến độ.
+>   + **Trường hợp Agent nhờ:** Nếu Agent trước đây không cho gọi nhưng nay quá tải, nhắn tin nhờ Support gọi giúp $\rightarrow$ Support / Telesales nhận việc và gọi xử lý chốt đơn ngay.
+> - 🔴 **NHÓM 2: TRÁCH NHIỆM CỦA AGENT (ĐÁ VỀ CHO AGENT & CÔNG TY XỬ LÝ):**
+>   + **Bao gồm:** (1) Hồ sơ không có AUT và không có ACA; (2) Hồ sơ cần đổi NPN/AOR về portal riêng; (3) Agent cấm không cho công ty gọi; (4) Support/Telesales đã gọi nhiều lần nhưng không liên lạc được với khách.
+>   + **Cách xử lý:** Manager tổng hợp danh sách này gửi IT để **xuất sang Nhân sự / Ban Giám Đốc**. Công ty sẽ gửi Email/SMS chính thức từ Trụ sở và CEO Phúc Trịnh sẽ làm việc trực tiếp với Agent trong cuộc họp tối nay.
+>   + **Nguyên tắc sòng phẳng:** Nếu Agent không tự làm được và công ty không liên lạc được khách $\rightarrow$ **Chấp nhận mất khách**, và đây là **trách nhiệm của Agent**, Support không phải chịu trách nhiệm về số deal này!
+>
+> ---
+>
+> #### 3. CHỈ ĐẠO CẤM BẮN LINK HÀNG LOẠT TRÊN HEALTHSHERPA (CẢNH BÁO CMS):
+> - HealthSherpa đã áp dụng luật mới của CMS: **Link hết hạn sau 15 phút** và **BỎ NÚT GET NEW LINK**.
+> - Việc bấm gửi link hàng loạt (Bulk send) khi khách chưa sẵn sàng là **lãng phí chi phí tin nhắn công ty** (mỗi đợt mua quota tốn hàng trăm đô) và **khiến CMS đưa hệ thống công ty vào danh sách đen/cảnh báo** (năm ngoái đã từng bị record).
+> - **Quy tắc bắt buộc:** Bắt buộc phải liên hệ trước (gọi điện/nhắn tin báo động): *"Em chuẩn bị gửi link, link sống 15 phút, anh/chị mở tin nhắn bấm Approve ngay nhé"*. Khách xác nhận đang cầm máy $\rightarrow$ **Mới bấm nút gửi request**.
+>
+> ---
+>
+> #### 4. ĐÁNH GIÁ TÌNH HÌNH CÁC TEAM MANAGER:
+> - 🏆 **Team Tiger Trương:** Đã chủ động phân loại danh sách, giao Support đối soát chi tiết và **chủ động làm việc với IT (Oanh Đinh) để trích xuất riêng trường `ACA status`** nhằm bóc tách nhóm làm được trước. Anh Phong và Chị Tâm đánh giá cao sự chủ động và xem đây là hình mẫu cho các team khác.
+> - **Team Tân Đặng:** Đang phân vân giữa việc gửi ACA cho Agent hay giữ nội bộ. Chốt: Giữ thông tin ACA nội bộ cho Manager/Support làm, không gửi cột ACA cho Agent kẻo Agent ỷ lại không chịu làm AUT.
+> - **Team Linda Nguyễn:** Agent Hiếu tự làm AUT không cho gọi; một số deal đang rà soát. Chốt nộp danh sách chiều nay.
+> - **Team Casey (Kassie Dương):** Support đang bám sát; lập "danh sách đỏ" các Agent không liên lạc được để chuyển cho Anh Phúc xử lý.
+> - **Team Andy Võ:** Agent Hà Tô đang tự làm quote, một số khách gọi không được $\rightarrow$ Lập danh sách chuyển Nhân sự.
+> - **Team Cristy Trịnh:** Bị dội hàng loạt do link 15 phút expire $\rightarrow$ Đang khắc phục và chốt số liệu chiều nay.
+> - **Team Quỳnh Ngọc Nguyễn:** Nhiều Agent muốn tự làm AUT về cổng riêng $\rightarrow$ Thống kê đưa vào danh sách để công ty gửi thông báo chính thức.
+>
+> ---
+>
+> #### 5. PHỐI HỢP CÔNG NGHỆ VỚI TEAM IT (OANH ĐINH):
+> - Oanh Đinh IT đã hỗ trợ bổ sung thêm trường dữ liệu **`ACA account status`** vào file trích xuất để giúp Manager lọc nhanh những hồ sơ đã có tài khoản ACA.
+> - **Quy định bảo mật nội bộ:** Danh sách có trường ACA này **CHỈ DÙNG NỘI BỘ CHO MANAGER & SUPPORT**, tuyệt đối **không gửi kèm cho Agent** để tránh việc Agent ỷ lại vào việc có sẵn ACA mà lơ là xin AUT.
+>
+> ---
+>
+> #### 6. DEADLINE SỐNG CÒN & BƯỚC ĐI TIẾP THEO:
+> - ⏰ **CHIỀU HÔM NAY (10/11/2026):** Toàn bộ Manager bắt buộc phải hoàn tất confirm danh sách với IT. IT xuất dữ liệu sang Nhân sự.
+> - ⏰ **TỐI HÔM NAY (Thứ Ba - 10/11/2026):** CEO Phúc Trịnh sẽ chủ trì buổi họp chính thức với toàn thể Agent để chốt trách nhiệm xử lý các hồ sơ thiếu AUT.
+
+
