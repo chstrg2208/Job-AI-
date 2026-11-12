@@ -710,4 +710,7 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
 
 ### 3. Cập nhật Hợp đồng (Contract Active) & Điều phối NPN (Kinh nghiệm thực chiến 08/11/2026):
 * **Hãng UHC & NPN AQP:** NPN AQP hiện không có contract active với UHC $\rightarrow$ Chuyển toàn bộ hồ sơ UHC sang **NPN Anh Lan (ALP `#19876750`)** để enroll (ghi nhận hiệu lực tháng 12/2026).
-* **Arkansas (AR) ACA 2026:** Hãng **BCBS tại AR KHÔNG CÓ hợp đồng** với công ty (chỉ có hãng **Ambetter** là có hợp đồng). Support phải tư vấn Agent quote khách sang **Ambetter**; nếu vẫn giữ BCBS sẽ rơi vào diện **$0 Commission (Non-commission)**.
+* **Arkansas (AR) & North Carolina (NC) - BCBS ACA 2026/2027 (CHỈ ĐẠO ĐẶC BIỆT TỪ CEO PHÚC TRỊNH & TIGER TRUONG 05/11/2026):**
+  - **Chính sách nhận khách:** Anh Phúc Trịnh duyệt cho phép **ĐEM VỀ TRƯỚC** cả khách BCBS ở **NC** và **AR**. Công ty đang liên hệ Agent ở AR để lấy bằng và ký contract với các hãng local để sau mùa sẽ có Commission.
+  - **Miễn phí Support $150 (FREE 6 THÁNG):** CEO Phúc Trịnh **FREE $150 cho BCBS ở NC và AR**, nên 2 bang này đi BCBS **KHÔNG THU TIỀN 6 THÁNG** của khách/Agent!
+  - **Thao tác CRM:** Trường `Is this a non-commission deal required support?` chọn **`Yes - waived by Phuc Trinh`**. Deal stage để **`Non Commission - Active`**. Bắt buộc ghi danh có NPN của Agent trên hồ sơ (không để None AOR) để tránh bị BCBS lock commission.

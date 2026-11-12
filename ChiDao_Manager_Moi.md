@@ -1616,3 +1616,19 @@
   - Bảng chi tiết (Dòng 28-42): Thể hiện đầy đủ 11 dòng báo cáo tiếng Việt có dấu, phân loại chuẩn `Nhóm 1 (Agent cho gọi)` và `Nhóm 2 (Agent tự gọi)`.
   - **Khôi phục 100% Ghi chú Cột N (Anya & Sarah):** Đã trích xuất lịch sử phiên bản từ Google Drive và nạp lại chính xác toàn bộ 16 ghi chú của Anya Nguyen và 3 ghi chú của Sarah Thai vào đúng mã hồ sơ CT... của từng tab, sửa vị trí lệch ô.
 * **Google Doc Biên bản họp:** Giữ nguyên vẹn 100% bản ghi cuộc họp gốc của Ban Giám Đốc, không chỉnh sửa nội dung.
+
+---
+
+### 7️⃣1️⃣ CHÍNH SÁCH ĐẶC BIỆT: MIỄN PHÍ PHÍ SUPPORT $150 (FREE 6 THÁNG) CHO BCBS TẠI NC VÀ AR (CHỈ ĐẠO CEO PHÚC TRỊNH & TIGER TRUONG 05/11/2026):
+> 📌 **Chỉ đạo trực tiếp từ CEO Phúc Trịnh (Manager Team) & Quán triệt từ Manager Tiger Truong (Tiger Team Private):**
+> 
+> 1. **Chính sách nhận khách BCBS tại NC và AR:**
+>    - Hãng **BCBS tại North Carolina (NC)** và **Arkansas (AR)** hiện công ty chưa có contract hoàn tất, nhưng **CEO Phúc Trịnh duyệt cho phép ĐEM VỀ TRƯỚC** (Công ty đang làm việc với Agent ở AR để lấy bằng và ký contract với các hãng local để sau mùa sẽ có Commission).
+> 2. **Chính sách Miễn phí Thu phí (FREE 6 THÁNG):**
+>    - **Anh Phúc Trịnh FREE $150 cho BCBS ở NC và AR**.
+>    - Do đó, 2 bang này đi hãng BCBS: **ĐỘI NGŨ SUPPORT TUYỆT ĐỐI KHÔNG LẤY TIỀN / KHÔNG THU PHÍ 6 THÁNG** của khách hay Agent!
+> 3. **Quy chuẩn thao tác trên CRM khi chuyển RTE:**
+>    - Trường **`Is this a non-commission deal required support?`**: Chọn **`Yes - waived by Phuc Trinh`**.
+>    - **Deal Stage:** Chuyển sang **`Non Commission - Active`** (để công ty dễ theo dõi sau mùa bổ sung hợp đồng, không để Enrolled Active).
+>    - **Quy tắc Enroll:** Bắt buộc phải có **NPN của Agent phụ trách** trên đơn ghi danh (tuyệt đối không đi `None AOR` vì BCBS có luật lock vĩnh viễn không thể gỡ commission sau này).
+
