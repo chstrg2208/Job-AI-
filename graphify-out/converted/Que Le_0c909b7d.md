@@ -1,0 +1,15 @@
+<!-- converted from Que Le.xlsx -->
+
+## Sheet: Data
+| Deal (Id) | First Name | Last Name | Name | Stage | Enrolled Address | City | State | Support Agent | Support Manager | Plan Name | Amount | Doctor Name | Create Deal 2027 to: | Deal Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 57fae753-2ab8-4407-9b48-c7234f414bea | Thi lan phuong | Tran | Thi lan phuong Tran - Obamacare 2026 | Deal Lost (Obamacare 2026) | 6671 SE 4th Ln, Ocala, FL, 34472 | Ocala | Florida | Sean Ngo | Tiger Truong | Focus Silver | 0.0 |  |  | Que Le |
+| 04c7b76d-b114-446a-8c4e-bc2842012491 | Que le | Le | Que le Le - Obamacare 2026 | Deal Lost (Obamacare 2026) | 6671 SE 4th Lane, Ocala, FL, 34472 | Ocala | Florida | Sean Ngo | Tiger Truong | Focused Silver - HMO | 0.0 | Madelyn Delgado Borges, APRN |  | Que Le |
+| dc270cfb-ba21-4ced-9285-34a812e81501 | Hoang | Le | Hoang Le - Obamacare 2026 | Deal Lost (Obamacare 2026) | 1496 Ashley Garden Blvd,Charleston, SC, 29414 | Charleston | South Carolina | Sean Ngo | Tiger Truong | Focused Silver - HMO | 0.0 |  |  | Que Le |
+| cfffbe04-56cb-4943-9583-27056b4d491f | Huong | Nguyen | Huong Nguyen - Obamacare 2026 | Deal Lost (Obamacare 2026) | 1496 Ashley Garden Blvd,Charleston, SC, 29414-9125 | Charleston | South Carolina | Sean Ngo | Tiger Truong | Standard Silver - HMO | 0.0 |  |  | Que Le |
+| 4e9057f3-1ffe-48cc-83ab-de562e0e2591 | Thanh dien | Nguyen | Lucas Nguyen - Obamacare 2026 | Deal Lost (Obamacare 2026) | 5728 SW 50th Ave, Ocala, FL 34474 | Ocala | Florida | Sean Ngo | Tiger Truong | Focused Silver - HMO | 0.0 |  |  | Que Le |
+| 0b6f274b-8be3-45fc-b100-0daf12630f98 | Thanh dien | Nguyen | Thanh dien Nguyen - Obamacare 2026 | Deal Lost (Obamacare 2026) | 5728 SW 50th Ave, Ocala, FL 34474 | Ocala | Florida | Sean Ngo | Tiger Truong | Focused Silver - HMO | 0.0 |  |  | Que Le |
+| 94e7d152-80a3-4929-a6b2-c21c41dd445c | Phat | Nguyen | Phat Nguyen - Obamacare 2026 | Deal Lost (Obamacare 2026) |  | Corpus Christi | Texas | Sean Ngo | Tiger Truong | Plus Gold Standard | 0.0 |  |  | Que Le |
+| 979a9747-cfaa-47ab-a00c-00a61e74ec0b | Thanh dien | Nguyen | Nhat Huy Nguyen - Obamacare 2026 | Deal Lost (Obamacare 2026) | 5728 SW 50th Ave, Ocala, FL 34474 | Ocala | Florida | Sean Ngo | Tiger Truong | Blue Select Silver 1443 ($0 Đeuctible/ $0 Virtual PCP Visits/ 3 PCP Visits for $0 then $1/ Adult Dental & Vision/ Rewards) - EPO | 0.0 |  |  | Que Le |
+| 671c5607-c121-4f73-9b85-027cd1292c83 | Thuy | Ho | Thuy (long) Ho - Obamacare 2026 | Deal Lost (Obamacare 2026) | 24 Timbercrest Cir, Hilton Head Island, SC, 29926 | Hilton Head Island | South Carolina | Sean Ngo | Tiger Truong | Focus Silver | 0.0 |  |  | Que Le |
+| 0b60308f-ed2f-424d-b242-c1429d34f886 | Quynh | Le | Quynh (thi phuong) Le - Obamacare 2026 | Deal Lost (Obamacare 2026) | 4465 Ocean Farm Dr, Summerville, SC, 29485 | Charleston | South Carolina | Sean Ngo | Tiger Truong | Focused Silver - HMO | 0.0 |  |  | Que Le |

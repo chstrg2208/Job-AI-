@@ -1,0 +1,15 @@
+<!-- converted from Thi Thuy Nguyen (TX).xlsx -->
+
+## Sheet: Data
+| Deal (Id) | First Name | Last Name | Name | Stage | Enrolled Address | City | State | Support Agent | Support Manager | Plan Name | Amount | Doctor Name | Create Deal 2027 to: | Deal Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ff1390a6-f581-477a-b9a7-b76ab987363a | Makara | Meng | Makara Meng - OB 10/2026 | Deal Lost - Second Change (Obamacare 2026) | 756 Hail Dr Rockwall, TX, 75032 - 5622 | Rockwall | Texas | Sarah Thai | Tiger Truong |  | 0.0 |  |  | Thi Thuy Nguyen (TX) |
+| 307bd8ea-6eb4-4526-a403-3b4dca96817f | Thoi Ho Nhat | Nguyen | Thoi Ho Nhat Nguyen + Thi Phuong Tam Vu + Vu Phuong Anh Nguyen + Vu Anh Quan Nguyen - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 5014 Bridge Creek Ln, Katy, TX 77494 | Katy | Texas | Sarah Thai | Tiger Truong | MyBlue Health Bronze℠ Standard - HMO | 0.0 | Dr. QUYEN TRINH DO, NPI 1033205224, Address: 21770 KINGSLAND BLVD, KATY, TX 77450. |  | Thi Thuy Nguyen (TX) |
+| fab90946-ea95-4d47-a57c-89fd21ee9d8a | Thinh dung | Nguyen | Thinh Dung Nguyen + Tuong An + Le An + Thi Sen Le - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 18303 Laura Shore Dr Cypress TX 77433 | Cypress | Texas | Sarah Thai | Tiger Truong | Community Select Silver 019 (No deductible for PCP, Specialist, Urgent Care & Generics, $0 PCP 24/7 Virtual Care Options) - HMO | 9.91 | UT Physicians ở 5503 N Fry Rd, Katy, TX 77449, phone: (713) 526-4243 ( dr Ngoc Phan) - Thinh Nguyen
+Huy Nguyen, MD, 12609 Louetta Rd - Thi Le + 2 kids |  | Thi Thuy Nguyen (TX) |
+| e67e1dd2-6be4-4c1f-a40d-cc8fb27da061 | Cuong Si | Troung | Cuong Si Troung - OB 10/2026 | Need to Quote (Obamacare 2026) | 4519 Sunny Hazel LN Fulshear, TX 77441 | Fulshear | Texas | Sarah Thai | Tiger Truong |  | 0.0 | N/A |  | Thi Thuy Nguyen (TX) |
+| 5224878f-cbe5-4c12-945c-6644ea341a0f | Nhu Ai | Truong | Nhu Ai Truong + Jerry Truong - OB 09/26 | Enrolled - Active (Obamacare 2026) | 10105 Kempwood Dr Apt 329
+Houston, TX, 77080-3747 | Houston | Texas | Sarah Thai | Tiger Truong | Standard Silver VALUE - HMO | 61.28 | N/A |  | Thi Thuy Nguyen (TX) |
+| 3c772d3b-77e1-40c2-be93-2c3340111157 | THI HOANG YEN | PHAN | Thi hoang yen Phan - Anh tu Nguyen - My anh Nguyen - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 39 May Water Ln
+Fulshear, TX,77441 | Fulshear | Texas | Sarah Thai | Tiger Truong | Standard Silver - EPO | 253.14 | N/A |  | Thi Thuy Nguyen (TX) |
+| c994986d-940e-4329-919c-45cf54782fcd | Van thuyen | Nguyen | Van Thuyen Nguyen + An An + An Phuoc + An Binh + Thi Thuy - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 26010 Pepper Bend Lane, Katy, TX 77494 | Katy | Texas | Sarah Thai | Tiger Truong | Standard Silver - EPO | 38.72 | Quyen Trinh, DO |  | Thi Thuy Nguyen (TX) |

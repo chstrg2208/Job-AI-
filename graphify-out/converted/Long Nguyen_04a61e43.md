@@ -1,0 +1,9 @@
+<!-- converted from Long Nguyen.xlsx -->
+
+## Sheet: Data
+| Deal (Id) | First Name | Last Name | Name | Stage | Enrolled Address | City | State | Support Agent | Support Manager | Plan Name | Amount | Doctor Name | Create Deal 2027 to: | Deal Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| d3fef1a1-3f45-4e6e-a82f-28ae3680fa4f | Dat Huy | Dang | Dat Huy Dang - Thanh Thu Duong - Sophia Dang - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 3606 Inlet Cir, Greenacres, FL 33463 | Greenacres | Florida | Sarah Thai | Tiger Truong | Silver Simple PCP Saver CSR 150 - HMO | 27.44 |  |  | Long Nguyen |
+| 6caebf24-ac01-438d-b5bf-c5c2ddec6234 | Yen Thi Phi | Le | Yen Thi Phi Le - Jayson Huy Dang - Huyen Ngoc Diem Dang -  OB 09/2026 | Enrolled - Active (Obamacare 2026) | 606 Inlet Cir, Greenacres, FL 33463 | Greenacres | Florida | Sarah Thai | Tiger Truong | Silver Simple PCP Saver CSR 150 - HMO | 31.59 |  |  | Long Nguyen |
+| d466045d-0014-406e-8a4b-8d4228512924 | Thi Thuy Kieu | Phan | Thi Thuy Kieu Phan + Duc Thang Bui + Phan Quynh Tu Bui + Phan Quynh Tram Bui - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 10906 PRIMROSE ACRES LN, Houston, TX, 77031 | Houston | Texas | Sarah Thai | Tiger Truong | Blue Advantage Gold HMO℠ 206 - HMO | 401.25 | ba mẹ là bác sĩ Hoang Anh Phan, DO còn 2 đứa nhỏ thì PCP là Jamie Ngo, MD |  | Long Nguyen |
+| 2677f873-959e-48f1-8b65-099f6c3bb072 | Hoang Thai Vi | Tran | Hoang Thai Vi Tran - Thanh Nhan Phan - Tran Thai An Phan - Tran Thai Nguyen Phan - OB 09/2026 | Enrolled - Active (Obamacare 2026) | 16034 BARBAROSSA DR, HOUSTON, TX, 79705 | Houston | Texas | Sarah Thai | Tiger Truong | Blue Advantage Plus Bronze Standard - POS | 0.0 | Hoang Anh Phan, DO |  | Long Nguyen |

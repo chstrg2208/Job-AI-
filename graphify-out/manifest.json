@@ -1,0 +1,933 @@
+{
+  "Quy Tr\u00ecnh/scripts/ringcentral_daily_sync.js": {
+    "mtime": 1793304455.2164125,
+    "seen": 1794742493.533359,
+    "ast_hash": "39a521c336669b4d267075054c63ae10",
+    "semantic_hash": "39a521c336669b4d267075054c63ae10"
+  },
+  "TraCuu_Premium_CMS_2026.py": {
+    "mtime": 1790345964.4131331,
+    "seen": 1794742493.533359,
+    "ast_hash": "0be7495815ad02135944317b5f4703b1",
+    "semantic_hash": "0be7495815ad02135944317b5f4703b1"
+  },
+  "TraCuu_Zipcode_GiaTot.py": {
+    "mtime": 1790346539.7333007,
+    "seen": 1794742493.533359,
+    "ast_hash": "bcc1726e0ce66225068859d2bc9add13",
+    "semantic_hash": "bcc1726e0ce66225068859d2bc9add13"
+  },
+  "analyze_florida_blue.js": {
+    "mtime": 1793396811.784143,
+    "seen": 1794742493.533359,
+    "ast_hash": "3779346dc14ae3ec35d090a41454b11d",
+    "semantic_hash": "3779346dc14ae3ec35d090a41454b11d"
+  },
+  "app_server.py": {
+    "mtime": 1790349349.709576,
+    "seen": 1794742493.533359,
+    "ast_hash": "d5e296387071fccc3de3f914e903c639",
+    "semantic_hash": "d5e296387071fccc3de3f914e903c639"
+  },
+  "build_db.py": {
+    "mtime": 1790346738.048321,
+    "seen": 1794742493.533359,
+    "ast_hash": "c352473729410762bb28888772cdce5e",
+    "semantic_hash": "c352473729410762bb28888772cdce5e"
+  },
+  "crm_team_tiger_all_deals.json": {
+    "mtime": 1793372513.9934864,
+    "seen": 1794742493.533359,
+    "ast_hash": "99bbf81f63b68a4905df89dfe3362a3d",
+    "semantic_hash": "99bbf81f63b68a4905df89dfe3362a3d",
+    "ast_empty": true
+  },
+  "extract_recent_mgr.py": {
+    "mtime": 1790695712.6444654,
+    "seen": 1794742493.533359,
+    "ast_hash": "7c45acf11dc26f4c201b0a951d3127a5",
+    "semantic_hash": "7c45acf11dc26f4c201b0a951d3127a5"
+  },
+  "read_author_docx.ps1": {
+    "mtime": 1792013397.1749902,
+    "seen": 1794742493.533359,
+    "ast_hash": "9e2f745d649516457f51deebe6d6581c",
+    "semantic_hash": "9e2f745d649516457f51deebe6d6581c"
+  },
+  "read_npn_pdf.py": {
+    "mtime": 1790801303.890264,
+    "seen": 1794742493.533359,
+    "ast_hash": "56f8b9a241f4e97e03c8b22702c84128",
+    "semantic_hash": "56f8b9a241f4e97e03c8b22702c84128"
+  },
+  "read_pdf_rules.py": {
+    "mtime": 1790801284.9480464,
+    "seen": 1794742493.5343604,
+    "ast_hash": "6cc59088feba0a10e1a9882c182b9523",
+    "semantic_hash": "6cc59088feba0a10e1a9882c182b9523"
+  },
+  "read_pdf_word.ps1": {
+    "mtime": 1790801385.9602845,
+    "seen": 1794742493.5343604,
+    "ast_hash": "8c864ea3e6cefa1c641934e8c27e2934",
+    "semantic_hash": "8c864ea3e6cefa1c641934e8c27e2934"
+  },
+  "search_agent_cu_time.py": {
+    "mtime": 1790801322.8875167,
+    "seen": 1794742493.5343604,
+    "ast_hash": "7cc445b8406790d3b2bb7dbd479d07db",
+    "semantic_hash": "7cc445b8406790d3b2bb7dbd479d07db"
+  },
+  "search_time_limit.py": {
+    "mtime": 1790801358.8842528,
+    "seen": 1794742493.5343604,
+    "ast_hash": "dd944f0d8a1419e8ecfd7451b7555ad3",
+    "semantic_hash": "dd944f0d8a1419e8ecfd7451b7555ad3"
+  },
+  "sync_ring_knowledge.py": {
+    "mtime": 1793527462.6459565,
+    "seen": 1794742493.5343604,
+    "ast_hash": "095aae082af55807e693299d8c43ff7e",
+    "semantic_hash": "095aae082af55807e693299d8c43ff7e"
+  },
+  "tbr-extension/content.js": {
+    "mtime": 1789795722.744516,
+    "seen": 1794742493.5343604,
+    "ast_hash": "a130244fc3687715de5400f640532786",
+    "semantic_hash": "a130244fc3687715de5400f640532786"
+  },
+  "tbr-extension/gemini.js": {
+    "mtime": 1789750344.0880077,
+    "seen": 1794742493.5343604,
+    "ast_hash": "6997e1e2f45f0c3ecbe2711ed0fb104f",
+    "semantic_hash": "6997e1e2f45f0c3ecbe2711ed0fb104f"
+  },
+  "tbr-extension/injected.js": {
+    "mtime": 1789736911.1209507,
+    "seen": 1794742493.5343604,
+    "ast_hash": "2fbabc77b08d51b2716890aa59aa16a8",
+    "semantic_hash": "2fbabc77b08d51b2716890aa59aa16a8"
+  },
+  "tbr-extension/manifest.json": {
+    "mtime": 1789795123.1646442,
+    "seen": 1794742493.5343604,
+    "ast_hash": "a1ed36e446e0570af294dcd3249d8965",
+    "semantic_hash": "a1ed36e446e0570af294dcd3249d8965"
+  },
+  "tbr-extension/popup.js": {
+    "mtime": 1789737325.288066,
+    "seen": 1794742493.5343604,
+    "ast_hash": "fef6e742936421f977e934ff1726140d",
+    "semantic_hash": "fef6e742936421f977e934ff1726140d"
+  },
+  "tbr-extension/sops_data.js": {
+    "mtime": 1789739487.9874685,
+    "seen": 1794742493.5343604,
+    "ast_hash": "2e5b0b97c9a49b0ccc1761230530263e",
+    "semantic_hash": "2e5b0b97c9a49b0ccc1761230530263e"
+  },
+  "tbr-extension/sound.js": {
+    "mtime": 1789736245.1678238,
+    "seen": 1794742493.5343604,
+    "ast_hash": "8fbfe61d713a739dcf899ea6eeba5f6f",
+    "semantic_hash": "8fbfe61d713a739dcf899ea6eeba5f6f"
+  },
+  "2027_Medicare_Cheat_Sheet_Texas_Final.md": {
+    "mtime": 1791990345.315482,
+    "seen": 1794742493.5343604,
+    "ast_hash": "00249eb61b3964970dea7db2a513a78e",
+    "semantic_hash": "00249eb61b3964970dea7db2a513a78e"
+  },
+  "AGENTS.md": {
+    "mtime": 1794506124.1519144,
+    "seen": 1794742493.5343604,
+    "ast_hash": "53bf47a43e3cd282d61edb2f6e4e6466",
+    "semantic_hash": "53bf47a43e3cd282d61edb2f6e4e6466"
+  },
+  "Bang_Chuan_Ngheo_FPL_2026.md": {
+    "mtime": 1790345849.181775,
+    "seen": 1794742493.5343604,
+    "ast_hash": "340b45d9b0a7b8f71552a6ea9a756c54",
+    "semantic_hash": "340b45d9b0a7b8f71552a6ea9a756c54"
+  },
+  "Bien_Ban_Hop_BQL_30_10_2026_Tiger_Truong.md": {
+    "mtime": 1793402762.133679,
+    "seen": 1794742493.5353606,
+    "ast_hash": "0f39579c0a2acc3f6da23056804dc5a2",
+    "semantic_hash": "0f39579c0a2acc3f6da23056804dc5a2"
+  },
+  "CHROME_WEBSTORE_SUBMISSION_GUIDE.txt": {
+    "mtime": 1789741679.752374,
+    "seen": 1794742493.5353606,
+    "ast_hash": "426cd364f6c804147907c7db9824d308",
+    "semantic_hash": "426cd364f6c804147907c7db9824d308"
+  },
+  "ChiDao_Manager_Moi.md": {
+    "mtime": 1794506153.7018173,
+    "seen": 1794742493.5353606,
+    "ast_hash": "6595c8426bdd3e0452165fd4a8e4bd69",
+    "semantic_hash": "6595c8426bdd3e0452165fd4a8e4bd69"
+  },
+  "Medicare_2027_Nhung_Diem_Moi_Quan_Trong.md": {
+    "mtime": 1791742121.3877378,
+    "seen": 1794742493.5353606,
+    "ast_hash": "d680eb942ef54ff3fdace7e52ffe9df3",
+    "semantic_hash": "d680eb942ef54ff3fdace7e52ffe9df3"
+  },
+  "Nghiep_Vu_Medicare_Chi_Tam_Huong_Dan.md": {
+    "mtime": 1790628711.0759768,
+    "seen": 1794742493.5353606,
+    "ast_hash": "fca3aea537a109b7cefc8e0c5263b327",
+    "semantic_hash": "fca3aea537a109b7cefc8e0c5263b327"
+  },
+  "Quy Tr\u00ecnh/CAM_NANG_NPN_AUTHORIZE_VA_OVERRIDE_BONUS_2027.md": {
+    "mtime": 1792420347.8521318,
+    "seen": 1794742493.5353606,
+    "ast_hash": "9d3452b551f9145cccbc72707b00a7b4",
+    "semantic_hash": "9d3452b551f9145cccbc72707b00a7b4"
+  },
+  "Quy Tr\u00ecnh/Danh_Sach_Hop_Dong_Contract_List_Va_Payrate_2026.md": {
+    "mtime": 1791410328.9850924,
+    "seen": 1794742493.5353606,
+    "ast_hash": "96cf574f2c20ffc0cc77a22aca28d466",
+    "semantic_hash": "96cf574f2c20ffc0cc77a22aca28d466"
+  },
+  "Quy Tr\u00ecnh/Quy_Dinh_Deal_Dental_Sale_Support_Status_Va_Dong_Bo_Owner.md": {
+    "mtime": 1791373705.0776422,
+    "seen": 1794742493.5353606,
+    "ast_hash": "e6329fa2c31abafe7fa22d97336f9d65",
+    "semantic_hash": "e6329fa2c31abafe7fa22d97336f9d65"
+  },
+  "Quy Tr\u00ecnh/Quy_Dinh_Thoi_Han_Bo_Sung_Documents_Va_Renew_2027.md": {
+    "mtime": 1790860777.4706154,
+    "seen": 1794742493.5353606,
+    "ast_hash": "b8d304cc7ed6c4c9728e80bd072ffb0b",
+    "semantic_hash": "b8d304cc7ed6c4c9728e80bd072ffb0b"
+  },
+  "Quy Tr\u00ecnh/Quy_Trinh_Tao_Company_Va_Contact_Trong_Contact_Detail.md": {
+    "mtime": 1790378488.3890352,
+    "seen": 1794742493.5353606,
+    "ast_hash": "c915c26562548e8a710ebf7d977308df",
+    "semantic_hash": "c915c26562548e8a710ebf7d977308df"
+  },
+  "Quy Tr\u00ecnh/RingCentral_Summaries/Daily_Summary_2026-10-30.md": {
+    "mtime": 1793367044.413833,
+    "seen": 1794742493.5353606,
+    "ast_hash": "cc95e76b7f815efe2b94e2dfdbe97fb2",
+    "semantic_hash": "cc95e76b7f815efe2b94e2dfdbe97fb2"
+  },
+  "Quy Tr\u00ecnh/RingCentral_Summaries/Daily_Summary_2026-11-05.md": {
+    "mtime": 1793885444.5390294,
+    "seen": 1794742493.5363603,
+    "ast_hash": "01327889013dadf90524ffca0bb841a0",
+    "semantic_hash": "01327889013dadf90524ffca0bb841a0"
+  },
+  "Quy Tr\u00ecnh/RingCentral_Summaries/Daily_Summary_2026-11-08.md": {
+    "mtime": 1794144646.74079,
+    "seen": 1794742493.5363603,
+    "ast_hash": "ce0373d34f5586b9c307f0d87a4e193e",
+    "semantic_hash": "ce0373d34f5586b9c307f0d87a4e193e"
+  },
+  "Quy Tr\u00ecnh/Step Author/HUONG_DAN_XAC_THUC_AUTHORIZE_HEALTHSHERPA.md": {
+    "mtime": 1792013884.2081637,
+    "seen": 1794742493.5363603,
+    "ast_hash": "5bfd301f16bf845f2cf4a84de15ecf2f",
+    "semantic_hash": "5bfd301f16bf845f2cf4a84de15ecf2f"
+  },
+  "Quy_Trinh_Author_Va_Xu_Ly_Ho_So_2027_Tiger_Truong.md": {
+    "mtime": 1793980109.038427,
+    "seen": 1794742493.5363603,
+    "ast_hash": "6bc867da6e6b27c2f8d38316e9ad3c04",
+    "semantic_hash": "6bc867da6e6b27c2f8d38316e9ad3c04"
+  },
+  "README.md": {
+    "mtime": 1789795172.7524924,
+    "seen": 1794742493.5363603,
+    "ast_hash": "ff652f1d5160328c0d68fc31c7e2a03e",
+    "semantic_hash": "ff652f1d5160328c0d68fc31c7e2a03e"
+  },
+  "RingCentral_Daily_Digest.md": {
+    "mtime": 1794144646.7417884,
+    "seen": 1794742493.5363603,
+    "ast_hash": "ce0373d34f5586b9c307f0d87a4e193e",
+    "semantic_hash": "ce0373d34f5586b9c307f0d87a4e193e"
+  },
+  "THONG_BAO_VA_HUONG_DAN_NHAN_VIEN.txt": {
+    "mtime": 1789795165.3132234,
+    "seen": 1794742493.5363603,
+    "ast_hash": "55938df6768199977a3aa4b1b169b984",
+    "semantic_hash": "55938df6768199977a3aa4b1b169b984"
+  },
+  "Video/Tong_Hop_Meeting_Tam_Phan_Tiger_2026-11-13.md": {
+    "mtime": 1794741136.8009913,
+    "seen": 1794742493.5363603,
+    "ast_hash": "44222f63444fd281f4921fb70172d536",
+    "semantic_hash": "44222f63444fd281f4921fb70172d536"
+  },
+  "crm_1stpay_november_team_tiger.md": {
+    "mtime": 1793371897.7418706,
+    "seen": 1794742493.5363603,
+    "ast_hash": "ad0c224c10192c6160b9a01b997cb2c6",
+    "semantic_hash": "ad0c224c10192c6160b9a01b997cb2c6"
+  },
+  "crm_contacts_data.md": {
+    "mtime": 1793365869.2482412,
+    "seen": 1794742493.5363603,
+    "ast_hash": "1729eb2a258eda53d218211ed12c67fb",
+    "semantic_hash": "1729eb2a258eda53d218211ed12c67fb"
+  },
+  "crm_team_tiger_dashboard.md": {
+    "mtime": 1793372598.6070018,
+    "seen": 1794742493.5363603,
+    "ast_hash": "5431c399e819a7029de0b5bc28836800",
+    "semantic_hash": "5431c399e819a7029de0b5bc28836800"
+  },
+  "graphify-out/converted/Bien_Ban_Hop_BQL_30_10_2026_Tiger_Truong_b6b097e7.md": {
+    "mtime": 1794740968.1208627,
+    "seen": 1794742493.5363603,
+    "ast_hash": "00fc671b6d6e0d7409b542f48ed210b0",
+    "semantic_hash": "00fc671b6d6e0d7409b542f48ed210b0"
+  },
+  "graphify-out/converted/HOW TO WAY AUTHORIZE_0101355d.md": {
+    "mtime": 1794740974.160632,
+    "seen": 1794742493.5363603,
+    "ast_hash": "d1c3b426613e5eaaca5229fa4166d223",
+    "semantic_hash": "d1c3b426613e5eaaca5229fa4166d223"
+  },
+  "graphify-out/converted/Hau Pham_157abfeb.md": {
+    "mtime": 1794740974.1696362,
+    "seen": 1794742493.5363603,
+    "ast_hash": "e645c446056bae26be1b4bdd5c5a678e",
+    "semantic_hash": "e645c446056bae26be1b4bdd5c5a678e"
+  },
+  "graphify-out/converted/Hop_Dong_Lao_Dong_Truong_Chi_Trung_a56950bb.md": {
+    "mtime": 1794740970.5329354,
+    "seen": 1794742493.5363603,
+    "ast_hash": "24dd1145b3079f61b67ef376a1a1c92e",
+    "semantic_hash": "24dd1145b3079f61b67ef376a1a1c92e"
+  },
+  "graphify-out/converted/Jay  Ly (Tri chau)_3cbfb638.md": {
+    "mtime": 1794740970.903026,
+    "seen": 1794742493.5374503,
+    "ast_hash": "69e664f24d7955fe7f7abeeeeb62e4f9",
+    "semantic_hash": "69e664f24d7955fe7f7abeeeeb62e4f9"
+  },
+  "graphify-out/converted/Jay Ly (Tri chau)_1f3d4d7f.md": {
+    "mtime": 1794740968.376038,
+    "seen": 1794742493.5374503,
+    "ast_hash": "21102e4363225e0fc8609cb7b318a7d4",
+    "semantic_hash": "21102e4363225e0fc8609cb7b318a7d4"
+  },
+  "graphify-out/converted/Jay Ly_dce191f8.md": {
+    "mtime": 1794740974.1813362,
+    "seen": 1794742493.5374503,
+    "ast_hash": "2103ef335849391ac68b4a993e043264",
+    "semantic_hash": "2103ef335849391ac68b4a993e043264"
+  },
+  "graphify-out/converted/Khanh Nguyen ( Tu Nguyen)_27fadaa4.md": {
+    "mtime": 1794740968.6303504,
+    "seen": 1794742493.5374503,
+    "ast_hash": "970c2828b81a48e77cdddec1d565ca28",
+    "semantic_hash": "970c2828b81a48e77cdddec1d565ca28"
+  },
+  "graphify-out/converted/Khanh Nguyen ( Tu Nguyen)_7e5eac3d.md": {
+    "mtime": 1794740971.3041248,
+    "seen": 1794742493.5374503,
+    "ast_hash": "746654c3e85f05ac2264561a3b65c04d",
+    "semantic_hash": "746654c3e85f05ac2264561a3b65c04d"
+  },
+  "graphify-out/converted/Khanh Nguyen_17bb5959.md": {
+    "mtime": 1794740974.209664,
+    "seen": 1794742493.5374503,
+    "ast_hash": "f618e2793f97e839147ae9a570694d73",
+    "semantic_hash": "f618e2793f97e839147ae9a570694d73"
+  },
+  "graphify-out/converted/Loan T Bui (MS)_1eebf26e.md": {
+    "mtime": 1794740968.8575785,
+    "seen": 1794742493.5374503,
+    "ast_hash": "532ee6a7df1371ece08caf8555633324",
+    "semantic_hash": "532ee6a7df1371ece08caf8555633324"
+  },
+  "graphify-out/converted/Loan T Bui (MS)_d9d3df6a.md": {
+    "mtime": 1794740971.645504,
+    "seen": 1794742493.5374503,
+    "ast_hash": "bc1cd6ad17e536c22e52cee9d3ee4b5c",
+    "semantic_hash": "bc1cd6ad17e536c22e52cee9d3ee4b5c"
+  },
+  "graphify-out/converted/Loan T Bui_87b24657.md": {
+    "mtime": 1794740974.2196689,
+    "seen": 1794742493.5374503,
+    "ast_hash": "15d4d1b40ce8b4c7c4bdf3931e016659",
+    "semantic_hash": "15d4d1b40ce8b4c7c4bdf3931e016659"
+  },
+  "graphify-out/converted/Long Nguyen_04a61e43.md": {
+    "mtime": 1794740969.0854652,
+    "seen": 1794742493.5374503,
+    "ast_hash": "2da49829515a5a20de3f3e8c19a23e62",
+    "semantic_hash": "2da49829515a5a20de3f3e8c19a23e62"
+  },
+  "graphify-out/converted/Long Nguyen_39456750.md": {
+    "mtime": 1794740971.9877584,
+    "seen": 1794742493.5374503,
+    "ast_hash": "5c6498c16ac72467d088ef60296cf962",
+    "semantic_hash": "5c6498c16ac72467d088ef60296cf962"
+  },
+  "graphify-out/converted/Long Nguyen_52557c28.md": {
+    "mtime": 1794740974.227502,
+    "seen": 1794742493.5374503,
+    "ast_hash": "0a8b7b1d3f5e91b18672b47230b511b2",
+    "semantic_hash": "0a8b7b1d3f5e91b18672b47230b511b2"
+  },
+  "graphify-out/converted/Paul Do_4ab0bbc0.md": {
+    "mtime": 1794740969.29617,
+    "seen": 1794742493.5374503,
+    "ast_hash": "4553720617ce7bdcd3792b39b91652f8",
+    "semantic_hash": "4553720617ce7bdcd3792b39b91652f8"
+  },
+  "graphify-out/converted/Paul Do_fc7fb26e.md": {
+    "mtime": 1794740972.3433585,
+    "seen": 1794742493.5374503,
+    "ast_hash": "af6772bff8f71fde1d71abf7586e3b0b",
+    "semantic_hash": "af6772bff8f71fde1d71abf7586e3b0b"
+  },
+  "graphify-out/converted/Plan 2027_a77ce97a.md": {
+    "mtime": 1794740974.1433809,
+    "seen": 1794742493.5374503,
+    "ast_hash": "da5b3d4f6f9245b2ae7581f91e9083b7",
+    "semantic_hash": "da5b3d4f6f9245b2ae7581f91e9083b7"
+  },
+  "graphify-out/converted/Que Le_0c909b7d.md": {
+    "mtime": 1794740969.518193,
+    "seen": 1794742493.5384557,
+    "ast_hash": "1401313de2041aaa40889ea3f59a5bae",
+    "semantic_hash": "1401313de2041aaa40889ea3f59a5bae"
+  },
+  "graphify-out/converted/Que Le_8e65f330.md": {
+    "mtime": 1794740972.6773224,
+    "seen": 1794742493.5384557,
+    "ast_hash": "d2369ace5a698779b0089d11ea62a143",
+    "semantic_hash": "d2369ace5a698779b0089d11ea62a143"
+  },
+  "graphify-out/converted/Quyen Le_04734802.md": {
+    "mtime": 1794740973.0423205,
+    "seen": 1794742493.5384557,
+    "ast_hash": "3d0584d341d3ece9f3935d91a1346dfa",
+    "semantic_hash": "3d0584d341d3ece9f3935d91a1346dfa"
+  },
+  "graphify-out/converted/Quyen Le_5efe1750.md": {
+    "mtime": 1794740974.2395556,
+    "seen": 1794742493.5384557,
+    "ast_hash": "7691c8d9540d300f58e4656390fb6e7e",
+    "semantic_hash": "7691c8d9540d300f58e4656390fb6e7e"
+  },
+  "graphify-out/converted/Quyen Le_80f700c6.md": {
+    "mtime": 1794740969.7411065,
+    "seen": 1794742493.5384557,
+    "ast_hash": "71d5eb0d465401fd4085486f3e255de9",
+    "semantic_hash": "71d5eb0d465401fd4085486f3e255de9"
+  },
+  "graphify-out/converted/Quyen Nguyen_cba8e04f.md": {
+    "mtime": 1794740974.2478127,
+    "seen": 1794742493.5384557,
+    "ast_hash": "46b7ac677f5c074646d5b4778cb7c50e",
+    "semantic_hash": "46b7ac677f5c074646d5b4778cb7c50e"
+  },
+  "graphify-out/converted/Tan Hao Hua_e463a4fd.md": {
+    "mtime": 1794740974.2523198,
+    "seen": 1794742493.5384557,
+    "ast_hash": "c67059c4366ac42e8bd1eaeb478243da",
+    "semantic_hash": "c67059c4366ac42e8bd1eaeb478243da"
+  },
+  "graphify-out/converted/Tan hao Hua (CA)_1e2ce681.md": {
+    "mtime": 1794740973.4041016,
+    "seen": 1794742493.5384557,
+    "ast_hash": "c967a414fc80b30db662231c678811a9",
+    "semantic_hash": "c967a414fc80b30db662231c678811a9"
+  },
+  "graphify-out/converted/Tan hao Hua (CA)_a69a3af0.md": {
+    "mtime": 1794740969.9634988,
+    "seen": 1794742493.5384557,
+    "ast_hash": "6c13a40190c2a42d11a05f90d133a436",
+    "semantic_hash": "6c13a40190c2a42d11a05f90d133a436"
+  },
+  "graphify-out/converted/Thi Thuy Nguyen (TX)_24643c09.md": {
+    "mtime": 1794740973.7476366,
+    "seen": 1794742493.5384557,
+    "ast_hash": "e10a412307046a068f47cf8ff3b4662a",
+    "semantic_hash": "e10a412307046a068f47cf8ff3b4662a"
+  },
+  "graphify-out/converted/Thi Thuy Nguyen (TX)_d8241f0d.md": {
+    "mtime": 1794740970.1982355,
+    "seen": 1794742493.5384557,
+    "ast_hash": "03b6e30907b2e122780689938ff568ba",
+    "semantic_hash": "03b6e30907b2e122780689938ff568ba"
+  },
+  "graphify-out/converted/Tri Tran_81e805ed.md": {
+    "mtime": 1794740974.261829,
+    "seen": 1794742493.5384557,
+    "ast_hash": "310795a065e40c9ab5c94e6dd78e860e",
+    "semantic_hash": "310795a065e40c9ab5c94e6dd78e860e"
+  },
+  "graphify-out/converted/Tri Tran_994eaa1c.md": {
+    "mtime": 1794740974.1137655,
+    "seen": 1794742493.5384557,
+    "ast_hash": "095958c78e6056f6d652963652af903e",
+    "semantic_hash": "095958c78e6056f6d652963652af903e"
+  },
+  "graphify-out/converted/Tri Tran_c87cd2b7.md": {
+    "mtime": 1794740970.4258626,
+    "seen": 1794742493.5384557,
+    "ast_hash": "7dba4cc390dc0e65f0564ca05181a1e7",
+    "semantic_hash": "7dba4cc390dc0e65f0564ca05181a1e7"
+  },
+  "tbr-extension/HUONG_DAN_CAI_DAT.txt": {
+    "mtime": 1789741090.1021316,
+    "seen": 1794742493.5394552,
+    "ast_hash": "43684681c68f5afe21efaef72338ebd4",
+    "semantic_hash": "43684681c68f5afe21efaef72338ebd4"
+  },
+  "tbr-extension/README.md": {
+    "mtime": 1789736368.9412622,
+    "seen": 1794742493.5394552,
+    "ast_hash": "e6b142ab964ff8a1b5a6e8b05f93bd76",
+    "semantic_hash": "e6b142ab964ff8a1b5a6e8b05f93bd76"
+  },
+  "tbr-extension/popup.html": {
+    "mtime": 1789795136.017905,
+    "seen": 1794742493.5394552,
+    "ast_hash": "53fcf2dc13a70bbb32492ba87c1e9567",
+    "semantic_hash": "53fcf2dc13a70bbb32492ba87c1e9567"
+  },
+  "File tum lum job/Ambetter 1.pdf": {
+    "mtime": 1794333563.0770135,
+    "seen": 1794742493.5394552,
+    "ast_hash": "4d8262b3a12763a2dd1d8ab1031b1cee",
+    "semantic_hash": "4d8262b3a12763a2dd1d8ab1031b1cee"
+  },
+  "File tum lum job/Ambetter 2.pdf": {
+    "mtime": 1794333570.5922134,
+    "seen": 1794742493.5394552,
+    "ast_hash": "8d57bf33c5bfa041941b4f15624312ea",
+    "semantic_hash": "8d57bf33c5bfa041941b4f15624312ea"
+  },
+  "File tum lum job/Ambetter 3.pdf": {
+    "mtime": 1794333578.0567334,
+    "seen": 1794742493.5394552,
+    "ast_hash": "820aec5f97fee6b40f118e3d00185b8c",
+    "semantic_hash": "820aec5f97fee6b40f118e3d00185b8c"
+  },
+  "File tum lum job/Detail H1A1 28k - Ambetter.pdf": {
+    "mtime": 1794333964.0826292,
+    "seen": 1794742493.5394552,
+    "ast_hash": "c26e6caf77ba5cabdb0a2d491b8b130a",
+    "semantic_hash": "c26e6caf77ba5cabdb0a2d491b8b130a"
+  },
+  "File tum lum job/Detail H1A1 28k.pdf": {
+    "mtime": 1794333842.037979,
+    "seen": 1794742493.5394552,
+    "ast_hash": "3367ace1fe9126608869738dc0b55277",
+    "semantic_hash": "3367ace1fe9126608869738dc0b55277"
+  },
+  "File tum lum job/Enroll ACA 01.01.2027 - Binh Khanh Nghi Ngo.pdf": {
+    "mtime": 1794501486.0102768,
+    "seen": 1794742493.5394552,
+    "ast_hash": "acfdbb2a83f13769ed6184f9b2063fdc",
+    "semantic_hash": "acfdbb2a83f13769ed6184f9b2063fdc"
+  },
+  "File tum lum job/Enroll ACA 01.01.2027 - Hong Tran.pdf": {
+    "mtime": 1794500480.502426,
+    "seen": 1794742493.5394552,
+    "ast_hash": "3f887644886cd8e72758a041d6216713",
+    "semantic_hash": "3f887644886cd8e72758a041d6216713"
+  },
+  "File tum lum job/Enroll ACA 01.01.2027 - Nghiem Nguyen.pdf": {
+    "mtime": 1794505546.5878942,
+    "seen": 1794742493.5394552,
+    "ast_hash": "3bbe77c48f661388e2225d791086c9dc",
+    "semantic_hash": "3bbe77c48f661388e2225d791086c9dc"
+  },
+  "File tum lum job/Enroll ACA 01.01.2027 - Thi Tu Hoa Ha.pdf": {
+    "mtime": 1794344260.1988904,
+    "seen": 1794742493.5394552,
+    "ast_hash": "8e4ec202c39dc5f5884ab60c82fbd942",
+    "semantic_hash": "8e4ec202c39dc5f5884ab60c82fbd942"
+  },
+  "File tum lum job/List 1.pdf": {
+    "mtime": 1794333513.9597807,
+    "seen": 1794742493.5394552,
+    "ast_hash": "a9f3a4fae094a267328e38a68ed5c86a",
+    "semantic_hash": "a9f3a4fae094a267328e38a68ed5c86a"
+  },
+  "File tum lum job/Plan 12.01.2026 - Duc Vinh Tran.pdf": {
+    "mtime": 1794417439.1368804,
+    "seen": 1794742493.5394552,
+    "ast_hash": "4c2a3e7afc54be627c02ae38fc2f54eb",
+    "semantic_hash": "4c2a3e7afc54be627c02ae38fc2f54eb"
+  },
+  "File tum lum job/Plan 12.01.2026 - Quyen Nguyen.pdf": {
+    "mtime": 1794418286.4176228,
+    "seen": 1794742493.5394552,
+    "ast_hash": "7007aa188871169bf36b80f1429f3d54",
+    "semantic_hash": "7007aa188871169bf36b80f1429f3d54"
+  },
+  "File tum lum job/Plan detail 12.01.2026 - Duc Vinh Tran.pdf": {
+    "mtime": 1794417463.5271556,
+    "seen": 1794742493.5404544,
+    "ast_hash": "cc45a71c1e7addbcdccea700225f0750",
+    "semantic_hash": "cc45a71c1e7addbcdccea700225f0750"
+  },
+  "File tum lum job/Plan detail 12.01.2026 - Quyen Nguyen.pdf": {
+    "mtime": 1794418305.3335147,
+    "seen": 1794742493.5404544,
+    "ast_hash": "352089646aa788696db7aaf9450f9d76",
+    "semantic_hash": "352089646aa788696db7aaf9450f9d76"
+  },
+  "File tum lum job/list 2.pdf": {
+    "mtime": 1794333526.1309109,
+    "seen": 1794742493.5404544,
+    "ast_hash": "0db7fc16ed6dc2fb407913d126da828b",
+    "semantic_hash": "0db7fc16ed6dc2fb407913d126da828b"
+  },
+  "File tum lum job/list 3.pdf": {
+    "mtime": 1794333533.2964697,
+    "seen": 1794742493.5404544,
+    "ast_hash": "575265182993f698c487ba79e5dba131",
+    "semantic_hash": "575265182993f698c487ba79e5dba131"
+  },
+  "File tum lum job/list 5.pdf": {
+    "mtime": 1794333553.070856,
+    "seen": 1794742493.5404544,
+    "ast_hash": "73408dd544f5371e12683f27cd9fdd86",
+    "semantic_hash": "73408dd544f5371e12683f27cd9fdd86"
+  },
+  "File tum lum job/list4.pdf": {
+    "mtime": 1794333542.5247848,
+    "seen": 1794742493.5404544,
+    "ast_hash": "8b1a213394e09e5e00df66fac2015ddc",
+    "semantic_hash": "8b1a213394e09e5e00df66fac2015ddc"
+  },
+  "H\u1ee3p \u0111\u1ed3ng lao \u0111\u1ed9ng/Hop_Dong_Lao_Dong_Truong_Chi_Trung.pdf": {
+    "mtime": 1794560829.0674968,
+    "seen": 1794742493.5404544,
+    "ast_hash": "e7a4607007a5ccf4e5b225c0e4e4dc3b",
+    "semantic_hash": "e7a4607007a5ccf4e5b225c0e4e4dc3b"
+  },
+  "Quy Tr\u00ecnh/04. WP - Working with Tickets and Tasks in Hubspot.pdf": {
+    "mtime": 1789738562.1637156,
+    "seen": 1794742493.5404544,
+    "ast_hash": "bbac756bb2f51431d7310880634de1ad",
+    "semantic_hash": "bbac756bb2f51431d7310880634de1ad"
+  },
+  "Quy Tr\u00ecnh/1 . QUY TR\u00ccNH QUOTE V\u00c0 ENROLL - Viet - Updated 05-2025.pdf": {
+    "mtime": 1789738564.7513726,
+    "seen": 1794742493.5404544,
+    "ast_hash": "476f640f2a352783a10f61dd078aa31a",
+    "semantic_hash": "476f640f2a352783a10f61dd078aa31a"
+  },
+  "Quy Tr\u00ecnh/10. QUY TR\u00ccNH PAYMENT - Chinh sua Bo sung - 03-2026w (1).pdf": {
+    "mtime": 1789738563.3332613,
+    "seen": 1794742493.5404544,
+    "ast_hash": "a03b2070c986c65eb518909e26d9aa35",
+    "semantic_hash": "a03b2070c986c65eb518909e26d9aa35"
+  },
+  "Quy Tr\u00ecnh/1099Presidio - Tiger.pdf": {
+    "mtime": 1789739408.7205074,
+    "seen": 1794742493.5404544,
+    "ast_hash": "8fe4c9a26fa71dfe7925dbf7e9e97934",
+    "semantic_hash": "8fe4c9a26fa71dfe7925dbf7e9e97934"
+  },
+  "Quy Tr\u00ecnh/11. QUY TR\u00ccNH CH\u1eccN_ C\u1eacP NH\u1eacT B\u00c1C S\u0128 - wendy- approved.pdf": {
+    "mtime": 1789738591.4582255,
+    "seen": 1794742493.5414565,
+    "ast_hash": "05004b9bdcb53afbecbe6fefdc599fcf",
+    "semantic_hash": "05004b9bdcb53afbecbe6fefdc599fcf"
+  },
+  "Quy Tr\u00ecnh/12.Quy Tr\u00ecnh H\u1ee7y G\u00f3i B\u1ea3o Hi\u1ec3m.pdf": {
+    "mtime": 1789738600.3548024,
+    "seen": 1794742493.5414565,
+    "ast_hash": "832f58e45549df6b4c6b4baf85d53722",
+    "semantic_hash": "832f58e45549df6b4c6b4baf85d53722"
+  },
+  "Quy Tr\u00ecnh/13. QUY TR\u00ccNH \u0110\u1ed4I G\u00d3I B\u1ea2O HI\u1ec2M_ THAY \u0110\u1ed4I H\u1ed2 S\u01a0 OBAMA - wendy- approved.pdf": {
+    "mtime": 1789738603.4593146,
+    "seen": 1794742493.5414565,
+    "ast_hash": "7aff7cf6257d9bfdf1a8fbf22041cccb",
+    "semantic_hash": "7aff7cf6257d9bfdf1a8fbf22041cccb"
+  },
+  "Quy Tr\u00ecnh/14. QUY TR\u00ccNH VI\u1ebeT TH\u01af GI\u1ea2I TR\u00ccNH V\u1ec0 THU NH\u1eacP - wendy- approved.pdf": {
+    "mtime": 1789738605.8433611,
+    "seen": 1794742493.5414565,
+    "ast_hash": "4ecefb3d45ccddc387135c9d574290ad",
+    "semantic_hash": "4ecefb3d45ccddc387135c9d574290ad"
+  },
+  "Quy Tr\u00ecnh/15. QUY TR\u00ccNH UPLOAD - 06.2025.pdf": {
+    "mtime": 1789738607.4065037,
+    "seen": 1794742493.5414565,
+    "ast_hash": "53ffe3395fcc90d4e72d580ed9733e82",
+    "semantic_hash": "53ffe3395fcc90d4e72d580ed9733e82"
+  },
+  "Quy Tr\u00ecnh/16. QUY TR\u00ccNH X\u1eec L\u00dd BILL - wendy- approved.pdf": {
+    "mtime": 1789738611.8920443,
+    "seen": 1794742493.5414565,
+    "ast_hash": "54fe04ac5d489ac322da70ce984a3f09",
+    "semantic_hash": "54fe04ac5d489ac322da70ce984a3f09"
+  },
+  "Quy Tr\u00ecnh/17. QUY TR\u00ccNH CLAM BILL DVH - wendy- approved.pdf": {
+    "mtime": 1789738614.37059,
+    "seen": 1794742493.5414565,
+    "ast_hash": "d4b05c4a033fa5f849c365c4e1289117",
+    "semantic_hash": "d4b05c4a033fa5f849c365c4e1289117"
+  },
+  "Quy Tr\u00ecnh/18 QUY TR\u00ccNH G\u1eecI KH\u00c1CH H\u00c0NG M\u1edaI CHO AGENT - Phong Nguyen - Wendy.pdf": {
+    "mtime": 1789738617.1504405,
+    "seen": 1794742493.5414565,
+    "ast_hash": "31e8b7969b8ba188e598a6e79e0ba811",
+    "semantic_hash": "31e8b7969b8ba188e598a6e79e0ba811"
+  },
+  "Quy Tr\u00ecnh/19. QUY TR\u00ccNH \u0110\u1ed4I NPN , X\u1eed L\u00fd h\u1ed3 s\u01a1 b\u1ecb Other Party - updated 02.2025.pdf": {
+    "mtime": 1789738618.9794722,
+    "seen": 1794742493.5414565,
+    "ast_hash": "811ca9e00d673fac8094a805a3eb5116",
+    "semantic_hash": "811ca9e00d673fac8094a805a3eb5116"
+  },
+  "Quy Tr\u00ecnh/2. QUY TR\u00ccNH T\u1ea0O CONTACT VA DEAL - Revision 2025.pdf": {
+    "mtime": 1789738576.4602044,
+    "seen": 1794742493.5414565,
+    "ast_hash": "d5a9960792a03693457b357eebb6364d",
+    "semantic_hash": "d5a9960792a03693457b357eebb6364d"
+  },
+  "Quy Tr\u00ecnh/2. QUY TR\u00ccNH T\u1ea0O CONTACT VA DEAL 02-2026w.pdf": {
+    "mtime": 1789738556.7034578,
+    "seen": 1794742493.5414565,
+    "ast_hash": "13b95a0703b0312e7d27b550531e2d7b",
+    "semantic_hash": "13b95a0703b0312e7d27b550531e2d7b"
+  },
+  "Quy Tr\u00ecnh/20. QUY TR\u00ccNH H\u1ed6 TR\u1ee2 AGENT Phong Nguyen-Wendy.pdf": {
+    "mtime": 1789738620.376843,
+    "seen": 1794742493.5414565,
+    "ast_hash": "1901cef436bdc83823c543269463b23b",
+    "semantic_hash": "1901cef436bdc83823c543269463b23b"
+  },
+  "Quy Tr\u00ecnh/21. QUY TR\u00ccNH X\u1eec L\u00dd FILE NOT IN CARRIER - update 02.2025.pdf": {
+    "mtime": 1789738622.2189188,
+    "seen": 1794742493.5414565,
+    "ast_hash": "8425374effe69359844a2dd1fca7f425",
+    "semantic_hash": "8425374effe69359844a2dd1fca7f425"
+  },
+  "Quy Tr\u00ecnh/22. QUY TR\u00ccNH X\u1eec L\u00dd THU PH\u00cd D\u1ecaCH V\u1ee4 SOCIAL BENEFIT. Phong Nguyen - Wendy.pdf": {
+    "mtime": 1789738623.2208786,
+    "seen": 1794742493.5424542,
+    "ast_hash": "9550003f882ef9400a1377f082d6f1c5",
+    "semantic_hash": "9550003f882ef9400a1377f082d6f1c5"
+  },
+  "Quy Tr\u00ecnh/23. QUI TRINH XU LY VI PHAM KY LUAT update 04-2025.pdf": {
+    "mtime": 1789738624.5350761,
+    "seen": 1794742493.5424542,
+    "ast_hash": "15ccb57e82391ecc3a7d0b51dc0a6586",
+    "semantic_hash": "15ccb57e82391ecc3a7d0b51dc0a6586"
+  },
+  "Quy Tr\u00ecnh/24. QUY TR\u00ccNH UNLOCK AOR- updated 05.2025.pdf": {
+    "mtime": 1789738625.82508,
+    "seen": 1794742493.5424542,
+    "ast_hash": "136c29ad1ada7463b9c04fe28e5eaa38",
+    "semantic_hash": "136c29ad1ada7463b9c04fe28e5eaa38"
+  },
+  "Quy Tr\u00ecnh/25. QUY TR\u00ccNH V\u1ec0 VI\u1ec6C XIN NGH\u1ec8 PH\u00c9P - ver.08272025.pdf": {
+    "mtime": 1789738626.8519642,
+    "seen": 1794742493.5424542,
+    "ast_hash": "7a7fb0fa8e2bbfc38aeb055206830c55",
+    "semantic_hash": "7a7fb0fa8e2bbfc38aeb055206830c55"
+  },
+  "Quy Tr\u00ecnh/26. QUY TR\u00ccNH TAO HEALTHCARE.GOV ACCOUNT 08-29-2024 ver 07-2025.pdf": {
+    "mtime": 1789738628.6420646,
+    "seen": 1794742493.5424542,
+    "ast_hash": "430e3b5250ec8768836e3f16d1d6de52",
+    "semantic_hash": "430e3b5250ec8768836e3f16d1d6de52"
+  },
+  "Quy Tr\u00ecnh/27. QUI TRINH GI\u1ea2I QUY\u1ebeT NG\u01afNG H\u1ee2P T\u00c1C V\u1edaI AGENT ver.02.pdf": {
+    "mtime": 1789738630.3662112,
+    "seen": 1794742493.5424542,
+    "ast_hash": "bfb4e6176953c02d1c5df4850f6d3ce0",
+    "semantic_hash": "bfb4e6176953c02d1c5df4850f6d3ce0"
+  },
+  "Quy Tr\u00ecnh/28. QUY TR\u00ccNH PH\u1ed0I H\u1ee2P HO\u1ea0T \u0110\u1ed8NG GI\u1eeeA TELE-SALES V\u00c0 SUPPORT. Ver01.pdf": {
+    "mtime": 1789738632.5090995,
+    "seen": 1794742493.5424542,
+    "ast_hash": "96e13974ababb1934ec29e589d93488a",
+    "semantic_hash": "96e13974ababb1934ec29e589d93488a"
+  },
+  "Quy Tr\u00ecnh/28. QUY TR\u00ccNH PH\u1ed0I H\u1ee2P HO\u1ea0T \u0110\u1ed8NG GI\u1eeeA TELE-SALES V\u00c0 SUPPORT. Ver03 06-2026.pdf": {
+    "mtime": 1789738555.2607148,
+    "seen": 1794742493.5424542,
+    "ast_hash": "c47391be9139c3d385f64709467b4167",
+    "semantic_hash": "c47391be9139c3d385f64709467b4167"
+  },
+  "Quy Tr\u00ecnh/3. QUY TR\u00ccNH GI\u1edaI THI\u1ec6U TAX V\u00c0 P_C  CHO AGENT - Phuc Trinh- approved.pdf": {
+    "mtime": 1789738577.5749702,
+    "seen": 1794742493.5424542,
+    "ast_hash": "79bf6c9cc69070c557ca07c7a9c20247",
+    "semantic_hash": "79bf6c9cc69070c557ca07c7a9c20247"
+  },
+  "Quy Tr\u00ecnh/4. QUY TR\u00ccNH L\u00c0M VI\u1ec6C B\u1eb0NG TICKET V\u00c0 TASK.pdf": {
+    "mtime": 1789738580.6009407,
+    "seen": 1794742493.5424542,
+    "ast_hash": "eaac100120678f832a939956dfa48ff9",
+    "semantic_hash": "eaac100120678f832a939956dfa48ff9"
+  },
+  "Quy Tr\u00ecnh/5. QUY TR\u00ccNH LI\u00caN H\u1ec6 V\u1edaI KH\u00c1CH H\u00c0NG -wendy- approved.pdf": {
+    "mtime": 1789738582.105024,
+    "seen": 1794742493.5424542,
+    "ast_hash": "6d8ecf1a2b0a49cf6a1aa96ebbeeb21c",
+    "semantic_hash": "6d8ecf1a2b0a49cf6a1aa96ebbeeb21c"
+  },
+  "Quy Tr\u00ecnh/6. QUY TR\u00ccNH X\u1eec L\u00dd V\u1ea4N \u0110\u1ec0 PH\u00c1T SINH - wendy- approved.pdf": {
+    "mtime": 1789738583.6803796,
+    "seen": 1794742493.5424542,
+    "ast_hash": "cec667eab499028399c9ba34ea00a6e8",
+    "semantic_hash": "cec667eab499028399c9ba34ea00a6e8"
+  },
+  "Quy Tr\u00ecnh/7. QUY TR\u00ccNH NH\u1eacN CU\u1ed8C G\u1eccI \u0110\u1ebeN_ G\u1eccI \u0110I_ G\u1eccI NH\u1ee0_ CHUY\u1ec2N M\u00c1Y - Done.pdf": {
+    "mtime": 1789738586.2956872,
+    "seen": 1794742493.5424542,
+    "ast_hash": "ce35621a206b4e22d1caee5c07d412bf",
+    "semantic_hash": "ce35621a206b4e22d1caee5c07d412bf"
+  },
+  "Quy Tr\u00ecnh/8. QUY TR\u00ccNH GHI NH\u1eacN TH\u00d4NG TIN TRONG TASK_ NOTE_ LOG CALL - Updated 05-2025.pdf": {
+    "mtime": 1789738587.4143534,
+    "seen": 1794742493.5424542,
+    "ast_hash": "02b2f82968a0f77a649aaf7aab9bb7bd",
+    "semantic_hash": "02b2f82968a0f77a649aaf7aab9bb7bd"
+  },
+  "Quy Tr\u00ecnh/9. QUY TR\u00ccNH THEO D\u00d5I G\u00d3I B\u1ea2O HI\u1ec2M OBAMA.pdf": {
+    "mtime": 1789738598.2616186,
+    "seen": 1794742493.5434546,
+    "ast_hash": "42febfbf62aa503b87cd6dc3d9736014",
+    "semantic_hash": "42febfbf62aa503b87cd6dc3d9736014"
+  },
+  "Quy Tr\u00ecnh/H\u01b0\u1edbng D\u1eabn T\u01b0 V\u1ea5n Ch\u1ecdn Plan Obamacare & Ch\u0103m S\u00f3c Kh\u00e1ch H\u00e0ng D\u00e0nh Cho Agent.pdf": {
+    "mtime": 1789739378.3240306,
+    "seen": 1794742493.5435128,
+    "ast_hash": "174eac4903ebcc88dfc316176c170db7",
+    "semantic_hash": "174eac4903ebcc88dfc316176c170db7"
+  },
+  "Quy Tr\u00ecnh/OB \u2013 Collect Information \u2013 VN.pdf": {
+    "mtime": 1790258965.511214,
+    "seen": 1794742493.5435128,
+    "ast_hash": "5431d3a702ce85272c2359dbc2e019de",
+    "semantic_hash": "5431d3a702ce85272c2359dbc2e019de"
+  },
+  "Quy Tr\u00ecnh/Quy tr\u00ecnh chuy\u1ec3n Second Change.pdf": {
+    "mtime": 1789739365.4313629,
+    "seen": 1794742493.5435128,
+    "ast_hash": "deeb29142525f9f679d0737bed1d3572",
+    "semantic_hash": "deeb29142525f9f679d0737bed1d3572"
+  },
+  "Quy Tr\u00ecnh/Quy \u0110\u1ecbnh T\u00ednh Sale Support Status - OB, Medicare & Non-Commission.pdf": {
+    "mtime": 1789739298.5648227,
+    "seen": 1794742493.5435128,
+    "ast_hash": "ba3a03aa05a5988b7c3da66d50f89ce5",
+    "semantic_hash": "ba3a03aa05a5988b7c3da66d50f89ce5"
+  },
+  "Quy Tr\u00ecnh/\u0110i h\u1ed3 s\u01a1.pdf": {
+    "mtime": 1790175821.420938,
+    "seen": 1794742493.5435128,
+    "ast_hash": "42f701a82c733c63d24a0c743c9d4a8f",
+    "semantic_hash": "42f701a82c733c63d24a0c743c9d4a8f"
+  },
+  "Quy Tr\u00ecnh/Step Author/1.jpg": {
+    "mtime": 1792013156.203136,
+    "seen": 1794742493.5435128,
+    "ast_hash": "d8c707e696ba6d760d81d00190750f71",
+    "semantic_hash": "d8c707e696ba6d760d81d00190750f71"
+  },
+  "Quy Tr\u00ecnh/Step Author/10.jpg": {
+    "mtime": 1792013163.953258,
+    "seen": 1794742493.544018,
+    "ast_hash": "ce712a9ebe90bd56f3644fd3d81f1ae9",
+    "semantic_hash": "ce712a9ebe90bd56f3644fd3d81f1ae9"
+  },
+  "Quy Tr\u00ecnh/Step Author/2.jpg": {
+    "mtime": 1792013157.1238513,
+    "seen": 1794742493.544018,
+    "ast_hash": "b32136c6f1869d52a9d600db8223481d",
+    "semantic_hash": "b32136c6f1869d52a9d600db8223481d"
+  },
+  "Quy Tr\u00ecnh/Step Author/3.jpg": {
+    "mtime": 1792013157.8317876,
+    "seen": 1794742493.544018,
+    "ast_hash": "52dc620cae7d4a14e3735af34a0cabce",
+    "semantic_hash": "52dc620cae7d4a14e3735af34a0cabce"
+  },
+  "Quy Tr\u00ecnh/Step Author/4.jpg": {
+    "mtime": 1792013159.0648603,
+    "seen": 1794742493.544018,
+    "ast_hash": "d19158704ff8bd6b7b4134666eb0e058",
+    "semantic_hash": "d19158704ff8bd6b7b4134666eb0e058"
+  },
+  "Quy Tr\u00ecnh/Step Author/5.jpg": {
+    "mtime": 1792013159.699697,
+    "seen": 1794742493.544018,
+    "ast_hash": "4739a1ce9f70b8ad366a7217f7c50ff8",
+    "semantic_hash": "4739a1ce9f70b8ad366a7217f7c50ff8"
+  },
+  "Quy Tr\u00ecnh/Step Author/6.jpg": {
+    "mtime": 1792013160.7087884,
+    "seen": 1794742493.544018,
+    "ast_hash": "1e0da273e4ac734bec32c7b97ceba9b9",
+    "semantic_hash": "1e0da273e4ac734bec32c7b97ceba9b9"
+  },
+  "Quy Tr\u00ecnh/Step Author/7.jpg": {
+    "mtime": 1792013161.4404457,
+    "seen": 1794742493.544018,
+    "ast_hash": "2f320537493319b91f279b0da77a2f1c",
+    "semantic_hash": "2f320537493319b91f279b0da77a2f1c"
+  },
+  "Quy Tr\u00ecnh/Step Author/8.jpg": {
+    "mtime": 1792013162.1854463,
+    "seen": 1794742493.544018,
+    "ast_hash": "afade1d19a6cf0f29e4e573bfd8dc073",
+    "semantic_hash": "afade1d19a6cf0f29e4e573bfd8dc073"
+  },
+  "Quy Tr\u00ecnh/Step Author/9.jpg": {
+    "mtime": 1792013163.2593923,
+    "seen": 1794742493.544018,
+    "ast_hash": "8b19938952efa3dee21869b46fa7a382",
+    "semantic_hash": "8b19938952efa3dee21869b46fa7a382"
+  },
+  "Quy Tr\u00ecnh/\u1ea2nh b\u1ea3n th\u00e2n.png": {
+    "mtime": 1791291268.0866363,
+    "seen": 1794742493.544018,
+    "ast_hash": "3743b296e886059b65405e2e0900d9b2",
+    "semantic_hash": "3743b296e886059b65405e2e0900d9b2"
+  },
+  "tbr-extension/icons/icon128.png": {
+    "mtime": 1789736331.8610613,
+    "seen": 1794742493.544018,
+    "ast_hash": "dbc9b30135559d302cd8b77ac7cc9ef6",
+    "semantic_hash": "dbc9b30135559d302cd8b77ac7cc9ef6"
+  },
+  "tbr-extension/icons/icon16.png": {
+    "mtime": 1789736331.8565524,
+    "seen": 1794742493.544018,
+    "ast_hash": "fcc8de2b4da7170b46c2d6496250be72",
+    "semantic_hash": "fcc8de2b4da7170b46c2d6496250be72"
+  },
+  "tbr-extension/icons/icon48.png": {
+    "mtime": 1789736331.8590567,
+    "seen": 1794742493.544018,
+    "ast_hash": "6855c3c4198a7aa986f94320d04d60b9",
+    "semantic_hash": "6855c3c4198a7aa986f94320d04d60b9"
+  },
+  "B\u1ea3n ghi m\u1edbi.m4a": {
+    "mtime": 1794329998.6633615,
+    "seen": 1794742493.544018,
+    "ast_hash": "6347737d86bcd4f6ba86f2f7d022e853",
+    "semantic_hash": "6347737d86bcd4f6ba86f2f7d022e853"
+  },
+  "Video/RingCentral_Video_meeting_2026-11-13_23-04-39.mp4": {
+    "mtime": 1794740860.529318,
+    "seen": 1794742493.5450225,
+    "ast_hash": "84d132376e07ec5433313023f11d7349",
+    "semantic_hash": "84d132376e07ec5433313023f11d7349"
+  }
+}

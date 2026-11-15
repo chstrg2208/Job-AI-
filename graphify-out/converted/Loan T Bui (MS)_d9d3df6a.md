@@ -1,0 +1,7 @@
+<!-- converted from Loan T Bui (MS).xlsx -->
+
+## Sheet: Data
+| Deal (Id) | First Name | Last Name | Name | Stage | Enrolled Address | City | State | Selling State | Phone | Number Member | How Many People In Your Household | Date Of Birth | SSN | Plan Name | Amount | Carrier | Doctor Name | Deal Owner | Support Agent | Support Manager | Create Deal 2027 to: |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| be4159ca-3951-4fe8-aa5e-cabb7dc97a9f | George G | Nguyen | George Grant Nguyen + Gai Thi Tran - OB 10/2026 | New Opportunity/Call to Renew (Obamacare 2026) | 5613 Waycross Dr Biloxi, MS 39532-2835 | Biloxi | Mississippi |  |  | 2.0 |  | 1966-12-26 00:00:00 | *****4936 |  | 0.0 |  |  | Loan T Bui (MS) | Sarah Thai | Tiger Truong |  |
+| ea60f88f-1774-424e-8dd9-f0087845a245 | Philip | Frantantoni | Jordan Wigington + Philip Frantantoni - OB 10/2026 | Deal Lost - Second Change (Obamacare 2026) | 3746 NW MEDITERRANEAN LN JENSEN BEACH, FL 34957 | JENSEN BEACH | Florida | Florida | +13056808610 | 2.0 |  | 1966-09-01 00:00:00 | 155709998 |  | 0.0 |  | N/A | Loan T Bui (MS) | Sarah Thai | Tiger Truong |  |
