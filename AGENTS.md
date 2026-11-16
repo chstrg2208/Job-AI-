@@ -714,3 +714,42 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
   - **Chính sách nhận khách:** Anh Phúc Trịnh duyệt cho phép **ĐEM VỀ TRƯỚC** cả khách BCBS ở **NC** và **AR**. Công ty đang liên hệ Agent ở AR để lấy bằng và ký contract với các hãng local để sau mùa sẽ có Commission.
   - **Miễn phí Support $150 (FREE 6 THÁNG):** CEO Phúc Trịnh **FREE $150 cho BCBS ở NC và AR**, nên 2 bang này đi BCBS **KHÔNG THU TIỀN 6 THÁNG** của khách/Agent!
   - **Thao tác CRM:** Trường `Is this a non-commission deal required support?` chọn **`Yes - waived by Phuc Trinh`**. Deal stage để **`Non Commission - Active`**. Bắt buộc ghi danh có NPN của Agent trên hồ sơ (không để None AOR) để tránh bị BCBS lock commission.
+
+---
+
+## ⚡ XXX. KỶ LUẬT GIẢI TỎA TỒN ĐỌNG RTE, THỨ TỰ ƯU TIÊN ENROLL & RANH GIỚI NGHIỆP VỤ MÙA OEP 2027 (CHỈ ĐẠO 16/11/2026)
+
+### 1. Chiến dịch giải tỏa 550 deals RTE & Quy tắc 4 ngày (Phong Nguyễn 16/11/2026):
+* **Bối cảnh tiến độ:** Toàn công ty mới hoàn tất hơn 900 deals OB2027 Enrolled (tốc độ 500 deals/tuần là quá chậm, nguy cơ chỉ đạt 50% so với mùa 2026).
+* **Chỉ tiêu xử lý RTE:** Hiện tồn 400 deals RTE và 150 deals $0 RTE. Từ 16/11/2026, toàn bộ Manager bắt buộc giải quyết với tốc độ **137 deals/ngày** ($550 \div 4$).
+* ⚠️ **Quy tắc 4 ngày:** Deal nằm ở stage RTE quá 4 ngày kể từ ngày chuyển RTE sẽ bị tính là lỗi của Manager do chậm trễ tiến độ.
+* **Quy trình kiểm soát dữ liệu RTE:**
+  * Data chuẩn xác & đầy đủ $\rightarrow$ Tiến hành **Enroll Done ngay**.
+  * Data thiếu/sai $\rightarrow$ **Lập tức chuyển trả về stage tương ứng** (NTQ/Data) để Support/Agent bổ sung ngay, không để ngâm ở RTE.
+
+### 2. Nguyên tắc TOP PRIORITY & Cấm phục vụ Agent lạm dụng (Phong Nguyễn 16/11/2026):
+* Manager không tốn thời gian xử lý các việc không cấp bách hoặc giải quyết sự vụ cá biệt riêng lẻ cho Agent.
+* **TUYỆT ĐỐI KHÔNG làm giùm những Agent đang lạm dụng (abuse) dịch vụ hỗ trợ của công ty.**
+* **TOP PRIORITY:** Tập trung giải phóng toàn bộ deal RTE đã đủ data và push Agent xử lý dứt điểm các deal Need To Quote (NTQ). Các vấn đề phát sinh về License, Contract, kéo NPN cá nhân sẽ giải quyết sau khi đã hoàn tất xử lý các deal RTE.
+
+### 3. Kỷ luật dữ liệu RTE & Chế tài xử lý sai phạm (Phong Nguyễn 16/11/2026):
+* Nghiêm cấm tình trạng Support chuyển deal lên RTE cẩu thả, thiếu thông tin bắt buộc khiến team enroll không nộp đơn được.
+* Khi có thông tin từ Agent/khách hàng, Support phải xử lý và cập nhật đúng stage ngay (cấm để tình trạng Agent đã enroll cả tuần mà deal vẫn nằm ở New Opportunity).
+* **Chế tài kỷ luật:** Manager phát hiện trường hợp Support chuyển RTE sai quy chuẩn $\rightarrow$ Record thông tin báo trực tiếp về **Anh Phong Nguyễn** để xử lý kỷ luật nhân viên vì hành vi vô trách nhiệm hoặc cố tình làm sai chỉ đạo.
+
+### 4. Rạch ròi ranh giới phòng ban: License & Contract thuộc về HR (CEO Phúc Trịnh 16/11/2026):
+* **"Các vấn đề License Contract là của HR"**: Manager và Support tuyệt đối không ôm đồm giải quyết các sự vụ về hợp đồng/chứng chỉ/khiếu nại contract của Agent. Mọi vấn đề liên quan chuyển thẳng về bộ phận HR xử lý.
+
+### 5. Quy trình bám sát Deal New Opportunity công ty (CEO Phúc Trịnh 15/11/2026):
+* Nguồn khách New Opportunity của The Best Rate do đội Telesales phụ trách: Sau khi gọi ra báo renew xin income, các case chưa chốt hoặc không nghe máy (đã nhắn tin) **bắt buộc follow up lại định kỳ mỗi 3 ngày**.
+
+### 6. Phân công Admin & Thứ tự ưu tiên ghi danh (Wendy Võ 15/11/2026):
+* Admin được phân công phụ trách enroll chuyên trách theo từng tiểu bang. Hồ sơ khẩn cấp (Urgent) gửi trực tiếp qua Wendy Võ để điều phối.
+* **Thứ tự ưu tiên Enroll:**
+  1. **Theo năm hiệu lực:** Hồ sơ năm **2026** $\rightarrow$ Hồ sơ năm **2027**.
+  2. **Theo giá trị doanh thu:** Hồ sơ **CÓ COMMISSION** $\rightarrow$ Hồ sơ **NON-COMMISSION**.
+
+### 7. Quy định về Dental Marketplace chính phủ (Tiger Trương & Quyên Lê 16/11/2026):
+* Công ty The Best Rate Insurance **KHÔNG nhận làm dịch vụ chăm sóc (services) cho các gói Dental Marketplace (MKP) của chính phủ**.
+* Khách lâu năm đặc biệt chỉ hỗ trợ nộp đơn (submit), không take care hậu mãi; ưu tiên chuyển hướng khách sang các gói Dental tư nhân ngoài sàn (Manhattan Life / Uhone) để được quyền lợi và dịch vụ trọn vẹn.
+

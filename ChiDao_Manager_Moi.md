@@ -1,5 +1,5 @@
 # 🛡️ KHO TRI THỨC ĐỘNG: CẬP NHẬT TỪ 2 GROUP MANAGER, TIN NHẮN RIÊNG & NGHIỆP VỤ
-*Cập nhật tự động lúc: 2026-11-08 08:30:00*
+*Cập nhật tự động lúc: 2026-11-16 08:30:00*
 
 ---
 ## ⚡ CÁC CHỈ ĐẠO ĐẶC BIỆT MỚI NHẤT ĐÃ ĐƯỢC XÁC NHẬN:
@@ -1631,4 +1631,50 @@
 >    - Trường **`Is this a non-commission deal required support?`**: Chọn **`Yes - waived by Phuc Trinh`**.
 >    - **Deal Stage:** Chuyển sang **`Non Commission - Active`** (để công ty dễ theo dõi sau mùa bổ sung hợp đồng, không để Enrolled Active).
 >    - **Quy tắc Enroll:** Bắt buộc phải có **NPN của Agent phụ trách** trên đơn ghi danh (tuyệt đối không đi `None AOR` vì BCBS có luật lock vĩnh viễn không thể gỡ commission sau này).
+
+---
+
+### 7️⃣2️⃣ CHỈ ĐẠO TỔNG LỰC GIẢI PHÓNG 550 DEALS RTE, KỶ LUẬT DỮ LIỆU & THỨ TỰ ƯU TIÊN ENROLL MÙA OEP 2027 (CHỈ ĐẠO PHONG NGUYỄN, PHÚC TRỊNH, WENDY VÕ, TAM PHAN 15 - 16/11/2026):
+> 📌 **Tổng hợp từ cuộc họp Manager Team, CS Team & Group Manager Support + Wendy:**
+>
+> 1. **Cảnh báo tiến độ OB2027 & Mục tiêu giải phóng 550 deals RTE (Phong Nguyễn - 16/11/2026):**
+>    - **Thực trạng số liệu:** Tính đến sáng 16/11/2026, toàn công ty mới chỉ hoàn tất hơn **900 deals OB2027 Enrolled**. Tốc độ 7 ngày vừa qua làm thêm được 500 deals. Nếu duy trì tốc độ này đến 31/12/2026 chỉ đạt ~3,900 deals, tức chỉ bằng **50% sản lượng mùa OB2026** $\rightarrow$ Tình trạng tiến độ rất đáng báo động.
+>    - **Giải phóng 550 deals RTE tồn đọng:** Hệ thống đang tồn **400 deals RTE** và **150 deals $0 RTE**.
+>    - **Quy tắc 4 ngày & Chỉ tiêu:** Từ Thứ Hai (16/11/2026), toàn bộ Manager phải giải quyết dứt điểm lượng deal này với tốc độ **137 deals/ngày** ($550 \div 4$). **Nếu deal nằm ở RTE quá 4 ngày kể từ ngày chuyển RTE sẽ bị tính là lỗi của Manager không giải quyết kịp tiến độ.**
+>    - **Quy trình xử lý RTE:** Manager kiểm tra kỹ dữ liệu:
+>      * Nếu data chuẩn và đầy đủ $\rightarrow$ Tiến hành **Enroll Done ngay**.
+>      * Nếu data sai hoặc thiếu $\rightarrow$ **Lập tức chuyển trả về stage tương ứng** (ví dụ NTQ/Data), yêu cầu Support/Agent sửa đúng sai sót ngay.
+>
+> 2. **Tập trung TOP PRIORITY & Cấm phục vụ Agent lạm dụng (Phong Nguyễn - 16/11/2026):**
+>    - **Chống lãng phí thời gian:** Manager phản ánh đang phải giải quyết các yêu cầu không cấp bách hoặc các case cá biệt riêng lẻ từ Agent, làm giảm hiệu suất chung trong mùa cao điểm OEP.
+>    - **Lệnh cấm:** **Tuyệt đối KHÔNG mất thời gian làm giùm những Agent đang lạm dụng (abuse) dịch vụ của công ty.**
+>    - **TOP PRIORITY:** Tập trung 100% xử lý các deal đã sẵn sàng RTE, đã có đủ data trên hệ thống; đôn đốc Agent xử lý dứt điểm các deal Need To Quote (NTQ).
+>    - Các vấn đề phát sinh về License, Contract, kéo NPN cá nhân sẽ giải quyết sau khi đã xử lý xong toàn bộ các deal RTE.
+>
+> 3. **Kỷ luật dữ liệu RTE & Xử lý nhân sự sai phạm (Phong Nguyễn - 16/11/2026):**
+>    - Tình trạng dữ liệu các deal RTE (cả OB2027 và Medicare2027) đang rất thiếu chính xác, thông tin không thể enroll được khiến Manager và team hỗ trợ enroll mất nhiều thời gian kiểm tra và trả về stage trước.
+>    - Khi nhận được thông tin từ Agent/khách hàng, **Support phải lập tức xử lý và chuyển stage chính xác tương ứng**, không để rơi rớt thông tin hoặc lệch so với thực tế (Nghiêm cấm việc: Agent đã enroll cả tuần rồi mà deal vẫn để ở New Opportunity).
+>    - **Kỷ luật nghiêm khắc:** Nếu Manager phát hiện deal nào chuyển RTE cẩu thả/sai quy chuẩn $\rightarrow$ Ghi nhận (record) thông tin gửi trực tiếp về **Anh Phong Nguyễn để xử lý kỷ luật nhân viên** vì hành vi vô trách nhiệm hoặc cố tình làm sai chỉ đạo.
+>
+> 4. **Rạch ròi thẩm quyền: Vấn đề License & Contract thuộc về HR (CEO Phúc Trịnh - 16/11/2026):**
+>    - **"Các vấn đề License Contract là của HR"**: Manager và Support không tự ý xử lý hay ôm đồm sự vụ liên quan đến hợp đồng, chứng chỉ hay khiếu nại contract của Agent; chuyển toàn bộ về bộ phận HR giải quyết đúng chức năng.
+>
+> 5. **Quy trình bám sát Deal New Opportunity của The Best Rate (CEO Phúc Trịnh - 15/11/2026):**
+>    - Toàn bộ deal New Opportunity thuộc nguồn công ty (The Best Rate) do đội Telesales xử lý đã được gọi ra thông báo renew và xin thông tin thu nhập (income).
+>    - Những case chưa chốt hoặc khách không bắt máy (đã gửi tin nhắn): **Bắt buộc follow up lại định kỳ mỗi 3 ngày một lần** cho đến khi hoàn tất chốt đơn.
+>
+> 6. **Phân công Admin theo Bang & Thứ tự ưu tiên Enroll (Wendy Võ - 15/11/2026):**
+>    - Admin được phân công phụ trách enroll chuyên trách theo từng tiểu bang.
+>    - Hồ sơ khẩn cấp (Urgent): Gửi trực tiếp qua Wendy Võ để điều phối xử lý ngay.
+>    - **Thứ tự ưu tiên Enroll chuẩn:**
+>      * 1️⃣ **Thời gian:** Hồ sơ **2026** $\rightarrow$ Hồ sơ **2027**.
+>      * 2️⃣ **Doanh thu:** Hồ sơ **CÓ COMMISSION** $\rightarrow$ Hồ sơ **NON-COMMISSION**.
+>
+> 7. **Đôn đốc cập nhật Deal Medicare (Tam Phan - 15/11/2026):**
+>    - Nhắc nhở các Manager kiểm tra và di chuyển/cập nhật đầy đủ các trường dữ liệu deal Medicare theo đúng cam kết; tránh tình trạng các trường bị đứng yên không được dịch chuyển trên CRM.
+>
+> 8. **Quy định về Dental Marketplace chính phủ (Tiger Trương & Quyên Lê - 16/11/2026):**
+>    - Công ty The Best Rate Insurance **KHÔNG nhận chăm sóc / KHÔNG làm dịch vụ (services) cho các gói Dental Marketplace (MKP) của chính phủ**.
+>    - Với khách hàng lâu năm bắt buộc chỉ hỗ trợ submit đơn giùm, không take care dịch vụ sau bán; ưu tiên tư vấn khách tham gia các gói Dental ngoài sàn độc lập (Manhattan Life / Uhone) để được chăm sóc chuẩn và có hoa hồng.
+
 
