@@ -753,3 +753,22 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
 * Công ty The Best Rate Insurance **KHÔNG nhận làm dịch vụ chăm sóc (services) cho các gói Dental Marketplace (MKP) của chính phủ**.
 * Khách lâu năm đặc biệt chỉ hỗ trợ nộp đơn (submit), không take care hậu mãi; ưu tiên chuyển hướng khách sang các gói Dental tư nhân ngoài sàn (Manhattan Life / Uhone) để được quyền lợi và dịch vụ trọn vẹn.
 
+---
+
+## 🚨 XXXI. LỆNH CẤM TUYỆT ĐỐI EMAIL CÔNG TY / EMAIL KHÔNG CHÍNH THỨC TRÊN ACA & HỒ SƠ 2027 (CHỈ ĐẠO CEO PHÚC TRỊNH & PHONG NGUYỄN 18–19/11/2026)
+
+### 1. Kỷ luật Cấm tạo ACA bằng Email Công ty & Chặn truy cập Bluehost (CEO Phúc Trịnh):
+* **Tuyệt đối KHÔNG cho Agent truy cập tài khoản email Bluehost của công ty** (*"Make sure no Agent access to our Blue Host email account"*).
+* **Cấm Support tạo tài khoản ACA bằng email công ty:** Toàn bộ Support **KHÔNG ĐƯỢC phép tạo ACA account bằng email công ty** (`@tbri.co`, `@tbr`, `@ushin`...). **Support nào vi phạm sẽ bị SA THẢI NGAY LẬP TỨC (*terminate immediately*).**
+
+### 2. Quy chuẩn Email trên Application 2027 & Hồ sơ Renew (CEO Phúc Trịnh & Phong Nguyễn):
+* **Bắt buộc dùng Email của chính khách hàng:** Khi làm hồ sơ mới hoặc renew 2027, nếu thấy hồ sơ cũ đang gắn email công ty hoặc email không chính thức (các domain free tạo hàng loạt trong 2026 như `proton`, `qeyet`, `hotmail`, `b3hgt`...), bắt buộc phải:
+  1. **Update lại sang email thật của khách hàng** (hoặc ít nhất phải **remove** email không chính thức ra khỏi Application 2027).
+  2. Nếu khách chưa có email để thay thế: Tạo email cá nhân mới riêng cho khách (Gmail) hoặc lấy đúng email của khách hàng.
+* **Áp dụng đồng bộ cả nhóm Agent tự Enroll-Renew dưới NPN cá nhân:** Công ty (HR) sẽ ban hành thông báo chính thức (do tình trạng công ty nhận **warning** liên quan đến email ứng dụng) để tránh Application bị terminate hàng loạt gây mất doanh thu và phát sinh việc xử lý không cần thiết.
+
+### 3. Mẹo kỹ thuật đổi County trên HealthSherpa (Wendy Võ, Cristy Trịnh, Andy Võ 18/11/2026):
+* Khi đổi County trên HealthSherpa (ví dụ Fort Bend $\rightarrow$ Harris), lần edit đầu tiên có thể chưa lưu kịp và vẫn hiện County cũ ở bước Review.
+* **Cách xử lý:** Cứ bấm `Continue` đi tiếp tới màn hình **chọn Plan** để kiểm tra County thực tế; nếu vẫn là County cũ thì quay lại **Edit lần thứ 2** hệ thống mới lưu chính xác County mới.
+
+

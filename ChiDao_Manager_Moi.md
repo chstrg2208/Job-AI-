@@ -1,5 +1,5 @@
 # 🛡️ KHO TRI THỨC ĐỘNG: CẬP NHẬT TỪ 2 GROUP MANAGER, TIN NHẮN RIÊNG & NGHIỆP VỤ
-*Cập nhật tự động lúc: 2026-11-16 08:30:00*
+*Cập nhật tự động lúc: 2026-11-19 08:30:00*
 
 ---
 ## ⚡ CÁC CHỈ ĐẠO ĐẶC BIỆT MỚI NHẤT ĐÃ ĐƯỢC XÁC NHẬN:
@@ -1676,5 +1676,30 @@
 > 8. **Quy định về Dental Marketplace chính phủ (Tiger Trương & Quyên Lê - 16/11/2026):**
 >    - Công ty The Best Rate Insurance **KHÔNG nhận chăm sóc / KHÔNG làm dịch vụ (services) cho các gói Dental Marketplace (MKP) của chính phủ**.
 >    - Với khách hàng lâu năm bắt buộc chỉ hỗ trợ submit đơn giùm, không take care dịch vụ sau bán; ưu tiên tư vấn khách tham gia các gói Dental ngoài sàn độc lập (Manhattan Life / Uhone) để được chăm sóc chuẩn và có hoa hồng.
+
+---
+
+### 7️⃣3️⃣ LỆNH CẤM TUYỆT ĐỐI EMAIL CÔNG TY / EMAIL KHÔNG CHÍNH THỨC TRÊN ACA & HỒ SƠ 2027 (CHỈ ĐẠO CEO PHÚC TRỊNH & PHONG NGUYỄN - 18 - 19/11/2026):
+> 📌 **Tổng hợp từ nhóm `Manager Team` & `group manager support+Wendy`:**
+>
+> 1. **Kỷ luật thép từ CEO Phúc Trịnh (Sa thải ngay nếu vi phạm):**
+>    - **Tuyệt đối KHÔNG để Agent truy cập vào tài khoản email Bluehost của công ty** (*"Make sure no Agent access to our Blue Host email account"*).
+>    - **Toàn bộ Support TUYỆT ĐỐI KHÔNG được tạo tài khoản ACA bằng email công ty** (`@tbri.co`, `@tbr`, `@ushin`...). **Nhân viên Support nào vi phạm sẽ bị SA THẢI NGAY LẬP TỨC (*terminate immediately*).**
+>    - **Xử lý hồ sơ Renew:** Tiến hành sử dụng **email chính chủ của khách hàng**; các hồ sơ renew nếu phát hiện đang dùng email công ty thì **bắt buộc update đổi lại sang email khách hàng**.
+>
+> 2. **Quy chuẩn rà soát Email không chính thức trên Application 2027 (Phong Nguyễn):**
+>    - Rà soát các domain email miễn phí từng tự tạo trong năm 2026 ngoài `tbri`, `tbr`, `ushin` (các team báo cáo từng dùng `proton`, `qeyet`, `hotmail`, `b3hgt`).
+>    - **Nguyên tắc bắt buộc 2027:** **KHÔNG ĐƯỢC để email không chính thức trong Application 2027.** Nếu có thì ít nhất **phải remove ra**, trường hợp cần thay thế phải tạo email mới riêng hoặc lấy email đúng của khách hàng.
+>    - Công ty và HR sẽ gửi thông báo chính thức (do công ty đang nhận **warning** về vấn đề email), áp dụng cho cả nhóm **Agent tự Enroll-Renew dưới NPN cá nhân** để tránh rủi ro Application bị Terminate gây mất doanh thu và phát sinh việc xử lý không cần thiết.
+>    - Manager có trách nhiệm phổ biến đúng nội dung và giải đáp cho đội ngũ Support của mình đồng bộ với thông báo từ HR.
+>
+> 3. **Mẹo kỹ thuật khi đổi County trên HealthSherpa (Wendy Võ, Cristy Trịnh & Andy Võ - 18/11/2026):**
+>    - Khi sửa County trên HealthSherpa (ví dụ Fort Bend $\rightarrow$ Harris), lần edit đầu tiên hệ thống có thể chưa lưu kịp và vẫn hiện County cũ ở bước Review.
+>    - **Cách xử lý:** Bấm `Continue` đi tiếp đến bước **chọn Plan** để kiểm tra County thực tế; nếu vẫn giữ County cũ thì quay lại **Edit lần thứ 2** hệ thống mới ghi nhận County mới.
+>
+> 4. **Thông tin tham khảo thêm (18/11/2026):**
+>    - **Địa chỉ văn phòng TBR khu vực Dallas/Garland (CEO Phúc Trịnh):** `2408 W Walnut St, Garland, Texas 75042` | Phone: `(564) 234-6868`.
+>    - **Case Presidio có tiền sử phẫu thuật tuyến yên (Pituitary surgery) cách đây 2 năm & đang theo dõi định kỳ (Wendy Võ & Tân Đặng):** Việc có rơi vào phạm vi bệnh lý loại trừ hay không **tùy thuộc vào bác sĩ xác định nguyên nhân bệnh là mãn tính hay chỉ là phẫu thuật thông thường**.
+
 
 
