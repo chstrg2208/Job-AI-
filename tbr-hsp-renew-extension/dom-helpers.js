@@ -138,6 +138,14 @@
     return rect.width > 0 && rect.height > 0;
   }
 
+  function getAppPageText() {
+    if (!document.body) return '';
+    return Array.from(document.body.children)
+      .filter(el => el.id !== 'tbr-hsp-panel' && !/^(SCRIPT|STYLE|NOSCRIPT|FOOTER)$/i.test(el.tagName))
+      .map(el => el.innerText || '')
+      .join('\n');
+  }
+
   /**
    * Check whether a native input OR its visible label/wrapper is rendered on screen
    * (HealthSherpa often hides native checkbox/radio inputs with opacity:0 or 0px size).
@@ -530,6 +538,7 @@
     sleep,
     waitFor,
     isVisible,
+    getAppPageText,
     isInputOrLabelVisible,
     getVisibleCheckboxes,
     setCheckboxChecked,

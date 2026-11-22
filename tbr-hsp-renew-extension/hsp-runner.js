@@ -68,7 +68,7 @@
   }
 
   function currentStep() {
-    const bodyText = document.body ? document.body.innerText : '';
+    const bodyText = D.getAppPageText();
     const sideText = D.getActiveSidebarText();
     return D.detectStepFromText(bodyText, sideText);
   }
@@ -358,14 +358,14 @@
       );
       if (choice === 'stop') return stopRunner('Đã dừng ở Privacy statement.');
     } else {
-      log('✅ Privacy: đã tích đủ 2 cam kết & chọn Store consent outside of HealthSherpa.');
+      log('✅ Privacy: đã tích đủ 2 cam kết & chọn lưu consent ngoài HealthSherpa.');
     }
 
     if (autoContinue) await clickContinueAndWait('PRIVACY_STATEMENT');
   }
 
   function extractPrimaryReviewSummary() {
-    const text = document.body ? document.body.innerText : '';
+    const text = D.getAppPageText();
     const lines = text.split(/\n+/).map(l => l.trim()).filter(Boolean);
     const out = { permanentRaw: '', county: '', mailingRaw: '', email: '', phone: '' };
 
@@ -730,7 +730,7 @@
   }
 
   function extractTaxSummary() {
-    const txt = document.body ? document.body.innerText : '';
+    const txt = D.getAppPageText();
     const checkChoice = qRe => {
       const textEls = Array.from(document.querySelectorAll('p, div, span, legend, label'))
         .filter(el => D.isVisible(el) && !el.closest('#tbr-hsp-panel') && qRe.test(D.normText(el.textContent)));
@@ -828,7 +828,7 @@
   }
 
   async function handleIncome(d, autoContinue) {
-    const text = document.body ? document.body.innerText : '';
+    const text = D.getAppPageText();
     const sideActive = D.getActiveSidebarText();
     const whoMatch = text.match(/Current income for\s+([^\n]+)/i);
     const currentPerson = whoMatch ? whoMatch[1].trim() : sideActive;
@@ -920,7 +920,7 @@
     await D.sleep(200);
     D.clickButtonByText(/^Save$/i);
     await D.waitFor(() => {
-      const m = (document.body?.innerText || '').match(/will be about\s*\$([\d,]+(?:\.\d{2})?)/i);
+      const m = D.getAppPageText().match(/will be about\s*\$([\d,]+(?:\.\d{2})?)/i);
       if (!m) return false;
       const val = P.parseIncome(m[1]);
       return val !== null && Math.abs(val - d.income) <= 12;
@@ -1035,7 +1035,7 @@
   }
 
   function extractFinalizeReviewData() {
-    const text = document.body ? document.body.innerText : '';
+    const text = D.getAppPageText();
     const getFieldLine = regex => {
       const m = text.match(regex);
       return m ? m[1].trim() : '';
@@ -1196,7 +1196,7 @@
           <div class="tbr-grid">
             <div class="tbr-field tbr-full">
               <label>Email thật của khách</label>
-              <input id="tbr-f-email" type="text" placeholder="vd: lambaokim@gmail.com">
+              <input id="tbr-f-email" type="text" placeholder="vd: email@gmail.com">
             </div>
             <div class="tbr-field">
               <label>Phone (nếu cần đổi)</label>
@@ -1208,11 +1208,11 @@
             </div>
             <div class="tbr-field tbr-full">
               <label>Enrolled Address</label>
-              <input id="tbr-f-enrolled" type="text" placeholder="3030 Cheverny Dr, Katy, TX 77493">
+              <input id="tbr-f-enrolled" type="text" placeholder="vd: 123 Main St, Katy, TX 77493">
             </div>
             <div class="tbr-field tbr-full">
               <label>Mailing Address (trống nếu giống trên)</label>
-              <input id="tbr-f-mailing" type="text" placeholder="9110 Arvada Bay Ct, Richmond, TX 77407">
+              <input id="tbr-f-mailing" type="text" placeholder="vd: 456 Oak Ave, Houston, TX 77072">
             </div>
             <div class="tbr-field">
               <label>Income ($/năm)</label>
@@ -1224,7 +1224,7 @@
             </div>
             <div class="tbr-field">
               <label>Deny Medicaid (&lt;18/19t)</label>
-              <input id="tbr-f-medicaid" type="text" placeholder="William Nguyen">
+              <input id="tbr-f-medicaid" type="text" placeholder="vd: tên bé &lt;18t (nếu có)">
             </div>
             <div class="tbr-field">
               <label>Ngày Denied</label>

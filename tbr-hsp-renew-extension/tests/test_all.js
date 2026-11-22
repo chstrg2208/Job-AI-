@@ -218,5 +218,39 @@ test('parseCrmNote treats Mailing address: same as sameMailingAsEnrolled === tru
   assert.strictEqual(res.enrolledAddress.zip, '77584');
 });
 
+// 10. getAppPageText excludes #tbr-hsp-panel so Who's applying? isn't hijacked by Privacy log text
+test('getAppPageText excludes #tbr-hsp-panel and detectStepFromText returns HOUSEHOLD_WHOS_APPLYING', () => {
+  const appText = `Household
+Who's applying for coverage?
+Do you want to see if you are eligible for cost savings?
+Yes No
+Applying for coverage
+Kim Ngoc Thanh Nguyen
+Spouse, born 10/19/1999 Applying Edit Remove
+Minh N Doan
+Child (including adopted children), born 9/21/2026 Applying Edit Remove
++ Add another applicant
+Back Continue`;
+
+  const prevDoc = global.document;
+  try {
+    global.document = {
+      body: {
+        children: [
+          { id: 'root', tagName: 'DIV', innerText: appText },
+          { id: 'tbr-hsp-panel', tagName: 'DIV', innerText: '1. Privacy statement\nStore consent outside of HealthSherpa' },
+          { id: '', tagName: 'FOOTER', innerText: 'Privacy policy\nTerms' }
+        ]
+      }
+    };
+    const extracted = D.getAppPageText();
+    assert.ok(!extracted.includes('Store consent outside of HealthSherpa'), 'should exclude #tbr-hsp-panel text');
+    assert.strictEqual(D.detectStepFromText(extracted, "Who's applying?"), 'HOUSEHOLD_WHOS_APPLYING');
+  } finally {
+    if (prevDoc === undefined) delete global.document;
+    else global.document = prevDoc;
+  }
+});
+
 console.log(`\nSummary: ${passed} passed, ${failed} failed.`);
 if (failed > 0) process.exit(1);
