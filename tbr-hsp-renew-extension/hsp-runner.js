@@ -99,7 +99,7 @@
     setVal('tbr-f-phone', d.phone);
     setVal('tbr-f-enrolled', d.enrolledAddress ? P.formatAddress(d.enrolledAddress) : (state.overrides.enrolledAddressRaw || ''));
     setVal('tbr-f-county', d.county);
-    setVal('tbr-f-mailing', d.mailingAddress ? P.formatAddress(d.mailingAddress) : (state.overrides.mailingAddressRaw || ''));
+    setVal('tbr-f-mailing', d.sameMailingAsEnrolled ? '' : (d.mailingAddress ? P.formatAddress(d.mailingAddress) : (state.overrides.mailingAddressRaw || '')));
     setVal('tbr-f-income', d.income !== null && d.income !== undefined ? String(d.income) : '');
     setVal('tbr-f-apply', d.applyCount ? String(d.applyCount) : '');
     setVal('tbr-f-medicaid', (d.denyMedicaidMembers || []).join(', '));

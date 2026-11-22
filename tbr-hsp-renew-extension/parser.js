@@ -389,7 +389,10 @@
 
     // Apply overrides cleanly
     const finalEnrolledRaw = ov.enrolledAddressRaw !== undefined ? ov.enrolledAddressRaw : enrolledAddressRaw;
-    const finalMailingRaw = ov.mailingAddressRaw !== undefined ? ov.mailingAddressRaw : mailingAddressRaw;
+    const rawMailingCandidate = ov.mailingAddressRaw !== undefined ? ov.mailingAddressRaw : mailingAddressRaw;
+    const isSameMailingKeyword = typeof rawMailingCandidate === 'string' &&
+      /^(?:same(?:\s+as\s+.+)?|giống(?:\s+.+)?|giong(?:\s+.+)?|như\s+trên|nhu\s+tren|n\/a|none|-+)$/i.test(rawMailingCandidate.trim());
+    const finalMailingRaw = isSameMailingKeyword ? '' : rawMailingCandidate;
     const enrolledAddress = typeof finalEnrolledRaw === 'object' && finalEnrolledRaw !== null
       ? finalEnrolledRaw
       : parseUSAddress(finalEnrolledRaw);

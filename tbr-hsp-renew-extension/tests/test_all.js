@@ -190,5 +190,33 @@ test('shouldPersonApply matches partial member list accurately', () => {
   assert.strictEqual(P.shouldPersonApply('Kim Lam', kidsOnly), false);
 });
 
+// 9. Mailing address "same" handling on Quyen Pham note
+test('parseCrmNote treats Mailing address: same as sameMailingAsEnrolled === true', () => {
+  const note = `11/02 Ready to enroll, agent confirm - Renew OB 01/2027
+
+- Plan: Ambetter Streamlined Silver EPO
+
+- Premium: $24.05
+- Effective date: 01.01.2027
+- HH 3 A 3 Income $36k
+- Apply for member: Quyen Pham + Shayla Nguyen + Jessica Nguyen
+- Enrolled address: 6013 Figland St, Pearland, TX 77584
+- Mailing address: same
+- County: Brazoria County
+- Authorized portal: Jay Ly `;
+
+  const res = P.parseCrmNote(note);
+  assert.strictEqual(res.sameMailingAsEnrolled, true);
+  assert.strictEqual(res.mailingAddress, null);
+  assert.strictEqual(res.county, 'Brazoria');
+  assert.strictEqual(res.income, 36000);
+  assert.strictEqual(res.applyCount, 3);
+  assert.strictEqual(res.members.length, 3);
+  assert.strictEqual(res.enrolledAddress.street, '6013 Figland St');
+  assert.strictEqual(res.enrolledAddress.city, 'Pearland');
+  assert.strictEqual(res.enrolledAddress.stateCode, 'TX');
+  assert.strictEqual(res.enrolledAddress.zip, '77584');
+});
+
 console.log(`\nSummary: ${passed} passed, ${failed} failed.`);
 if (failed > 0) process.exit(1);
