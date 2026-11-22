@@ -19,8 +19,9 @@
     PRIMARY_CONTACT_DETAILS: '2c. Contact details (Email/Phone)',
     HOUSEHOLD_WHOS_APPLYING: '3a. Who\'s applying?',
     HOUSEHOLD_MEDICARE: '3b. Medicare eligibility',
-    HOUSEHOLD_RESIDENCE: '3c. Residence',
-    HOUSEHOLD_TAX: '3d. Tax household',
+    HOUSEHOLD_APPLICANT_RELATIONSHIPS: '3c. Applicant relationships',
+    HOUSEHOLD_RESIDENCE: '3d. Residence',
+    HOUSEHOLD_TAX: '3e. Tax household',
     ADDITIONAL_OTHER_REL: '4. Other family relationships',
     MEMBERS_APPLICANT_1: '5a. Members (Citizenship/Tobacco)',
     MEMBERS_APPLICANT_2: '5b. Members (Naturalized/Pregnant)',
@@ -48,6 +49,7 @@
     resumeResolver: null,
     lockedEmailPass1: false,
     lockedPhonePass1: false,
+    primaryApplying: true,
     autoDetectedChildren: []
   };
 
@@ -381,9 +383,16 @@
     if (autoContinue) await clickContinueAndWait('PRIMARY_REVIEW');
   }
 
-  async function handlePrimaryYourInfo(autoContinue) {
-    D.selectRadioByQuestion(/Are you applying for coverage\?/i, /^Yes$/i);
-    log('✅ Your information: đã kiểm tra Applying = Yes.');
+  async function handlePrimaryYourInfo(d, autoContinue) {
+    const fnEl = D.findControlByLabel(/^First name$/i);
+    const lnEl = D.findControlByLabel(/^Last name$/i);
+    const primaryName = [fnEl?.value, lnEl?.value].filter(Boolean).join(' ').trim();
+    const shouldApply = P.shouldPersonApply(primaryName, d);
+    const chooseNo = shouldApply === false && (d.members || []).length > 0;
+
+    state.primaryApplying = !chooseNo;
+    D.selectRadioByQuestion(/Are you applying for coverage\?/i, chooseNo ? /^No$/i : /^Yes$/i);
+    log(`✅ Your information (${primaryName || 'Primary'}): Applying = ${chooseNo ? 'No' : 'Yes'}.`);
     if (autoContinue) await clickContinueAndWait('PRIMARY_YOUR_INFO');
   }
 
@@ -545,17 +554,54 @@
         if (!seen.has(key)) {
           seen.add(key);
           const age = P.calculateAge(dob, 2026);
-          found.push({ name, dob, age, isApplying: /Applying/i.test(txt) });
+          const editBtn = Array.from(c.querySelectorAll('button, a')).find(b => /^Edit$/i.test(D.normText(b.textContent))) || null;
+          found.push({ name, dob, age, isApplying: /Applying/i.test(txt) && !/Not Applying/i.test(txt), editBtn });
         }
       }
     }
     return found;
   }
 
+  async function syncOpenPersonEditCard(d) {
+    const saveBtn = Array.from(document.querySelectorAll('button'))
+      .find(b => !b.closest('#tbr-hsp-panel') && D.isVisible(b) && /^Save person$/i.test(D.normText(b.textContent)));
+    if (!saveBtn) return false;
+
+    const fn = D.findControlByLabel(/^First name$/i)?.value || '';
+    const ln = D.findControlByLabel(/^Last name$/i)?.value || '';
+    const personName = `${fn} ${ln}`.trim();
+    const wantApply = P.shouldPersonApply(personName, d);
+    if (wantApply !== null) {
+      D.selectRadioByQuestion(/Is this person applying for coverage\?/i, wantApply ? /^Yes$/i : /^No$/i);
+      await D.sleep(150);
+    }
+    saveBtn.click();
+    await D.sleep(400);
+    log(`✅ Đã cập nhật ${personName || 'thành viên'} (Applying = ${wantApply === false ? 'No' : 'Yes'}) và bấm Save person.`);
+    return true;
+  }
+
   async function handleHouseholdWhosApplying(d, autoContinue) {
     D.selectRadioByQuestion(/eligible for cost savings\?/i, /^Yes$/i);
 
-    const cards = detectApplyingMembersOnPage();
+    // If an inline Edit person form is currently open (e.g. Edit SHAYLA NGUYEN), handle/save it first
+    await syncOpenPersonEditCard(d);
+
+    let cards = detectApplyingMembersOnPage();
+    // Auto-sync Applying Yes/No via Edit -> Save person if CRM member list explicitly specifies who applies
+    if (d.members && d.members.length > 0 && d.applyCount && d.members.length === d.applyCount) {
+      for (const card of cards) {
+        const wantApply = P.shouldPersonApply(card.name, d);
+        if (wantApply !== null && wantApply !== card.isApplying && card.editBtn) {
+          card.editBtn.click();
+          await D.waitFor(() => Array.from(document.querySelectorAll('button')).some(b => /^Save person$/i.test(D.normText(b.textContent))), 2000, 100);
+          await syncOpenPersonEditCard(d);
+          await D.sleep(300);
+        }
+      }
+      cards = detectApplyingMembersOnPage();
+    }
+
     const under19 = cards.filter(c => c.age !== null && c.age < 19).map(c => c.name);
     state.autoDetectedChildren = under19;
 
@@ -566,11 +612,11 @@
       log(`🔎 Tự phát hiện bé <19 tuổi cần chú ý Denied Medicaid: ${under19.join(', ')}`);
     }
 
-    const totalApplyingOnPage = 1 + cards.filter(c => c.isApplying).length;
+    const totalApplyingOnPage = (state.primaryApplying ? 1 : 0) + cards.filter(c => c.isApplying).length;
     if (d.applyCount && totalApplyingOnPage !== d.applyCount) {
       const choice = await askUser(
         '⚠️ Số người Apply trên HealthSherpa khác Note CRM!',
-        `Trên HealthSherpa đang có khoảng ${totalApplyingOnPage} người apply, trong khi CRM ghi Apply = ${d.applyCount} người (${(d.members || []).join(' + ')}).\nVui lòng kiểm tra / Edit hoặc Add member rồi chọn:`,
+        `Trên HealthSherpa đang có ${totalApplyingOnPage} người apply (Primary=${state.primaryApplying ? 'Yes' : 'No'}, phụ thuộc Applying=${cards.filter(c => c.isApplying).length}), trong khi CRM ghi Apply = ${d.applyCount} người (${(d.members || []).join(' + ')}).\nVui lòng kiểm tra / Edit hoặc Add member rồi chọn:`,
         [
           { label: '✅ Đúng rồi, đi tiếp', className: 'tbr-btn-success', value: 'continue' },
           { label: '⏹ Dừng để tôi chỉnh lại', className: 'tbr-btn-danger', value: 'stop' }
@@ -607,6 +653,31 @@
       log('✅ Medicare: không tích ai.');
     }
     if (autoContinue) await clickContinueAndWait('HOUSEHOLD_MEDICARE');
+  }
+
+  async function handleApplicantRelationships(autoContinue) {
+    // Check if any relationship select / React-Select is empty or "Select"
+    const selects = Array.from(document.querySelectorAll('select, [class*="singleValue"], [class*="placeholder"]'))
+      .filter(el => !el.closest('#tbr-hsp-panel') && D.isVisible(el));
+    const hasUnselected = selects.some(el => {
+      if (el.tagName === 'SELECT') return !el.value;
+      return /^select\b/i.test(D.normText(el.textContent));
+    });
+
+    if (hasUnselected) {
+      const choice = await askUser(
+        '👨‍👩‍👧 Kiểm tra Quan hệ giữa các thành viên (Applicant relationships)',
+        'Có mục quan hệ giữa các thành viên đang để trống ("Select"). Vui lòng chọn đúng quan hệ (vd: Brother or Sister / Spouse...) rồi bấm:',
+        [
+          { label: '✅ Đã chọn xong, đi tiếp', className: 'tbr-btn-success', value: 'continue' },
+          { label: '⏹ Dừng tại đây', className: 'tbr-btn-danger', value: 'stop' }
+        ]
+      );
+      if (choice === 'stop') return stopRunner('Đã dừng ở Applicant relationships.');
+    } else {
+      log('✅ Applicant relationships: đã có sẵn quan hệ hợp lệ.');
+    }
+    if (autoContinue) await clickContinueAndWait('HOUSEHOLD_APPLICANT_RELATIONSHIPS');
   }
 
   async function handleHouseholdResidence(autoContinue) {
@@ -991,11 +1062,12 @@
     switch (step) {
       case 'PRIVACY_STATEMENT': return handlePrivacyStatement(autoContinue);
       case 'PRIMARY_REVIEW': return handlePrimaryReview(d, autoContinue);
-      case 'PRIMARY_YOUR_INFO': return handlePrimaryYourInfo(autoContinue);
+      case 'PRIMARY_YOUR_INFO': return handlePrimaryYourInfo(d, autoContinue);
       case 'PRIMARY_HOME_ADDRESS': return handlePrimaryHomeAddress(d, autoContinue);
       case 'PRIMARY_CONTACT_DETAILS': return handlePrimaryContactDetails(d, autoContinue);
       case 'HOUSEHOLD_WHOS_APPLYING': return handleHouseholdWhosApplying(d, autoContinue);
       case 'HOUSEHOLD_MEDICARE': return handleHouseholdMedicare(autoContinue);
+      case 'HOUSEHOLD_APPLICANT_RELATIONSHIPS': return handleApplicantRelationships(autoContinue);
       case 'HOUSEHOLD_RESIDENCE': return handleHouseholdResidence(autoContinue);
       case 'HOUSEHOLD_TAX': return handleHouseholdTax(d, autoContinue);
       case 'ADDITIONAL_OTHER_REL': return handleOtherFamilyRel(autoContinue);

@@ -111,6 +111,7 @@ test('detectStepFromText identifies all 18 screens without collisions', () => {
     ['Primary contact Contact details Email address Phone number Written language How would you like to get notices about your application?', 'PRIMARY_CONTACT_DETAILS'],
     ['Household Who\'s applying for coverage? Do you want to see if you are eligible for cost savings?', 'HOUSEHOLD_WHOS_APPLYING'],
     ['Medicare Medicare eligibility Are any of these people currently enrolled in Medicare Part A or C, or will be in the next 3 months?', 'HOUSEHOLD_MEDICARE'],
+    ['Applicant relationships How is Shayla Nguyen related to Jessica Nguyen?', 'HOUSEHOLD_APPLICANT_RELATIONSHIPS'],
     ['Residence Applicant addresses Does everyone applying for coverage live with you at the following address?', 'HOUSEHOLD_RESIDENCE'],
     ['Household Your tax information Are you married? Do you plan to file a federal income tax return for 2027?', 'HOUSEHOLD_TAX'],
     ['Other family relationships Does Kim Lam live with any other people under 19 who are not already on the application?', 'ADDITIONAL_OTHER_REL'],
@@ -179,6 +180,14 @@ test('manifest.json is valid JSON with required icons and content scripts', () =
   assert.ok(fs.existsSync(path.join(__dirname, '..', 'icons', 'icon16.png')));
   assert.ok(fs.existsSync(path.join(__dirname, '..', 'icons', 'icon48.png')));
   assert.ok(fs.existsSync(path.join(__dirname, '..', 'icons', 'icon128.png')));
+});
+
+// 8. shouldPersonApply matching for Primary=No & inline Edit toggle
+test('shouldPersonApply matches partial member list accurately', () => {
+  const kidsOnly = P.parseCrmNote('- HH 3 A 2 Income $30k\n- Apply for member: SHAYLA NGUYEN + JESSICA NGUYEN');
+  assert.strictEqual(P.shouldPersonApply('SHAYLA NGUYEN', kidsOnly), true);
+  assert.strictEqual(P.shouldPersonApply('Shayla T Nguyen', kidsOnly), true);
+  assert.strictEqual(P.shouldPersonApply('Kim Lam', kidsOnly), false);
 });
 
 console.log(`\nSummary: ${passed} passed, ${failed} failed.`);

@@ -613,6 +613,30 @@
     return results;
   }
 
+  /**
+   * Check whether a given household member name should be applying based on CRM "Apply for member".
+   * Returns true if matched, false if excluded when member list is explicitly narrower or full,
+   * or null if CRM member list isn't specified.
+   * @param {string} personName
+   * @param {{ members?: string[], applyCount?: number | null }} targetData
+   * @returns {boolean | null}
+   */
+  function shouldPersonApply(personName, targetData) {
+    const members = targetData?.members || [];
+    if (!personName || members.length === 0) return null;
+    const pTokens = normStr(personName).split(' ').filter(Boolean);
+    if (pTokens.length === 0) return null;
+
+    const matched = members.some(m => {
+      const mTokens = normStr(m).split(' ').filter(Boolean);
+      if (mTokens.length === 0) return false;
+      // Check exact normalized equality or first+last overlap (ignoring middle names)
+      if (mTokens.join(' ') === pTokens.join(' ')) return true;
+      return mTokens[0] === pTokens[0] && mTokens[mTokens.length - 1] === pTokens[pTokens.length - 1];
+    });
+    return matched;
+  }
+
   return {
     STATE_MAP,
     FORBIDDEN_EMAIL_DOMAINS,
@@ -627,6 +651,7 @@
     calculateAge,
     splitMemberList,
     parseCrmNote,
+    shouldPersonApply,
     auditReviewData
   };
 });

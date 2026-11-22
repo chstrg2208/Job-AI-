@@ -56,6 +56,10 @@
     if (/Medicare eligibility/i.test(t) && /enrolled in Medicare Part A or C/i.test(t)) {
       return 'HOUSEHOLD_MEDICARE';
     }
+    if (/^Applicant relationships$/i.test(side) ||
+        (/Applicant relationships/i.test(t) && (/related to/i.test(t) || /Select a relationship/i.test(t)))) {
+      return 'HOUSEHOLD_APPLICANT_RELATIONSHIPS';
+    }
     if (/Applicant addresses/i.test(t) && /Does everyone applying for coverage live with you/i.test(t)) {
       return 'HOUSEHOLD_RESIDENCE';
     }
