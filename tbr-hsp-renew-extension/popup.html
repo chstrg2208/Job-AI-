@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>TBR HealthSherpa Renew 2027 Helper</title>
+  <style>
+    body {
+      width: 320px;
+      margin: 0;
+      padding: 12px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12.5px;
+      color: #0f172a;
+      background: #f8fafc;
+    }
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 14px;
+      color: #1e40af;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+    .row {
+      margin-bottom: 4px;
+    }
+    .lbl {
+      font-weight: 700;
+      color: #475569;
+    }
+    .actions {
+      display: flex;
+      gap: 6px;
+    }
+    button {
+      flex: 1;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: #2563eb;
+      color: #ffffff;
+    }
+    .btn-secondary {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+    .note {
+      font-size: 11px;
+      color: #64748b;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚡ TBR Renew 2027 Helper</h1>
+  <div class="card" id="summary">Đang tải dữ liệu khách...</div>
+  <div class="actions">
+    <button type="button" class="btn-primary" id="btn-show">Mở bảng trên HealthSherpa</button>
+    <button type="button" class="btn-secondary" id="btn-clear">Xóa data</button>
+  </div>
+  <div class="note">Chạy 100% nội bộ trên Chrome (0 token). Dừng tại trang Review để bạn tự hoàn tất 3 bước cuối.</div>
+  <script src="parser.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

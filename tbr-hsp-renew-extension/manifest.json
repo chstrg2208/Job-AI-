@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "TBR HealthSherpa Renew 2027 Helper",
+  "version": "1.0.0",
+  "description": "Hỗ trợ đi hồ sơ Renew 2027 trên HealthSherpa tự động đến trang Review (không tốn token), đối chiếu dữ liệu từ TBR CRM.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.healthsherpa.com/*",
+    "https://healthsherpa.com/*",
+    "https://app.thebestrateins.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.healthsherpa.com/*",
+        "https://healthsherpa.com/*"
+      ],
+      "run_at": "document_idle",
+      "css": [
+        "hsp-panel.css"
+      ],
+      "js": [
+        "parser.js",
+        "dom-helpers.js",
+        "hsp-runner.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://app.thebestrateins.com/*"
+      ],
+      "run_at": "document_idle",
+      "css": [
+        "crm-grabber.css"
+      ],
+      "js": [
+        "parser.js",
+        "crm-grabber.js"
+      ]
+    }
+  ]
+}

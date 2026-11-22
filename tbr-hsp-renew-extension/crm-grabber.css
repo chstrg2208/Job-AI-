@@ -1,0 +1,51 @@
+#tbr-crm-pill {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2147483640;
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(29, 78, 216, 0.35);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+#tbr-crm-pill:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+#tbr-crm-toast {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 2147483641;
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 12.5px;
+  max-width: 340px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.3);
+  border-left: 4px solid #22c55e;
+  display: none;
+  line-height: 1.4;
+}
+
+#tbr-crm-toast.tbr-show {
+  display: block;
+}
+
+#tbr-crm-toast.tbr-toast-warn {
+  border-left-color: #f59e0b;
+}
