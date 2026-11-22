@@ -50,7 +50,8 @@
     lockedEmailPass1: false,
     lockedPhonePass1: false,
     primaryApplying: true,
-    autoDetectedChildren: []
+    autoDetectedChildren: [],
+    lastContinueFailed: false
   };
 
   function log(msg) {
@@ -70,6 +71,21 @@
     const bodyText = document.body ? document.body.innerText : '';
     const sideText = D.getActiveSidebarText();
     return D.detectStepFromText(bodyText, sideText);
+  }
+
+  /**
+   * Build a fingerprint combining step ID, sidebar active item, and card sub-heading
+   * so multi-member screens (e.g. Kim Lam -> William Nguyen) still detect transitions.
+   */
+  function getPageSignature() {
+    const step = currentStep();
+    const side = D.getActiveSidebarText();
+    const hTexts = Array.from(document.querySelectorAll('h1, h2, h3'))
+      .filter(el => !el.closest('#tbr-hsp-panel') && D.isVisible(el))
+      .slice(0, 3)
+      .map(el => D.normText(el.textContent))
+      .join(' | ');
+    return `${step}::${side}::${hTexts}`;
   }
 
   function updateStepBadge() {
@@ -292,31 +308,59 @@
   }
 
   async function clickContinueAndWait(prevStep) {
+    state.lastContinueFailed = false;
+    const prevSig = getPageSignature();
     const clicked = D.clickButtonByText(/^Continue$/i);
     if (!clicked) {
+      state.lastContinueFailed = true;
       log('⚠️ Chưa bấm được nút Continue (nút đang khóa hoặc chưa tìm thấy).');
       return false;
     }
     log(`Đã bấm Continue (từ ${STEP_LABELS[prevStep] || prevStep})...`);
-    await D.waitFor(() => {
-      const next = currentStep();
-      return next !== prevStep && next !== 'UNKNOWN';
-    }, 6000, 150);
-    await D.sleep(350);
+    const changed = await D.waitFor(() => {
+      const sig = getPageSignature();
+      return sig !== prevSig && currentStep() !== 'UNKNOWN';
+    }, 4500, 150);
+    await D.sleep(300);
     updateStepBadge();
+    if (!changed) {
+      state.lastContinueFailed = true;
+      log('⚠️ Trang chưa chuyển bước tiếp theo (có thể còn lỗi xác thực hoặc trường chưa tick).');
+      return false;
+    }
     return true;
   }
 
   // ==================== STEP HANDLERS ====================
 
   async function handlePrivacyStatement(autoContinue) {
-    const boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'))
-      .filter(cb => !cb.closest('#tbr-hsp-panel') && D.isVisible(cb));
+    const boxes = D.getVisibleCheckboxes();
     for (const cb of boxes) {
-      if (!cb.checked) cb.click();
+      D.setCheckboxChecked(cb, true);
     }
+    D.setCheckboxByText(/I agree to have my information used/i, true);
+    D.setCheckboxByText(/I understand that I'm required to provide true answers/i, true);
+    await D.sleep(150);
+
+    const updatedBoxes = D.getVisibleCheckboxes();
+    const allChecked = updatedBoxes.length > 0 && updatedBoxes.every(cb => cb.checked);
     D.selectRadioByQuestion(/Consent/i, /Store consent outside of HealthSherpa/i);
-    log('✅ Privacy: đã tích 2 cam kết & chọn Store consent outside of HealthSherpa.');
+    await D.sleep(150);
+
+    if (!allChecked) {
+      const choice = await askUser(
+        '⚠️ Chưa tích được đủ 2 ô cam kết ở Privacy statement!',
+        `Tìm thấy ${updatedBoxes.length} checkbox nhưng mới tích được ${updatedBoxes.filter(c => c.checked).length} ô.\nBạn vui lòng tích tay giúp 2 ô checkbox ở trên rồi bấm:`,
+        [
+          { label: '✅ Đã tích xong 2 ô, đi tiếp', className: 'tbr-btn-success', value: 'continue' },
+          { label: '⏹ Dừng tại đây', className: 'tbr-btn-danger', value: 'stop' }
+        ]
+      );
+      if (choice === 'stop') return stopRunner('Đã dừng ở Privacy statement.');
+    } else {
+      log('✅ Privacy: đã tích đủ 2 cam kết & chọn Store consent outside of HealthSherpa.');
+    }
+
     if (autoContinue) await clickContinueAndWait('PRIVACY_STATEMENT');
   }
 
@@ -631,8 +675,7 @@
   }
 
   async function handleHouseholdMedicare(autoContinue) {
-    const boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'))
-      .filter(cb => !cb.closest('#tbr-hsp-panel') && D.isVisible(cb));
+    const boxes = D.getVisibleCheckboxes();
     const anyChecked = boxes.some(cb => cb.checked);
     if (anyChecked) {
       const choice = await askUser(
@@ -646,7 +689,7 @@
       if (choice === 'stop') return stopRunner('Đã dừng ở Medicare.');
       if (choice === 'uncheck') {
         for (const cb of boxes) {
-          if (cb.checked) cb.click();
+          if (cb.checked) D.setCheckboxChecked(cb, false);
         }
       }
     } else {
@@ -704,8 +747,8 @@
       }
       return '(chưa chọn)';
     };
-    const deps = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
-      .filter(cb => !cb.closest('#tbr-hsp-panel') && D.isVisible(cb))
+    const deps = D.getVisibleCheckboxes()
+      .filter(cb => cb.checked)
       .map(cb => D.normText((cb.closest('label') || cb.parentElement)?.textContent || ''));
 
     return {
@@ -985,9 +1028,8 @@
 
   async function handleAdditionalSep(autoContinue) {
     // Renew 2027: ensure NO SEP checkboxes are checked
-    const cbs = Array.from(document.querySelectorAll('input[type="checkbox"]'))
-      .filter(cb => !cb.closest('#tbr-hsp-panel') && D.isVisible(cb) && cb.checked);
-    for (const cb of cbs) cb.click();
+    const cbs = D.getVisibleCheckboxes().filter(cb => cb.checked);
+    for (const cb of cbs) D.setCheckboxChecked(cb, false);
     log('✅ Additional questions (SEP): Renew 2027 bỏ trống hết SEP.');
     if (autoContinue) await clickContinueAndWait('ADDITIONAL_QUESTIONS_SEP');
   }
@@ -1104,6 +1146,20 @@
         break;
       }
       await runSingleStep(true);
+      if (state.lastContinueFailed && state.isRunning) {
+        const retryChoice = await askUser(
+          '⚠️ Trang chưa chuyển sang bước tiếp theo',
+          'Có thể còn ô báo lỗi đỏ hoặc trường chưa lưu xong trên màn hình hiện tại. Bạn kiểm tra nhanh trên HealthSherpa rồi chọn:',
+          [
+            { label: '✅ Đã xử lý xong, chạy tiếp', className: 'tbr-btn-success', value: 'continue' },
+            { label: '⏹ Dừng tại đây', className: 'tbr-btn-danger', value: 'stop' }
+          ]
+        );
+        if (retryChoice === 'stop') {
+          stopRunner('Đã dừng do trang chưa chuyển bước.');
+          break;
+        }
+      }
       await D.sleep(250);
     }
 

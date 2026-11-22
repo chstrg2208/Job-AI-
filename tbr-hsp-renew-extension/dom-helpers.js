@@ -138,6 +138,67 @@
     return rect.width > 0 && rect.height > 0;
   }
 
+  /**
+   * Check whether a native input OR its visible label/wrapper is rendered on screen
+   * (HealthSherpa often hides native checkbox/radio inputs with opacity:0 or 0px size).
+   * @param {Element} el
+   * @param {Element | Document} [root]
+   * @returns {boolean}
+   */
+  function isInputOrLabelVisible(el, root) {
+    if (!el || el.closest('#tbr-hsp-panel')) return false;
+    if (isVisible(el)) return true;
+    const scope = root || document;
+    const lbl = el.closest('label') || (el.id && scope.querySelector(`label[for="${CSS.escape(el.id)}"]`));
+    if (lbl && isVisible(lbl)) return true;
+    if (el.parentElement && isVisible(el.parentElement)) return true;
+    return false;
+  }
+
+  /**
+   * Find all user-facing checkboxes within root (including visually hidden native inputs).
+   * @param {Element | Document} [root]
+   * @returns {HTMLInputElement[]}
+   */
+  function getVisibleCheckboxes(root) {
+    const scope = root || document;
+    return Array.from(scope.querySelectorAll('input[type="checkbox"]'))
+      .filter(cb => isInputOrLabelVisible(cb, scope));
+  }
+
+  /**
+   * Toggle a checkbox reliably for React / custom-styled checkboxes.
+   * @param {HTMLInputElement} cb
+   * @param {boolean} shouldCheck
+   * @param {Element | Document} [root]
+   * @returns {boolean}
+   */
+  function setCheckboxChecked(cb, shouldCheck, root) {
+    if (!cb) return false;
+    const target = Boolean(shouldCheck);
+    if (Boolean(cb.checked) === target) return true;
+
+    const scope = root || document;
+    const lbl = cb.closest('label') || (cb.id && scope.querySelector(`label[for="${CSS.escape(cb.id)}"]`));
+    const targets = [lbl, cb.parentElement, cb].filter(Boolean);
+
+    for (const clickTarget of targets) {
+      try {
+        clickTarget.click();
+      } catch (_) {}
+      if (Boolean(cb.checked) === target) return true;
+    }
+
+    // Fallback for React-controlled inputs if click didn't flip native checked state
+    const desc = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'checked');
+    if (desc && desc.set) {
+      desc.set.call(cb, target);
+      cb.dispatchEvent(new Event('input', { bubbles: true }));
+      cb.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+    return Boolean(cb.checked) === target;
+  }
+
   function isFieldLocked(el) {
     if (!el) return true;
     if (el.disabled || el.readOnly) return true;
@@ -376,6 +437,7 @@
             if (choiceRegex.test(txt)) {
               if (!radio.checked) {
                 if (lbl) lbl.click();
+                if (!radio.checked && radio.parentElement) radio.parentElement.click();
                 if (!radio.checked) radio.click();
               }
               return true;
@@ -398,7 +460,7 @@
    */
   function setCheckboxByText(textRegex, shouldCheck, root) {
     const scope = root || document;
-    const boxes = Array.from(scope.querySelectorAll('input[type="checkbox"]')).filter(c => !c.closest('#tbr-hsp-panel'));
+    const boxes = getVisibleCheckboxes(scope);
     for (const cb of boxes) {
       const container = cb.closest('label') ||
                         (cb.id && scope.querySelector(`label[for="${CSS.escape(cb.id)}"]`)) ||
@@ -406,14 +468,19 @@
                         cb.parentElement;
       const txt = normText(container ? container.textContent : '');
       if (textRegex.test(txt)) {
-        if (Boolean(cb.checked) !== Boolean(shouldCheck)) {
-          const clickTarget = cb.closest('label') || cb;
-          clickTarget.click();
-          if (Boolean(cb.checked) !== Boolean(shouldCheck)) {
-            cb.click();
-          }
-        }
-        return true;
+        return setCheckboxChecked(cb, shouldCheck, scope);
+      }
+    }
+
+    // Fallback for custom ARIA role="checkbox" buttons
+    const roleBoxes = Array.from(scope.querySelectorAll('[role="checkbox"]'))
+      .filter(el => !el.closest('#tbr-hsp-panel') && isVisible(el));
+    for (const rb of roleBoxes) {
+      const txt = normText((rb.closest('label') || rb.parentElement || rb).textContent);
+      if (textRegex.test(txt)) {
+        const cur = rb.getAttribute('aria-checked') === 'true';
+        if (cur !== Boolean(shouldCheck)) rb.click();
+        return rb.getAttribute('aria-checked') === String(Boolean(shouldCheck));
       }
     }
     return false;
@@ -463,6 +530,9 @@
     sleep,
     waitFor,
     isVisible,
+    isInputOrLabelVisible,
+    getVisibleCheckboxes,
+    setCheckboxChecked,
     isFieldLocked,
     setReactInputValue,
     normText,
