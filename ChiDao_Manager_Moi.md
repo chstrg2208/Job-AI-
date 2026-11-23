@@ -1,5 +1,5 @@
 # 🛡️ KHO TRI THỨC ĐỘNG: CẬP NHẬT TỪ 2 GROUP MANAGER, TIN NHẮN RIÊNG & NGHIỆP VỤ
-*Cập nhật tự động lúc: 2026-11-19 08:30:00*
+*Cập nhật tự động lúc: 2026-11-23 07:32:00*
 
 ---
 ## ⚡ CÁC CHỈ ĐẠO ĐẶC BIỆT MỚI NHẤT ĐÃ ĐƯỢC XÁC NHẬN:
@@ -1700,6 +1700,23 @@
 > 4. **Thông tin tham khảo thêm (18/11/2026):**
 >    - **Địa chỉ văn phòng TBR khu vực Dallas/Garland (CEO Phúc Trịnh):** `2408 W Walnut St, Garland, Texas 75042` | Phone: `(564) 234-6868`.
 >    - **Case Presidio có tiền sử phẫu thuật tuyến yên (Pituitary surgery) cách đây 2 năm & đang theo dõi định kỳ (Wendy Võ & Tân Đặng):** Việc có rơi vào phạm vi bệnh lý loại trừ hay không **tùy thuộc vào bác sĩ xác định nguyên nhân bệnh là mãn tính hay chỉ là phẫu thuật thông thường**.
+
+---
+
+### 7️⃣4️⃣ KỶ LUẬT GỬI CONSENT FORM (CF) ĐÚNG THỜI ĐIỂM RTE, BÁO CÁO AGENT VƯỢT RÀO & THỨ TỰ ƯU TIÊN SỬA EMAIL OB2027 (CHỈ ĐẠO PHONG NGUYỄN & TÂM PHAN - 22 - 23/11/2026):
+> 📌 **Tổng hợp từ nhóm `Manager Team` & `Customer Service Team`:**
+>
+> 1. **Kỷ luật gửi Consent Form (CF) ngay khi chốt Plan RTE — Cấm Enroll trước rồi mới gửi CF (Phong Nguyễn - 22/11/2026 15:19 US):**
+>    - **Thực trạng nhắc nhở:** Đang đẩy mạnh xử lý RTE các deal khách hàng cũ 2026 cho OB2027, phát hiện nhiều deal **được Enrolled xong mới gửi CF ra hoặc thậm chí chưa gửi CF**.
+>    - **Nhiệm vụ bắt buộc của Support:** Bắt buộc phải **gửi CF ngay lập tức khi Agent/khách hàng thông báo chốt plan RTE**, **trước khi hoặc cùng lúc Plan được Submit Application**.
+>    - **Ý nghĩa tuân thủ CMS:** Giúp ghi nhận (record) được **thời điểm gửi CF hợp lệ**, tuân thủ đúng quy định của CMS. *(Nếu khách hàng ký chậm trễ thì đó là việc của khách hàng).*
+>    - **Xử lý Agent vượt rào:** Nếu có Agent nào vượt rào (**Enroll trước khi thông báo Support gửi CF**), Support bắt buộc phải **ghi chú lại và báo cáo lên Admin-HR và Anh Phong Nguyễn ngay** để có biện pháp xử lý, khắc phục kịp thời.
+>    - **Lưu ý nghiêm trọng:** Vấn đề này **đặc biệt nghiêm trọng** nếu các trường hợp vượt rào đó được **ghi danh dưới NPN Công ty**.
+>
+> 2. **Thứ tự ưu tiên chỉnh sửa / remove Email không chính thức (Tâm Phan & Phong Nguyễn - 22/11/2026 15:29–16:00 US):**
+>    - **Tâm Phan:** Danh sách remove email hiện có lẫn cả những deal hiệu lực `01/01/2026` (OB2026); nếu hệ thống nhắc nhở email cho 2027 Application thì chỉ tập trung làm 2027 để tránh cộng dồn lượng hồ sơ 2026 quá lớn.
+>    - **Phong Nguyễn chốt thứ tự ưu tiên:** Việc rà soát, chỉnh sửa email được thực hiện theo thứ tự ưu tiên **OB2027 trước, rồi mới đến OB2026**.
+
 
 
 

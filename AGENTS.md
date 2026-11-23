@@ -772,3 +772,20 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
 * **Cách xử lý:** Cứ bấm `Continue` đi tiếp tới màn hình **chọn Plan** để kiểm tra County thực tế; nếu vẫn là County cũ thì quay lại **Edit lần thứ 2** hệ thống mới lưu chính xác County mới.
 
 
+---
+
+## 🚨 XXXII. KỶ LUẬT GỬI CONSENT FORM (CF) KHI CHỐT RTE & THỨ TỰ ƯU TIÊN CHỈNH SỬA EMAIL 2027 (CHỈ ĐẠO PHONG NGUYỄN & TÂM PHAN 22–23/11/2026)
+
+### 1. Bắt buộc gửi Consent Form (CF) ngay khi chốt Plan RTE — Cấm Enroll trước rồi mới gửi CF (Phong Nguyễn):
+* **Bối cảnh vi phạm:** Nhiều deal khách hàng cũ 2026 lên OB2027 bị phát hiện **đã Enrolled xong mới gửi CF ra hoặc thậm chí chưa gửi CF**.
+* **Nhiệm vụ bắt buộc của Support:** Phải gửi **Consent Form (CF) ngay lập tức** khi Agent hoặc khách hàng thông báo chốt plan RTE — **trước khi hoặc cùng lúc Plan được Submit Application**.
+* **Mục đích tuân thủ CMS:** Đảm bảo hệ thống ghi nhận (record) **thời điểm gửi CF hợp lệ**, đúng quy định của CMS. *(Nếu khách hàng ký chậm trễ thì đó là trách nhiệm của khách hàng, nhưng thời điểm gửi CF của Support phải hợp lệ trước/cùng lúc nộp đơn)*.
+* **Báo cáo Agent vượt rào:** Nếu có Agent nào tự ý vượt rào (**Enroll trước khi thông báo Support gửi CF**), Support bắt buộc phải **ghi chú lại và báo cáo ngay lên Admin-HR và Anh Phong Nguyễn** để có biện pháp xử lý, khắc phục kịp thời.
+* **Mức độ nghiêm trọng:** Đặc biệt nghiêm trọng nếu các trường hợp vượt rào này được **ghi danh dưới NPN Công ty**.
+
+### 2. Thứ tự ưu tiên rà soát & chỉnh sửa Email trên Application (Phong Nguyễn & Tâm Phan):
+* Trong danh sách rà soát remove/sửa email không chính thức hoặc email công ty có lẫn cả các hồ sơ hiệu lực `01/01/2026` (OB2026) và OB2027.
+* **Quy tắc ưu tiên:** Thực hiện chỉnh sửa/remove email theo thứ tự ưu tiên **hồ sơ OB2027 trước, rồi mới đến OB2026** (tập trung xử lý dứt điểm cảnh báo cho Application 2027 trước).
+
+
+
