@@ -787,5 +787,27 @@ Bạn là trợ lý AI chuyên gia nghiệp vụ bảo hiểm y tế của **The
 * Trong danh sách rà soát remove/sửa email không chính thức hoặc email công ty có lẫn cả các hồ sơ hiệu lực `01/01/2026` (OB2026) và OB2027.
 * **Quy tắc ưu tiên:** Thực hiện chỉnh sửa/remove email theo thứ tự ưu tiên **hồ sơ OB2027 trước, rồi mới đến OB2026** (tập trung xử lý dứt điểm cảnh báo cho Application 2027 trước).
 
+---
+
+## 🚨 XXXIII. QUY ĐỊNH APPLY TRẺ DƯỚI 19 TUỔI (MEDICAID), CHUẨN HÓA STAGE NTQ/AUT & ĐỒNG BỘ HARBOR (CHỈ ĐẠO WENDY VÕ, TÂM PHAN & CEO PHÚC TRỊNH 25–26/11/2026)
+
+### 1. Quy định Apply cho trẻ dưới 19 tuổi tại các bang mở rộng Medicaid (Wendy Võ):
+* **Phạm vi tiểu bang:** **CA, CO, WA, MD, KY...** (các tiểu bang có ngưỡng thu nhập trẻ em đẩy thẳng sang Medicaid).
+* **Rủi ro kỹ thuật:** Trong hộ gia đình (HH) có **income thấp**, không thể apply Marketplace bình thường cho bé **dưới 19 tuổi** — hệ thống mặc định sẽ add bảo hiểm để **chuyển toàn bộ hồ sơ qua Medicaid**.
+* **Yêu cầu bắt buộc với Support:** Phải **báo trước cho Agent biết các phát sinh có thể xảy ra** nếu hồ sơ bị đưa qua Medicaid. Nếu từ đầu khách hàng/Agent **không muốn dính đến Medicaid**, thì **chỉ apply cho người trên 19 tuổi (> 19 tuổi)**.
+
+### 2. Chuẩn hóa Stage `Need to Quote (NTQ)`, `Waiting for Document` & Rà soát `AUT -> RTE` (Tâm Phan, Saphia Phạm & CEO Phúc Trịnh):
+* **Đầy đủ dữ liệu ở `Need to Quote (NTQ)`:** Support bắt buộc phải điền đầy đủ thông tin phục vụ quote (**Income và Nhu cầu của khách**) khi để deal ở stage NTQ để team hỗ trợ có thể đối chiếu và quote kịp thời (CEO Phúc Trịnh yêu cầu đưa ví dụ lên nhóm `Customer Service Team` để chấn chỉnh).
+* **Phân loại đúng stage:** Các deal đã chốt nhưng đang vướng giấy tờ/tồn xử lý phải chuyển đúng sang stage **`Waiting for Document`**, không để lẫn trong `Need to Quote`.
+* **Rà soát sau khi có AUT:** Các Manager cần kiểm tra lại toàn bộ các case đang đợi AUT để **chuyển sang `RTE` ngay sau khi đã được AUT**.
+* **Lưu file Application & kiểm tra xác nhận Plan:** Lưu đầy đủ file Application trong CRM để tra cứu kết quả cho khách (Tân Đặng); đồng thời chú ý kiểm tra yêu cầu upload Consent page 2 khách đồng ý với plan đã chọn hoặc text xác nhận với khách khi enroll nếu phát sinh (CEO Phúc Trịnh).
+
+### 3. Phối hợp xử lý Harbor Health & Chia khung giờ cổng HSP (Tâm Phan, Oanh Đinh IT & Linda Nguyễn):
+* Khi lọc danh sách tồn đọng **Harbor Health** cần enroll, team IT chia `Assign enroll rep` để cùng giải quyết; người làm bắt buộc **note tên mình trên deal** để tránh trùng lặp.
+* Trường hợp Agent dùng cổng HSP cá nhân trong giờ hành chính: Các case **enroll bằng ACA xử lý trong giờ hành chính**, còn các case **đã AUT đi qua cổng HSP** xử lý **ngoài giờ hành chính**.
+
+### 4. Cập nhật thông tin Commission mới từ CEO Phúc Trịnh (`The Best Rate Insurance`):
+* CEO Phúc Trịnh gửi thông báo mới cho team (`@Team FYI`) và xác nhận mức commission là **`$25/month`**.
+
 
 

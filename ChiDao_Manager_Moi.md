@@ -1717,6 +1717,29 @@
 >    - **Tâm Phan:** Danh sách remove email hiện có lẫn cả những deal hiệu lực `01/01/2026` (OB2026); nếu hệ thống nhắc nhở email cho 2027 Application thì chỉ tập trung làm 2027 để tránh cộng dồn lượng hồ sơ 2026 quá lớn.
 >    - **Phong Nguyễn chốt thứ tự ưu tiên:** Việc rà soát, chỉnh sửa email được thực hiện theo thứ tự ưu tiên **OB2027 trước, rồi mới đến OB2026**.
 
+---
+
+### 7️⃣5️⃣ QUY ĐỊNH APPLY TRẺ DƯỚI 19 TUỔI TRÁNH ĐẨY SANG MEDICAID, CHUẨN HÓA DỮ LIỆU NTQ & ĐIỀU PHỐI HARBOR HEALTH (CHỈ ĐẠO WENDY VÕ, TÂM PHAN, SAPHIA PHẠM & CEO PHÚC TRỊNH - 25 - 26/11/2026):
+> 📌 **Tổng hợp từ nhóm `group manager support+Wendy`, `Manager Team` & `The Best Rate Insurance`:**
+>
+> 1. **Quy định Apply cho trẻ dưới 19 tuổi trong hộ gia đình Income thấp (Wendy Võ - 26/11/2026 `08:32 US`):**
+>    - **Thực trạng:** Admin đang nhận về nhiều hồ sơ yêu cầu apply cho bé nhỏ **dưới 19 tuổi** trong **HH income thấp** ở các bang như **CA, CO, WA, MD, KY...**; khi apply tại các bang này hệ thống **mặc định sẽ add bảo hiểm để chuyển hồ sơ qua Medicaid**.
+>    - **Chỉ đạo bắt buộc:** Nhắc Support **không thể apply bình thường cho bé dưới 19 tuổi** trong HH income thấp ở các bang nêu trên; phải **báo trước cho Agent biết các phát sinh có thể xảy ra nếu bị đưa qua Medicaid**.
+>    - **Nguyên tắc xử lý:** Nếu từ đầu khách/Agent **không muốn dính đến Medicaid**, thì **chỉ nên apply cho người trên 19 tuổi (> 19t)**.
+>
+> 2. **Rà soát chuyển `AUT -> RTE` & Chuẩn hóa dữ liệu Stage `Need to Quote (NTQ)` (Tâm Phan, Saphia Phạm, CEO Phúc Trịnh & Tân Đặng - 25/11/2026):**
+>    - **Chuyển `RTE` sau khi có `AUT` (Tâm Phan - `16:49 US`):** Các Manager cần kiểm tra lại những case đang đợi AUT để **chuyển sang `RTE` ngay sau khi đã được AUT**.
+>    - **Bắt buộc đủ thông tin Quote ở `NTQ` (Saphia Phạm - `23:16 US` & CEO Phúc Trịnh - `01:02 US`):** Phản ánh tình trạng deal nằm ở `Need to Quote` nhưng Support **không để thông tin quote (Income và nhu cầu của khách)** khiến team hỗ trợ không có dữ liệu để quote và chốt chuyển enroll. CEO Phúc Trịnh chỉ đạo **đưa ví dụ thực tế lên nhóm `Customer Service Team`** để toàn đội Support nắm và khắc phục ngay.
+>    - **Chuyển đúng stage `Waiting for Document` (Saphia Phạm & Tâm Phan - `17:09–17:11 US`):** Các deal đã chốt nhưng đang bị tồn chờ giấy tờ (ví dụ các deal tồn Harbor trong NTQ) phải được rà và chuyển sang đúng stage **`Waiting for Document`**.
+>    - **Lưu hồ sơ & kiểm tra Consent Page 2 (CEO Phúc Trịnh `22:01–23:13 US` & Tân Đặng `22:54 US`):** Lưu file Application trong CRM để tra kết quả cho khách; đồng thời theo dõi quy định khi enroll về việc upload Consent page 2 khách đồng ý với plan đã chọn hoặc text cho khách xác nhận.
+>
+> 3. **Phối hợp giải tỏa 74 cases Harbor Health & Chia khung giờ dùng cổng (Tâm Phan, Oanh Đinh IT & Linda Nguyễn - 25/11/2026):**
+>    - **Chia deal Harbor Health (`14:03–14:48 US`):** Lọc danh sách 74 cases Harbor Health cần enroll trước, IT (Oanh Đinh) chia lại `Assign enroll rep` trên report để team hỗ trợ lẫn nhau (mỗi người ~9 cases). Người xử lý **note tên mình trên deal** trong lúc làm để tránh bị trùng.
+>    - **Phân bổ giờ xử lý cổng HSP vs ACA (`15:57 US` - Linda Nguyễn):** Với cổng HSP mà Agent/anh Hiếu dùng trong giờ hành chính: các case **enroll bằng ACA thực hiện trong giờ hành chính**, các case **đã AUT đi bằng cổng HSP** thực hiện **ngoài giờ hành chính**.
+>
+> 4. **Thông báo Commission mới từ CEO Phúc Trịnh (`The Best Rate Insurance` - 25/11/2026 `17:31–18:19 US`):**
+>    - CEO Phúc Trịnh gửi thông báo mới (`@Team FYI`) và xác nhận với Myhanh Tran mức hoa hồng là **`$25/month`**.
+
 
 
 
